@@ -1,0 +1,30 @@
+cd C:\Program Files (x86)\Vice
+vice.exe -runserver -scenario E:\vicedevelopment\scenarios\C90.json -videomap E:\vicedevelopment\videomaps\ZAU-videomaps.json.zst -port 30120
+
+vice.exe -scenario E:\vicedevelopment\scenarios\ack.json -videomap E:\vicedevelopment\videomaps\ZBW-videomaps.json.zst
+
+vice.exe -scenario E:\vicedevelopment\scenarios\c90.json -videomap E:\vicedevelopment\videomaps\ZAU-videomaps.gob.zst
+
+vice.exe -runserver -scenario D:\vicedevelopment\scenarios\bna.json -videomap D:\vicedevelopment\videomaps\ZME-videomaps.json.zst
+
+vice.exe -scenario E:\vicedevelopment\scenarios\d01.json -videomap E:\vicedevelopment\ZDV-videomaps.json.zst
+
+cd C:\Program Files (x86)\Vice
+vice.exe -runserver -scenario D:\vicedevelopment\scenarios\mia.json -videomap D:\vicedevelopment\videomaps\ZME-videomaps.json.zst
+vice.exe -scenario D:\vicedevelopment\scenarios\mia.json -videomap D:\vicedevelopment\videomaps\ZME-videomaps.json.zst
+
+vice.exe -scenario D:\vicedevelopment\scenarios\nct.json -videomap D:\vicedevelopment\videomaps\ZOA-videomaps.json.zst
+
+vice.exe -scenario D:\vicedevelopment\scenarios\Pittsburgh_4.json -videomap D:\vicedevelopment\videomaps\ZOB-videomaps.json.zst
+
+
+vice.exe -scenario E:\vicedevelopment\scenarios\sct2\sct.json -videomap E:\vicedevelopment\videomaps\ZLA-videomaps.gob.zst
+
+vice.exe -scenario E:\vicedevelopment\scenarios\mke.json -videomap E:\vicedevelopment\videomaps\ZAU-videomaps.gob.zst
+
+
+
+vice.exe -runserver -scenario E:\vicedevelopment\scenarios\sct2\sct.json -videomap E:\vicedevelopment\videomaps\ZLA-videomaps.gob.zst
+
+
+vice.exe -scenario E:\vicedevelopment\scenarios\sct2\sct.json -videomap E:\vicedevelopment\videomaps\ZLA-videomaps.gob.zst
