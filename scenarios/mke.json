@@ -137,9 +137,14 @@
             "sid": "UECKR6",
             "waypoints": "KMKE-1L/h191 PRFEC OZAUK/a11000 MAULT/a13000 UECKR/a16000"
           },
-          "HAWKN,GREAS,BRAVE,SQUIB,BAE,LYNNI":{
+          "HAWKN,GREAS,BRAVE,LYNNI":{
             "assigned_altitude": 5000,
             "sid": "MKE9",
+            "waypoints": "KMKE-1L/h191"
+          },
+          "SQUIB,BAE":{
+            "assigned_altitude": 5000,
+            "sid": "MKE9EAST",
             "waypoints": "KMKE-1L/h191"
           }
         },
@@ -159,9 +164,14 @@
             "sid": "UECKR6",
             "waypoints": "KMKE-25L/h076 PRFEC OZAUK/a11000 MAULT/a13000 UECKR/a16000"
           },
-          "HAWKN,GREAS,BRAVE,SQUIB,BAE,LYNNI":{
+          "HAWKN,GREAS,BRAVE,LYNNI":{
             "assigned_altitude": 5000,
             "sid": "MKE9",
+            "waypoints": "KMKE-25L/h076"
+          },
+          "SQUIB,BAE":{
+            "assigned_altitude": 5000,
+            "sid": "MKE9EAST",
             "waypoints": "KMKE-25L/h076"
           }
         },
@@ -181,9 +191,14 @@
             "sid": "UECKR6",
             "waypoints": "KMKE-7R/h255 PRFEC OZAUK/a11000 MAULT/a13000 UECKR/a16000"
           },
-          "HAWKN,GREAS,BRAVE,SQUIB,BAE,LYNNI":{
+          "HAWKN,GREAS,BRAVE,LYNNI":{
             "assigned_altitude": 5000,
             "sid": "MKE9",
+            "waypoints": "KMKE-7R/h255"
+          },
+          "SQUIB,BAE":{
+            "assigned_altitude": 5000,
+            "sid": "MKE9EAST",
             "waypoints": "KMKE-7R/h255"
           }
         }
@@ -472,16 +487,26 @@
       },
       "departure_routes": {
         "10": {
-          "HAWKN,GREAS,BRAVE,SQUIB,BAE,LYNNI":{
+          "HAWKN,GREAS,BRAVE,LYNNI":{
             "assigned_altitude": 5000,
             "sid": "MKE9",
+            "waypoints": "KUES-28/h011"
+          },
+          "SQUIB,BAE":{
+            "assigned_altitude": 5000,
+            "sid": "MKE9EAST",
             "waypoints": "KUES-28/h011"
           }
         },
         "28": {
-          "HAWKN,GREAS,BRAVE,SQUIB,BAE,LYNNI":{
+          "HAWKN,GREAS,BRAVE,LYNNI":{
             "assigned_altitude": 5000,
             "sid": "MKE9",
+            "waypoints": "KUES-10/h280"
+          },
+          "SQUIB,BAE":{
+            "assigned_altitude": 5000,
+            "sid": "MKE9EAST",
             "waypoints": "KUES-10/h280"
           }
         }
@@ -551,16 +576,26 @@
       },
       "departure_routes": {
         "7L": {
-          "HAWKN,GREAS,BRAVE,SQUIB,BAE,LYNNI":{
+          "HAWKN,GREAS,BRAVE,LYNNI":{
             "assigned_altitude": 5000,
             "sid": "MKE9",
+            "waypoints": "KENW-25R/h076"
+          },
+          "SQUIB,BAE":{
+            "assigned_altitude": 5000,
+            "sid": "MKE9EAST",
             "waypoints": "KENW-25R/h076"
           }
         },
         "25R": {
-          "HAWKN,GREAS,BRAVE,SQUIB,BAE,LYNNI":{
+          "HAWKN,GREAS,BRAVE,LYNNI":{
             "assigned_altitude": 5000,
             "sid": "MKE9",
+            "waypoints": "KENW-7L/h255"
+          },
+          "SQUIB,BAE":{
+            "assigned_altitude": 5000,
+            "sid": "MKE9EAST",
             "waypoints": "KENW-7L/h255"
           }
         }
@@ -729,30 +764,50 @@
       },
       "departure_routes": {
         "33R": {
-          "HAWKN,GREAS,BRAVE,SQUIB,BAE,LYNNI":{
+          "HAWKN,GREAS,BRAVE,LYNNI":{
             "assigned_altitude": 5000,
             "sid": "MKE9",
+            "waypoints": "KMWC-15L/h330"
+          },
+          "SQUIB,BAE":{
+            "assigned_altitude": 5000,
+            "sid": "MKE9EAST",
             "waypoints": "KMWC-15L/h330"
           }
         },
         "15L": {
-          "HAWKN,GREAS,BRAVE,SQUIB,BAE,LYNNI":{
+          "HAWKN,GREAS,BRAVE,LYNNI":{
             "assigned_altitude": 5000,
             "sid": "MKE9",
+            "waypoints": "KMWC-33R/h150"
+          },
+          "SQUIB,BAE":{
+            "assigned_altitude": 5000,
+            "sid": "MKE9EAST",
             "waypoints": "KMWC-33R/h150"
           }
         },
         "4L": {
-          "HAWKN,GREAS,BRAVE,SQUIB,BAE,LYNNI":{
+          "HAWKN,GREAS,BRAVE,LYNNI":{
             "assigned_altitude": 5000,
             "sid": "MKE9",
+            "waypoints": "KMWC-22R/h040"
+          },
+          "SQUIB,BAE":{
+            "assigned_altitude": 5000,
+            "sid": "MKE9EAST",
             "waypoints": "KMWC-22R/h040"
           }
         },
         "22R": {
-          "HAWKN,GREAS,BRAVE,SQUIB,BAE,LYNNI":{
+          "HAWKN,GREAS,BRAVE,LYNNI":{
             "assigned_altitude": 5000,
             "sid": "MKE9",
+            "waypoints": "KMWC-4L/h220"
+          },
+          "SQUIB,BAE":{
+            "assigned_altitude": 5000,
+            "sid": "MKE9EAST",
             "waypoints": "KMWC-4L/h220"
           }
         }
@@ -1516,7 +1571,7 @@
           },
           "MKE_W_APP": {
             "backup":  "MKE_E_APP",
-            "arrivals": ["GOPAC3", "BAE", "MADII7"]
+            "arrivals": ["GOPAC3", "BAE"]
           },
           "MKE_H_APP": {
             "backup":  "MKE_E_APP"
@@ -1531,12 +1586,12 @@
           },
           "MKE_M_DEP":{
             "backup": "MKE_E_APP",
-            "departures":["KMKE/UECKR6","KMKE/MKE9EAST","KUES/UECKR6","KMWC/UECKR6","KENW/UECKR6","KUES/MKE9EAST","KMWC/MKE9EAST","KENW/MKE9"]
+            "arrivals": ["MADII7"],
+            "departures":["KMKE/UECKR6","KMKE/MKE9EAST","KENW/MKE9EAST","KUES/MKE9EAST","KMWC/MKE9EAST"]
           },
           "MKE_B_DEP": {
             "backup": "MKE_M_DEP",
-            "arrivals": ["MADII7"],
-            "departures":["KMKE/MKE9","KUES/MKE9","KMWC/MKE9","KENW/MKE9"]
+            "departures":["KMKE/MKE9","KUES/MKE9","KMWC/MKE9","KENW/MKE9","KMKE/ACCRA5"]
           }
       }
       },
@@ -1658,7 +1713,7 @@
           },
           "MKE_W_APP": {
             "backup":  "MKE_E_APP",
-            "arrivals": ["GOPAC3", "BAE", "MADII7"]
+            "arrivals": ["GOPAC3", "BAE"]
           },
           "MKE_H_APP": {
             "backup":  "MKE_E_APP"
@@ -1674,11 +1729,11 @@
           "MKE_M_DEP":{
             "backup": "MKE_E_APP",
             "arrivals": ["ERNNY8"],
-            "departures":["KMKE/UECKR6","KMKE/MKE9EAST","KUES/UECKR6","KMWC/UECKR6","KENW/UECKR6","KUES/MKE9EAST","KMWC/MKE9EAST","KENW/MKE9"]
+            "departures":["KMKE/UECKR6","KMKE/MKE9EAST","KENW/MKE9EAST","KUES/MKE9EAST","KMWC/MKE9EAST"]
           },
           "MKE_B_DEP": {
             "backup": "MKE_M_DEP",
-            "departures":["KMKE/MKE9","KUES/MKE9","KMWC/MKE9","KENW/MKE9"]
+            "departures":["KMKE/MKE9","KUES/MKE9","KMWC/MKE9","KENW/MKE9","KMKE/ACCRA5"]
           }
       }
       },
@@ -1800,7 +1855,7 @@
           },
           "MKE_W_APP": {
             "backup":  "MKE_E_APP",
-            "arrivals": ["GOPAC3", "BAE", "MADII7"]
+            "arrivals": ["GOPAC3", "BAE"]
           },
           "MKE_H_APP": {
             "backup":  "MKE_E_APP"
@@ -1815,12 +1870,12 @@
           },
           "MKE_M_DEP":{
             "backup": "MKE_E_APP",
-            "departures":["KMKE/UECKR6","KMKE/MKE9EAST","KUES/UECKR6","KMWC/UECKR6","KENW/UECKR6","KUES/MKE9EAST","KMWC/MKE9EAST","KENW/MKE9"]
+            "arrivals": ["MADII7"],
+            "departures":["KMKE/UECKR6","KMKE/MKE9EAST","KENW/MKE9EAST","KUES/MKE9EAST","KMWC/MKE9EAST"]
           },
           "MKE_B_DEP": {
             "backup": "MKE_M_DEP",
-            "arrivals": ["MADII7"],
-            "departures":["KMKE/MKE9","KUES/MKE9","KMWC/MKE9","KENW/MKE9"]
+            "departures":["KMKE/MKE9","KUES/MKE9","KMWC/MKE9","KENW/MKE9","KMKE/ACCRA5"]
           }
       }
       },
@@ -1942,7 +1997,7 @@
           },
           "MKE_W_APP": {
             "backup":  "MKE_E_APP",
-            "arrivals": ["GOPAC3", "BAE", "MADII7"]
+            "arrivals": ["GOPAC3", "BAE"]
           },
           "MKE_H_APP": {
             "backup":  "MKE_E_APP"
@@ -1957,12 +2012,12 @@
           },
           "MKE_M_DEP":{
             "backup": "MKE_E_APP",
-            "arrivals": ["ERNNY8"],
-            "departures":["KMKE/UECKR6","KMKE/MKE9EAST","KUES/UECKR6","KMWC/UECKR6","KENW/UECKR6","KUES/MKE9EAST","KMWC/MKE9EAST","KENW/MKE9"]
+            "arrivals":["ERNNY8"],
+            "departures":["KMKE/UECKR6","KMKE/MKE9EAST","KENW/MKE9EAST","KUES/MKE9EAST","KMWC/MKE9EAST"]
           },
           "MKE_B_DEP": {
             "backup": "MKE_M_DEP",
-            "departures":["KMKE/MKE9","KUES/MKE9","KMWC/MKE9","KENW/MKE9"]
+            "departures":["KMKE/MKE9","KUES/MKE9","KMWC/MKE9","KENW/MKE9","KMKE/ACCRA5"]
           }
       }
       },
