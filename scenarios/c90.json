@@ -274,6 +274,28 @@
                         "waypoints": "KORD-27L/h320"
                     }
                 },
+                "9C": {
+                    "DUFEE": {
+                        "cleared_altitude": 5000,
+                        "sid": "ORD8.E",
+                        "waypoints": "KORD-27C/h090"
+                    },
+                    "EBAKE": {
+                        "cleared_altitude": 5000,
+                        "sid": "ORD8.E",
+                        "waypoints": "KORD-27C/h070"
+                    },
+                    "PMPKN,RAYNR": {
+                        "cleared_altitude": 5000,
+                        "sid": "ORD8.N",
+                        "waypoints": "KORD-27C/h360"
+                    },
+                    "MYKIE,NOONY,OLINN,SIMMN": {
+                        "cleared_altitude": 5000,
+                        "sid": "ORD8.W",
+                        "waypoints": "KORD-27C/h320"
+                    }
+                },
                 "22L": {
                     "ACITO,BACEN,CMSKY,DENNT,EARND": {
                         "cleared_altitude": 5000,
@@ -294,6 +316,23 @@
                         "cleared_altitude": 5000,
                         "sid": "ORD8.E",
                         "waypoints": "KORD-4R/h140"
+                    }
+                },
+                "4L": {
+                    "MYKIE,NOONY,OLINN,SIMMN,PEKUE": {
+                        "cleared_altitude": 5000,
+                        "sid": "ORD8.W",
+                        "waypoints": "KORD-22R/h270"
+                    },
+                    "PMPKN,RAYNR": {
+                        "cleared_altitude": 5000,
+                        "sid": "ORD8.N",
+                        "waypoints": "KORD-22R/h360"
+                    },
+                    "EBAKE,DUFEE,MOBLE": {
+                        "cleared_altitude": 5000,
+                        "sid": "ORD8.E",
+                        "waypoints": "KORD-22R/h040"
                     }
                 },
                 "28R": {
@@ -7805,6 +7844,541 @@
                 }
             },
 
+            "KORD 4's A Pair": {
+                "approach_airspace": [
+                    "CHI_APPW"
+                ],
+                "arrival_runways": [
+                    {
+                        "airport": "KORD",
+                        "runway": "4R"
+                    }
+                ],
+                "arrivals": {
+                    "BENKY6": {
+                        "KORD": 10
+                    },
+                    "MADII7": {
+                        "KORD": 5
+                    },
+                    "FYTTE7": {
+                        "KORD": 10
+                    },
+                    "WYNDE2": {
+                        "KORD": 10
+                    },
+                    "TRTLL6": {
+                        "KORD": 10
+                    },
+                    "VEECK5": {
+                        "KORD": 10
+                    }
+                },
+                "solo_controller": "CHI_Z_APP",
+                "multi_controllers": {
+                    "default" : {
+                        "CHI_Z_APP": {"primary": true, "arrivals": ["BENKY6", "TRTLL6"]},
+                        "CHI_B_DEP": {"departures": ["KORD/ORD8.E"], "backup": "CHI_Z_APP"},
+                        "CHI_F_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_W_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_H_APP": {"backup": "CHI_W_APP"},
+                        "CHI_D_DEP": {"departures": ["KORD/ORD8.N"],"backup": "CHI_B_DEP"},
+                        "CHI_A_APP": {"backup": "CHI_S_APP"},
+                        "CHI_M_DEP": {"departures": ["KORD/ORD8.S"], "backup": "CHI_B_DEP"},
+                        "CHI_G_DEP": {"departures": ["KORD/ORD8.W"],"backup": "CHI_M_DEP"},
+                        "CHI_X_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_E_APP": {"backup": "CHI_X_APP", "arrivals": ["VEECK5"]},
+                        "CHI_J_APP": {"backup": "CHI_Y_APP", "arrivals": ["WYNDE2"]},
+                        "CHI_Y_APP": {"backup": "CHI_X_APP", "arrivals": ["FYTTE7", "MADII7"]},
+                        "CHI_S_APP": {"backup": "CHI_B_DEP"},
+                        "CHI_U_APP": {"backup": "CHI_S_APP"},
+                        "CHI_P_APP": {"backup": "CHI_S_APP"},
+                        "CHI_L_APP": {"backup": "CHI_P_APP"}
+                    }
+                },
+                "controllers": [
+                    "CHI_81_CTR",
+                    "ORD_S_TWR",
+                    "MDW_TWR"
+                ],
+                "default_maps": [ "C90 MAIN" ],
+                "departure_airspace": [
+                    "CHI_APPW"
+                ],
+                "departure_runways": [
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "10L",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "4L",
+                        "category": "North"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "4L",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "10L",
+                        "category": "East"
+                    }
+                ],
+                "wind": {
+                    "direction": 280,
+                    "gust": 15,
+                    "speed": 7
+                }
+            },
+            "KORD 4's A Pair KMDW 4R": {
+                "approach_airspace": [
+                    "CHI_APPW"
+                ],
+                "arrival_runways": [
+                    {
+                        "airport": "KORD",
+                        "runway": "4R"
+                    },
+                    {
+                        "airport": "KMDW",
+                        "runway": "4R"
+                    }
+                ],
+                "arrivals": {
+                    "BENKY6": {
+                        "KORD": 10
+                    },
+                    "MADII7": {
+                        "KORD": 5
+                    },
+                    "FYTTE7": {
+                        "KORD": 10
+                    },
+                    "WYNDE2": {
+                        "KORD": 10
+                    },
+                    "TRTLL6": {
+                        "KORD": 10
+                    },
+                    "VEECK5": {
+                        "KORD": 10
+                    },
+                    "ENDEE6": {
+                        "KMDW": 10
+                    },
+                    "FISSK6/PANGG5": {
+                        "KMDW": 10
+                    }
+                },
+                "solo_controller": "CHI_Z_APP",
+                "multi_controllers": {
+                    "default" : {
+                        "CHI_Z_APP": {"primary": true, "arrivals": ["BENKY6", "TRTLL6"]},
+                        "CHI_B_DEP": {"departures": ["KORD/ORD8.E"], "backup": "CHI_Z_APP"},
+                        "CHI_F_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_W_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_H_APP": {"backup": "CHI_W_APP"},
+                        "CHI_D_DEP": {"departures": ["KORD/ORD8.N"],"backup": "CHI_B_DEP"},
+                        "CHI_A_APP": {"backup": "CHI_S_APP"},
+                        "CHI_M_DEP": {"departures": ["KORD/ORD8.S"], "backup": "CHI_B_DEP"},
+                        "CHI_G_DEP": {"departures": ["KORD/ORD8.W"],"backup": "CHI_M_DEP"},
+                        "CHI_X_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_E_APP": {"backup": "CHI_X_APP", "arrivals": ["VEECK5"]},
+                        "CHI_J_APP": {"backup": "CHI_Y_APP", "arrivals": ["WYNDE2"]},
+                        "CHI_Y_APP": {"backup": "CHI_X_APP", "arrivals": ["FYTTE7", "MADII7"]},
+                        "CHI_S_APP": {"backup": "CHI_B_DEP", "departures": ["KMDW"]},
+                        "CHI_U_APP": {"backup": "CHI_S_APP", "arrivals": ["FISSK6/PANGG5"]},
+                        "CHI_P_APP": {"backup": "CHI_S_APP", "arrivals": ["ENDEE6"]},
+                        "CHI_L_APP": {"backup": "CHI_P_APP"}
+                    }
+                },
+                "controllers": [
+                    "CHI_81_CTR",
+                    "ORD_S_TWR",
+                    "MDW_TWR"
+                ],
+                "default_maps": [ "C90 MAIN" ],
+                "departure_airspace": [
+                    "CHI_APPW"
+                ],
+                "departure_runways": [
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "10L",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "4L",
+                        "category": "North"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "4L",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "10L",
+                        "category": "East"
+                    },
+                    {
+                        "airport": "KMDW",
+                        "rate": 10,
+                        "runway": "4R"
+                    }
+                ],
+                "wind": {
+                    "direction": 280,
+                    "gust": 15,
+                    "speed": 7
+                }
+            },
+            "KORD 4's A Pair KMDW 4R PWK 16": {
+                "approach_airspace": [
+                    "CHI_APPW"
+                ],
+                "arrival_runways": [
+                    {
+                        "airport": "KORD",
+                        "runway": "4R"
+                    },
+                    {
+                        "airport": "KMDW",
+                        "runway": "4R"
+                    },
+                    {
+                        "airport": "KPWK",
+                        "runway": "16"
+                    }
+                ],
+                "arrivals": {
+                    "BENKY6": {
+                        "KORD": 10
+                    },
+                    "MADII7": {
+                        "KORD": 5
+                    },
+                    "FYTTE7": {
+                        "KORD": 10
+                    },
+                    "WYNDE2": {
+                        "KORD": 10
+                    },
+                    "TRTLL6": {
+                        "KORD": 10
+                    },
+                    "VEECK5": {
+                        "KORD": 10
+                    },
+                    "ENDEE6": {
+                        "KMDW": 10
+                    },
+                    "FISSK6/PANGG5": {
+                        "KMDW": 10
+                    },
+                    "FIYER": {
+                        "KPWK": 3
+                    },
+                    "KRENA": {
+                        "KPWK": 3
+                    },
+                    "PLANO": {
+                        "KPWK": 3
+                    }
+                },
+                "solo_controller": "CHI_Z_APP",
+                "multi_controllers": {
+                    "default" : {
+                        "CHI_Z_APP": {"primary": true, "arrivals": ["BENKY6", "TRTLL6"]},
+                        "CHI_B_DEP": {"departures": ["KORD/ORD8.E"], "backup": "CHI_Z_APP"},
+                        "CHI_F_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_W_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_H_APP": {"backup": "CHI_W_APP"},
+                        "CHI_D_DEP": {"departures": ["KORD/ORD8.N"],"backup": "CHI_B_DEP"},
+                        "CHI_A_APP": {"backup": "CHI_S_APP", "arrivals": ["FIYER", "KRENA"], "departures": ["KPWK"]},
+                        "CHI_M_DEP": {"departures": ["KORD/ORD8.S"], "backup": "CHI_B_DEP"},
+                        "CHI_G_DEP": {"departures": ["KORD/ORD8.W"],"backup": "CHI_M_DEP"},
+                        "CHI_X_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_E_APP": {"backup": "CHI_X_APP", "arrivals": ["VEECK5"]},
+                        "CHI_J_APP": {"backup": "CHI_Y_APP", "arrivals": ["WYNDE2"]},
+                        "CHI_Y_APP": {"backup": "CHI_X_APP", "arrivals": ["FYTTE7", "MADII7"]},
+                        "CHI_S_APP": {"backup": "CHI_B_DEP", "departures": ["KMDW"]},
+                        "CHI_U_APP": {"backup": "CHI_S_APP", "arrivals": ["FISSK6/PANGG5"]},
+                        "CHI_P_APP": {"backup": "CHI_S_APP", "arrivals": ["ENDEE6"]},
+                        "CHI_L_APP": {"backup": "CHI_P_APP", "arrivals": ["PLANO"]}
+                    }
+                },
+                "controllers": [
+                    "CHI_81_CTR",
+                    "ORD_S_TWR",
+                    "MDW_TWR"
+                ],
+                "default_maps": [ "C90 MAIN" ],
+                "departure_airspace": [
+                    "CHI_APPW"
+                ],
+                "departure_runways": [
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "10L",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "4L",
+                        "category": "North"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "4L",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "10L",
+                        "category": "East"
+                    },
+                    {
+                        "airport": "KMDW",
+                        "rate": 10,
+                        "runway": "4R"
+                    },
+                    {
+                        "airport": "KPWK",
+                        "rate": 3,
+                        "runway": "16"
+                    }
+                ],
+                "wind": {
+                    "direction": 280,
+                    "gust": 15,
+                    "speed": 7
+                }
+            },
+            "KORD 4's A Pair KMDW 4R + Satellites": {
+                "approach_airspace": [
+                    "CHI_APPW"
+                ],
+                "arrival_runways": [
+                    {
+                        "airport": "KORD",
+                        "runway": "4R"
+                    },
+                    {
+                        "airport": "KMDW",
+                        "runway": "4R"
+                    },
+                    {
+                        "airport": "KPWK",
+                        "runway": "16"
+                    },
+                    {
+                        "airport": "KARR",
+                        "runway": "27"
+                    },
+                    {
+                        "airport": "KLOT",
+                        "runway": "27"
+                    },
+                    {
+                        "airport": "KDPA",
+                        "runway": "20L"
+                    },
+                    {
+                        "airport": "KGYY",
+                        "runway": "30"
+                    }
+                ],
+                "arrivals": {
+                    "BENKY6": {
+                        "KORD": 10
+                    },
+                    "MADII7": {
+                        "KORD": 5
+                    },
+                    "FYTTE7": {
+                        "KORD": 10
+                    },
+                    "WYNDE2": {
+                        "KORD": 10
+                    },
+                    "TRTLL6": {
+                        "KORD": 10
+                    },
+                    "VEECK5": {
+                        "KORD": 10
+                    },
+                    "ENDEE6": {
+                        "KMDW": 10
+                    },
+                    "FISSK6/PANGG5": {
+                        "KMDW": 10
+                    },
+                    "FIYER": {
+                        "KPWK": 3,
+                        "KDPA": 3,
+                        "KGYY": 3,
+                        "KARR": 3,
+                        "KLOT": 3
+                    },
+                    "KRENA": {
+                        "KPWK": 3
+                    },
+                    "PLANO": {
+                        "KPWK": 3,
+                        "KDPA": 3,
+                        "KGYY": 3,
+                        "KARR": 3,
+                        "KLOT": 3
+                    },
+                    "MOTIF": {
+                        "KLOT": 3
+                    },
+                    "LUCIT2": {
+                        "KGYY": 3
+                    },
+                    "GSH9": {
+                        "KGYY": 3
+                    }
+                },
+                "solo_controller": "CHI_Z_APP",
+                "multi_controllers": {
+                    "default" : {
+                        "CHI_Z_APP": {"primary": true, "arrivals": ["BENKY6", "TRTLL6"]},
+                        "CHI_B_DEP": {"departures": ["KORD/ORD8.E"], "backup": "CHI_Z_APP"},
+                        "CHI_F_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_W_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_H_APP": {"backup": "CHI_W_APP"},
+                        "CHI_D_DEP": {"departures": ["KORD/ORD8.N"],"backup": "CHI_B_DEP"},
+                        "CHI_A_APP": {"backup": "CHI_S_APP", "arrivals": ["FIYER", "KRENA"], "departures": ["KPWK"]},
+                        "CHI_M_DEP": {"departures": ["KORD/ORD8.S"], "backup": "CHI_B_DEP"},
+                        "CHI_G_DEP": {"departures": ["KORD/ORD8.W"],"backup": "CHI_M_DEP"},
+                        "CHI_X_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_E_APP": {"backup": "CHI_X_APP", "arrivals": ["VEECK5"]},
+                        "CHI_J_APP": {"backup": "CHI_Y_APP", "arrivals": ["WYNDE2"]},
+                        "CHI_Y_APP": {"backup": "CHI_X_APP", "arrivals": ["FYTTE7", "MADII7"]},
+                        "CHI_S_APP": {"backup": "CHI_B_DEP", "departures": ["KMDW"]},
+                        "CHI_U_APP": {"backup": "CHI_S_APP", "arrivals": ["FISSK6/PANGG5","GSH9","LUCIT2"],"departures": ["KGYY"]},
+                        "CHI_P_APP": {"departures": ["KLOT"], "backup": "CHI_S_APP", "arrivals": ["ENDEE6", "MOTIF"]},
+                        "CHI_L_APP": {"departures": ["KDPA", "KARR"], "backup": "CHI_P_APP", "arrivals": ["PLANO"]}
+                    }
+                },
+                "controllers": [
+                    "CHI_81_CTR",
+                    "ORD_S_TWR",
+                    "MDW_TWR"
+                ],
+                "default_maps": [ "C90 MAIN" ],
+                "departure_airspace": [
+                    "CHI_APPW"
+                ],
+                "departure_runways": [
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "10L",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "4L",
+                        "category": "North"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "4L",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "10L",
+                        "category": "East"
+                    },
+                    {
+                        "airport": "KMDW",
+                        "rate": 10,
+                        "runway": "4R"
+                    },
+                    {
+                        "airport": "KPWK",
+                        "rate": 3,
+                        "runway": "16"
+                    },
+                    {
+                        "airport": "KARR",
+                        "rate": 2,
+                        "runway": "27",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KARR",
+                        "rate": 2,
+                        "runway": "27",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KLOT",
+                        "rate": 2,
+                        "runway": "27",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KLOT",
+                        "rate": 2,
+                        "runway": "27",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KDPA",
+                        "rate": 2,
+                        "runway": "20R",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KDPA",
+                        "rate": 2,
+                        "runway": "20R",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KGYY",
+                        "rate": 2,
+                        "runway": "30",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KGYY",
+                        "rate": 2,
+                        "runway": "30",
+                        "category": "West"
+                    }
+                ],
+                "wind": {
+                    "direction": 280,
+                    "gust": 15,
+                    "speed": 7
+                }
+            },
+
             "KORD 22's A Pair": {
                 "approach_airspace": [
                     "CHI_APPW"
@@ -7842,7 +8416,7 @@
                 "solo_controller": "CHI_Z_APP",
                 "multi_controllers": {
                     "default" : {
-                        "CHI_Z_APP": {"primary": true},
+                        "CHI_Z_APP": {"primary": true, "arrivals": ["WYNDE2"]},
                         "CHI_B_DEP": {"departures": ["KORD/ORD8.E"], "backup": "CHI_Z_APP"},
                         "CHI_F_APP": {"backup": "CHI_Z_APP"},
                         "CHI_W_APP": {"backup": "CHI_Z_APP"},
@@ -7853,7 +8427,7 @@
                         "CHI_G_DEP": {"departures": ["KORD/ORD8.W"],"backup": "CHI_M_DEP"},
                         "CHI_X_APP": {"backup": "CHI_Z_APP", "arrivals": ["BENKY6", "TRTLL6"]},
                         "CHI_E_APP": {"backup": "CHI_X_APP", "arrivals": ["VEECK5"]},
-                        "CHI_J_APP": {"backup": "CHI_Y_APP", "arrivals": ["WYNDE2"]},
+                        "CHI_J_APP": {"backup": "CHI_Y_APP"},
                         "CHI_Y_APP": {"backup": "CHI_X_APP", "arrivals": ["FYTTE7", "MADII7"]},
                         "CHI_S_APP": {"backup": "CHI_B_DEP"},
                         "CHI_U_APP": {"backup": "CHI_S_APP"},
@@ -7949,7 +8523,7 @@
                 "solo_controller": "CHI_Z_APP",
                 "multi_controllers": {
                     "default" : {
-                        "CHI_Z_APP": {"primary": true},
+                        "CHI_Z_APP": {"primary": true, "arrivals": ["WYNDE2"]},
                         "CHI_B_DEP": {"departures": ["KORD/ORD8.E"], "backup": "CHI_Z_APP"},
                         "CHI_F_APP": {"backup": "CHI_Z_APP"},
                         "CHI_W_APP": {"backup": "CHI_Z_APP"},
@@ -7960,7 +8534,7 @@
                         "CHI_G_DEP": {"departures": ["KORD/ORD8.W"],"backup": "CHI_M_DEP"},
                         "CHI_X_APP": {"backup": "CHI_Z_APP", "arrivals": ["BENKY6", "TRTLL6"]},
                         "CHI_E_APP": {"backup": "CHI_X_APP", "arrivals": ["VEECK5"]},
-                        "CHI_J_APP": {"backup": "CHI_Y_APP", "arrivals": ["WYNDE2"]},
+                        "CHI_J_APP": {"backup": "CHI_Y_APP"},
                         "CHI_Y_APP": {"backup": "CHI_X_APP", "arrivals": ["FYTTE7", "MADII7"]},
                         "CHI_S_APP": {"backup": "CHI_B_DEP", "departures": ["KMDW"]},
                         "CHI_U_APP": {"backup": "CHI_S_APP", "arrivals": ["FISSK6/PANGG5"]},
@@ -8074,7 +8648,7 @@
                 "solo_controller": "CHI_Z_APP",
                 "multi_controllers": {
                     "default" : {
-                        "CHI_Z_APP": {"primary": true},
+                        "CHI_Z_APP": {"primary": true, "arrivals": ["WYNDE2"]},
                         "CHI_B_DEP": {"departures": ["KORD/ORD8.E"], "backup": "CHI_Z_APP"},
                         "CHI_F_APP": {"backup": "CHI_Z_APP"},
                         "CHI_W_APP": {"backup": "CHI_Z_APP"},
@@ -8085,7 +8659,7 @@
                         "CHI_G_DEP": {"departures": ["KORD/ORD8.W"],"backup": "CHI_M_DEP"},
                         "CHI_X_APP": {"backup": "CHI_Z_APP", "arrivals": ["BENKY6", "TRTLL6"]},
                         "CHI_E_APP": {"backup": "CHI_X_APP", "arrivals": ["VEECK5"]},
-                        "CHI_J_APP": {"backup": "CHI_Y_APP", "arrivals": ["WYNDE2"]},
+                        "CHI_J_APP": {"backup": "CHI_Y_APP"},
                         "CHI_Y_APP": {"backup": "CHI_X_APP", "arrivals": ["FYTTE7", "MADII7"]},
                         "CHI_S_APP": {"backup": "CHI_B_DEP", "departures": ["KMDW"]},
                         "CHI_U_APP": {"backup": "CHI_S_APP", "arrivals": ["FISSK6/PANGG5"]},
@@ -8163,7 +8737,256 @@
                     "speed": 25
                 }
             },
-
+            "KORD 22's A Pair KMDW 22L + Satellites": {
+                "approach_airspace": [
+                    "CHI_APPW"
+                ],
+                "arrival_runways": [
+                    {
+                        "airport": "KORD",
+                        "runway": "22L"
+                    },
+                    {
+                        "airport": "KORD",
+                        "runway": "22R"
+                    },
+                    {
+                        "airport": "KMDW",
+                        "runway": "22L"
+                    },
+                    {
+                        "airport": "KPWK",
+                        "runway": "16"
+                    },
+                    {
+                        "airport": "KARR",
+                        "runway": "9"
+                    },
+                    {
+                        "airport": "KLOT",
+                        "runway": "9"
+                    },
+                    {
+                        "airport": "KDPA",
+                        "runway": "2L"
+                    },
+                    {
+                        "airport": "KGYY",
+                        "runway": "12"
+                    }
+                ],
+                "arrivals": {
+                    "BENKY6": {
+                        "KORD": 10
+                    },
+                    "MADII7": {
+                        "KORD": 5
+                    },
+                    "FYTTE7": {
+                        "KORD": 10
+                    },
+                    "WYNDE2": {
+                        "KORD": 10
+                    },
+                    "TRTLL6": {
+                        "KORD": 10
+                    },
+                    "VEECK5": {
+                        "KORD": 10
+                    },
+                    "FISSK6/PANGG5": {
+                        "KMDW": 10
+                    },
+                    "ENDEE6": {
+                        "KMDW": 10
+                    },
+                    "FIYER": {
+                        "KPWK": 3,
+                        "KDPA": 3,
+                        "KGYY": 3,
+                        "KARR": 3,
+                        "KLOT": 3
+                    },
+                    "KRENA": {
+                        "KPWK": 3,
+                        "KDPA": 3,
+                        "KGYY": 3,
+                        "KARR": 3,
+                        "KLOT": 3
+                    },
+                    "PLANO": {
+                        "KPWK": 3,
+                        "KDPA": 3,
+                        "KGYY": 3,
+                        "KARR": 3,
+                        "KLOT": 3
+                    },
+                    "MOTIF": {
+                        "KPWK": 3,
+                        "KDPA": 3,
+                        "KGYY": 3,
+                        "KARR": 3,
+                        "KLOT": 3
+                    },
+                    "LUCIT2": {
+                        "KGYY": 3
+                    },
+                    "GSH9": {
+                        "KGYY": 3
+                    }
+                },
+                "solo_controller": "CHI_Z_APP",
+                "multi_controllers": {
+                    "default" : {
+                        "CHI_Z_APP": {"primary": true, "arrivals": ["WYNDE2"]},
+                        "CHI_B_DEP": {"departures": ["KORD/ORD8.E"], "backup": "CHI_Z_APP"},
+                        "CHI_F_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_W_APP": {"backup": "CHI_Z_APP"},
+                        "CHI_H_APP": {"backup": "CHI_W_APP"},
+                        "CHI_D_DEP": {"departures": ["KPWK","KORD/ORD8.N"], "backup": "CHI_B_DEP"},
+                        "CHI_A_APP": {"backup": "CHI_S_APP", "arrivals": ["FIYER", "KRENA"]},
+                        "CHI_M_DEP": {"departures": ["KORD/ORD8.S"], "backup": "CHI_B_DEP"},
+                        "CHI_G_DEP": {"departures": ["KORD/ORD8.W"],"backup": "CHI_M_DEP"},
+                        "CHI_X_APP": {"backup": "CHI_Z_APP", "arrivals": ["BENKY6", "TRTLL6"]},
+                        "CHI_E_APP": {"backup": "CHI_X_APP", "arrivals": ["VEECK5"]},
+                        "CHI_J_APP": {"backup": "CHI_Y_APP"},
+                        "CHI_Y_APP": {"backup": "CHI_X_APP", "arrivals": ["FYTTE7", "MADII7"]},
+                        "CHI_S_APP": {"backup": "CHI_B_DEP", "departures": ["KMDW"]},
+                        "CHI_U_APP": {"backup": "CHI_S_APP", "departures": ["KGYY"], "arrivals": ["FISSK6/PANGG5","LUCIT2","GSH9"]},
+                        "CHI_P_APP": {"departures": ["KLOT"], "backup": "CHI_S_APP", "arrivals": ["ENDEE6", "MOTIF"]},
+                        "CHI_L_APP": {"departures": ["KDPA", "KARR"], "backup": "CHI_P_APP", "arrivals": ["PLANO"]}
+                    }
+                },
+                "controllers": [
+                    "CHI_81_CTR",
+                    "ORD_S_TWR",
+                    "MDW_TWR"
+                ],
+                "default_maps": [ "C90 MAIN" ],
+                "departure_airspace": [
+                    "CHI_APPW"
+                ],
+                "departure_runways": [
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "22L",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "22L",
+                        "category": "East"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "22L",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KORD",
+                        "rate": 10,
+                        "runway": "22L",
+                        "category": "North"
+                    },
+                    {
+                        "airport": "KMDW",
+                        "rate": 35,
+                        "runway":  "31C"
+                    },
+                    {
+                        "airport": "KPWK",
+                        "rate": 2,
+                        "runway": "16",
+                        "category": "East"
+                    },
+                    {
+                        "airport": "KPWK",
+                        "rate": 2,
+                        "runway": "16",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KPWK",
+                        "rate": 2,
+                        "runway": "16",
+                        "category": "North"
+                    },
+                    {
+                        "airport": "KPWK",
+                        "rate": 2,
+                        "runway": "16",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KARR",
+                        "rate": 2,
+                        "runway": "9",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KARR",
+                        "rate": 2,
+                        "runway": "9",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KLOT",
+                        "rate": 2,
+                        "runway": "9",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KLOT",
+                        "rate": 2,
+                        "runway": "9",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KDPA",
+                        "rate": 2,
+                        "runway": "2L",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KDPA",
+                        "rate": 2,
+                        "runway": "2L",
+                        "category": "West"
+                    },
+                                        {
+                        "airport": "KDPA",
+                        "rate": 2,
+                        "runway": "2L",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KDPA",
+                        "rate": 2,
+                        "runway": "2L",
+                        "category": "West"
+                    },
+                    {
+                        "airport": "KGYY",
+                        "rate": 2,
+                        "runway": "12",
+                        "category": "South"
+                    },
+                    {
+                        "airport": "KGYY",
+                        "rate": 2,
+                        "runway": "12",
+                        "category": "West"
+                    }
+                ],
+                "wind": {
+                    "direction": 240,
+                    "gust": 30,
+                    "speed": 25
+                }
+            },
             
             "KORD East": {
                 "approach_airspace": [
@@ -9859,9 +10682,11 @@
                 ]
             },
             "coordination_lists": [
-                {"name": "NSAT", "id": "A", "airports": [ "KPWK" ]},
-                {"name": "SWSAT", "id": "B", "airports": [ "KDPA","KARR","KLOT" ]},
-                {"name": "SESAT", "id": "C", "airports": [ "KGYY" ]}
+                {"name": "PWK", "id": "A", "airports": [ "KPWK" ]},
+                {"name": "DPA", "id": "B", "airports": [ "KDPA" ]},
+                {"name": "GYY", "id": "C", "airports": [ "KGYY" ]},
+                {"name": "ARR", "id": "D", "airports": [ "KARR" ]},
+                {"name": "LOT", "id": "E", "airports": [ "KLOT" ]}
             ],
             "airspace_awareness": [
                 {

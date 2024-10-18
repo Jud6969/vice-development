@@ -2183,8 +2183,10 @@
     ]
     },
     "coordination_lists": [
-      {"name": "RIPON", "id": "A", "airports": [ "KOSH" ]},
-      {"name": "MKE", "id": "B", "airports": [ "KMWC","KUES","KENW" ]}
+      {"name": "OSH", "id": "A", "airports": [ "KOSH" ]},
+      {"name": "MWC", "id": "B", "airports": [ "KMWC" ]},
+      {"name": "UES", "id": "B", "airports": [ "KUES" ]},
+      {"name": "ENW", "id": "B", "airports": [ "KENW" ]}
   ],
     "airspace_awareness": [
       {
