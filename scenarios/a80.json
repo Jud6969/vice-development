@@ -802,6 +802,5619 @@
         "NOKIE": "East"
       },
       "tower_list": 5
+    },
+    "KFTY": {
+      "approaches": {
+        "I8L": {
+          "runway": "8L",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "LARII/a5000 JAAJJ/a5000 BAZAR/a4000 SCHEL/a2900"
+          ]
+        },
+        "I8R": {
+          "runway": "8R",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "GPEAT/a5000 PEARI/a5000 NZBIT/a4000 HARSN/a2800"
+          ]
+        },
+        "I9L": {
+          "runway": "9L",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "RYENN/a7000 AAKAY/a6000 ARRBE/a5000 HRDEY/a4000 VINII/a2700"
+          ]
+        },
+        "I9R": {
+          "runway": "9R",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ANDIY/a7000 DFINS/a6000 GGUYY/a5000 EEASY/a4000 BURNY/a2700"
+          ]
+        },
+        "I10": {
+          "runway": "10",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "DEWHY/a4000 CTEEE/a4000 ZMANN/a2700"
+          ]
+        },
+        "I6L": {
+          "runway": "26L",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "JIRRI/a5000 BOYKN/a5000 MARKD/a4000 DEJAA/a2600"
+          ]
+        },
+        "I6R": {
+          "runway": "26R",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ZELOW/a5000 HAINZ/a5000 BAMBU/a4000 AJAAY/a2700"
+          ]
+        },
+        "I7L": {
+          "runway": "27L",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "SLVAA/a7000 ROMMM/a6000 SEJAY/a5000 GRMPI/a4000 DEPOT/a2800"
+          ]
+        },
+        "I7R": {
+          "runway": "27R",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "YOUYU/a7000 MMCAP/a6000 MAASN/a5000 MRCER/a4000 OSTRR/a2700"
+          ]
+        },
+        "I28": {
+          "runway": "28",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "N033.37.09.702,W083.54.02.559 PRMAN/a4000 WONZR/a4000 JUBBA/a2700"
+          ]
+        }
+      },
+      "departure_routes": {
+        "26L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SNUFY BDODD CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "MPASS ZELAN SMOGG GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "MPASS ZELAN SMOGG JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SNUFY BDODD KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SNUFY BDODD NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "MPASS ZELAN/s250 PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG DLLNN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SNUFY BDODD POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "27R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SLAWW WESEK CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "FUTBL ZALLE GGOLF GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "FUTBL ZALLE GGOLF DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SLAWW WESEK KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SLAWW WESEK NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "CPARK MPASS ZELAN PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "CPARK MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "FUTBL ZALLE GGOLF PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "FUTBL ZALLE GGOLF PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SLAWW WESEK POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "CPARK MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "CPARK MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "8R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SKNNR GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "HRSHL KLEGG COBBB CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "RONII IGEBE GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SKNNR GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "RONII IGEBE JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "HRSHL KLEGG COBBB KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "HRSHL KLEGG COBBB NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "RONII IGEBE PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "RONII IGEBE PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "HRSHL KLEGG COBBB POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY VRSTY"
+          }
+        },
+        "9L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "GRITZ HYZMN TYRNN CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "GRITZ DDUBB GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "GRITZ DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "GRITZ HYZMN TYRNN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "GRITZ HYZMN TYRNN NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "PICKT RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "PICKT RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "LIDAS ERWIN PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "LIDAS ERWIN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "GRITZ HYZMN TYRNN POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "PICKT RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "PICKT RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "GRITZ HYZMN TROFY VRSTY"
+          }
+        }
+      },
+      "departures": [
+        {
+          "airlines": [
+            {
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KMCO",
+          "exit": "WALET",
+          "route": "WALET ZJAYX GRNCH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KFLL",
+          "exit": "WALET",
+          "route": "WALET ZPLEN TEEKY3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMIA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID FROGZ4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDFW",
+          "exit": "STNGA",
+          "route": "STNGA MLU YUYUN BEREE2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KBWI",
+          "exit": "KELLN",
+          "route": "KELLN Q58 PEETT THHMP RAVNN6"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "FFT"
+            },
+            {
+              "icao": "JBU"
+            }
+          ],
+          "destination": "KLGA",
+          "exit": "KELLN",
+          "route": "KELLN BYJAC Q60 HURTS HUBBS PXT KORRY4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "RPA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KDCA",
+          "exit": "KELLN",
+          "route": "KELLN Q56 KIWII WAVES CAPSS3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KORD",
+          "exit": "GLAZR",
+          "route": "GLAZR Q118 HEVAN BONNT VEECK5"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDEN",
+          "exit": "HANKO",
+          "route": "HANKO MEMFS BVO GCK KIISS CLASH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KTPA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID MAATY4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KIAH",
+          "exit": "STNGA",
+          "route": "STNGA MHZ AEX DOOBI2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KEWR",
+          "exit": "BURGG",
+          "route": "BURGG Q22 UMBRE QUART PHLBO4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KLAS",
+          "exit": "STNGA",
+          "route": "STNGA KF18I EIC UIM GTH CNX HAHHAA RKSTR3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KDTW",
+          "exit": "BURGG",
+          "route": "BURGG HNN SUBWY HTROD2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KLAX",
+          "exit": "YAALL",
+          "route": "YAALL J14 PNH J6 DRK J231 HIPPI GABBL HLYWD1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KPHL",
+          "exit": "BURGG",
+          "route": "BURGG Q22 BEARI BBDOL PAATS4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "JIA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KCLT",
+          "exit": "HRTWL",
+          "route": "HRTWL JONZE JONZE3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMSY",
+          "exit": "GRGIA",
+          "route": "GRGIA SJI MNSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KRDU",
+          "exit": "IRQ",
+          "route": "IRQ PYRES DMSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "long",
+              "icao": "DAL"
+            },
+            {
+              "icao": "VIR"
+            },
+            {
+              "fleet": "long",
+              "icao":"BAW"
+            }
+          ],
+          "destination": "EGLL",
+          "exit": "BURGG",
+          "route": "BURGG"
+        }
+      ],
+      "exit_categories": {
+        "LUCKK": "South",
+        "HANKO": "West",
+        "IRQ": "East",
+        "SARGE": "South",
+        "KELLN": "East",
+        "STNGA": "West",
+        "CHOOK": "West",
+        "VUZ": "West",
+        "YAALL": "West",
+        "RAFTN": "North",
+        "SMTTH": "North",
+        "JAACE": "North",
+        "BNA": "North",
+        "EMAHH": "North",
+        "HRTWL": "North",
+        "BURGG": "East",
+        "STEIT": "West",
+        "GRGIA": "West",
+        "BOBBD": "North",
+        "SMLTZ": "South",
+        "RESPE": "North",
+        "GLAZR": "North",
+        "NOKIE": "East"
+      },
+      "tower_list": 5
+    },
+    "KPDK": {
+      "omit_arrival_scratchpad": true,
+      "approaches": {
+        "I8L": {
+          "runway": "8L",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "LARII/a5000 JAAJJ/a5000 BAZAR/a4000 SCHEL/a2900"
+          ]
+        },
+        "I8R": {
+          "runway": "8R",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "GPEAT/a5000 PEARI/a5000 NZBIT/a4000 HARSN/a2800"
+          ]
+        },
+        "I9L": {
+          "runway": "9L",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "RYENN/a7000 AAKAY/a6000 ARRBE/a5000 HRDEY/a4000 VINII/a2700"
+          ]
+        },
+        "I9R": {
+          "runway": "9R",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ANDIY/a7000 DFINS/a6000 GGUYY/a5000 EEASY/a4000 BURNY/a2700"
+          ]
+        },
+        "I10": {
+          "runway": "10",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "DEWHY/a4000 CTEEE/a4000 ZMANN/a2700"
+          ]
+        },
+        "I6L": {
+          "runway": "26L",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "JIRRI/a5000 BOYKN/a5000 MARKD/a4000 DEJAA/a2600"
+          ]
+        },
+        "I6R": {
+          "runway": "26R",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ZELOW/a5000 HAINZ/a5000 BAMBU/a4000 AJAAY/a2700"
+          ]
+        },
+        "I7L": {
+          "runway": "27L",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "SLVAA/a7000 ROMMM/a6000 SEJAY/a5000 GRMPI/a4000 DEPOT/a2800"
+          ]
+        },
+        "I7R": {
+          "runway": "27R",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "YOUYU/a7000 MMCAP/a6000 MAASN/a5000 MRCER/a4000 OSTRR/a2700"
+          ]
+        },
+        "I28": {
+          "runway": "28",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "N033.37.09.702,W083.54.02.559 PRMAN/a4000 WONZR/a4000 JUBBA/a2700"
+          ]
+        }
+      },
+      "departure_routes": {
+        "26L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SNUFY BDODD CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "MPASS ZELAN SMOGG GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "MPASS ZELAN SMOGG JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SNUFY BDODD KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SNUFY BDODD NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "MPASS ZELAN/s250 PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG DLLNN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SNUFY BDODD POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "27R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SLAWW WESEK CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "FUTBL ZALLE GGOLF GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "FUTBL ZALLE GGOLF DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SLAWW WESEK KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SLAWW WESEK NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "CPARK MPASS ZELAN PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "CPARK MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "FUTBL ZALLE GGOLF PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "FUTBL ZALLE GGOLF PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SLAWW WESEK POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "CPARK MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "CPARK MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "8R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SKNNR GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "HRSHL KLEGG COBBB CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "RONII IGEBE GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SKNNR GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "RONII IGEBE JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "HRSHL KLEGG COBBB KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "HRSHL KLEGG COBBB NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "RONII IGEBE PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "RONII IGEBE PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "HRSHL KLEGG COBBB POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY VRSTY"
+          }
+        },
+        "9L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "GRITZ HYZMN TYRNN CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "GRITZ DDUBB GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "GRITZ DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "GRITZ HYZMN TYRNN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "GRITZ HYZMN TYRNN NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "PICKT RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "PICKT RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "LIDAS ERWIN PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "LIDAS ERWIN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "GRITZ HYZMN TYRNN POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "PICKT RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "PICKT RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "GRITZ HYZMN TROFY VRSTY"
+          }
+        }
+      },
+      "departures": [
+        {
+          "airlines": [
+            {
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KMCO",
+          "exit": "WALET",
+          "route": "WALET ZJAYX GRNCH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KFLL",
+          "exit": "WALET",
+          "route": "WALET ZPLEN TEEKY3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMIA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID FROGZ4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDFW",
+          "exit": "STNGA",
+          "route": "STNGA MLU YUYUN BEREE2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KBWI",
+          "exit": "KELLN",
+          "route": "KELLN Q58 PEETT THHMP RAVNN6"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "FFT"
+            },
+            {
+              "icao": "JBU"
+            }
+          ],
+          "destination": "KLGA",
+          "exit": "KELLN",
+          "route": "KELLN BYJAC Q60 HURTS HUBBS PXT KORRY4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "RPA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KDCA",
+          "exit": "KELLN",
+          "route": "KELLN Q56 KIWII WAVES CAPSS3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KORD",
+          "exit": "GLAZR",
+          "route": "GLAZR Q118 HEVAN BONNT VEECK5"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDEN",
+          "exit": "HANKO",
+          "route": "HANKO MEMFS BVO GCK KIISS CLASH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KTPA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID MAATY4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KIAH",
+          "exit": "STNGA",
+          "route": "STNGA MHZ AEX DOOBI2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KEWR",
+          "exit": "BURGG",
+          "route": "BURGG Q22 UMBRE QUART PHLBO4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KLAS",
+          "exit": "STNGA",
+          "route": "STNGA KF18I EIC UIM GTH CNX HAHHAA RKSTR3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KDTW",
+          "exit": "BURGG",
+          "route": "BURGG HNN SUBWY HTROD2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KLAX",
+          "exit": "YAALL",
+          "route": "YAALL J14 PNH J6 DRK J231 HIPPI GABBL HLYWD1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KPHL",
+          "exit": "BURGG",
+          "route": "BURGG Q22 BEARI BBDOL PAATS4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "JIA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KCLT",
+          "exit": "HRTWL",
+          "route": "HRTWL JONZE JONZE3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMSY",
+          "exit": "GRGIA",
+          "route": "GRGIA SJI MNSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KRDU",
+          "exit": "IRQ",
+          "route": "IRQ PYRES DMSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "long",
+              "icao": "DAL"
+            },
+            {
+              "icao": "VIR"
+            },
+            {
+              "fleet": "long",
+              "icao":"BAW"
+            }
+          ],
+          "destination": "EGLL",
+          "exit": "BURGG",
+          "route": "BURGG"
+        }
+      ],
+      "exit_categories": {
+        "LUCKK": "South",
+        "HANKO": "West",
+        "IRQ": "East",
+        "SARGE": "South",
+        "KELLN": "East",
+        "STNGA": "West",
+        "CHOOK": "West",
+        "VUZ": "West",
+        "YAALL": "West",
+        "RAFTN": "North",
+        "SMTTH": "North",
+        "JAACE": "North",
+        "BNA": "North",
+        "EMAHH": "North",
+        "HRTWL": "North",
+        "BURGG": "East",
+        "STEIT": "West",
+        "GRGIA": "West",
+        "BOBBD": "North",
+        "SMLTZ": "South",
+        "RESPE": "North",
+        "GLAZR": "North",
+        "NOKIE": "East"
+      },
+      "tower_list": 5
+    },
+    "KLZU": {
+      "omit_arrival_scratchpad": true,
+      "approaches": {
+        "I8L": {
+          "runway": "8L",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "LARII/a5000 JAAJJ/a5000 BAZAR/a4000 SCHEL/a2900"
+          ]
+        },
+        "I8R": {
+          "runway": "8R",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "GPEAT/a5000 PEARI/a5000 NZBIT/a4000 HARSN/a2800"
+          ]
+        },
+        "I9L": {
+          "runway": "9L",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "RYENN/a7000 AAKAY/a6000 ARRBE/a5000 HRDEY/a4000 VINII/a2700"
+          ]
+        },
+        "I9R": {
+          "runway": "9R",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ANDIY/a7000 DFINS/a6000 GGUYY/a5000 EEASY/a4000 BURNY/a2700"
+          ]
+        },
+        "I10": {
+          "runway": "10",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "DEWHY/a4000 CTEEE/a4000 ZMANN/a2700"
+          ]
+        },
+        "I6L": {
+          "runway": "26L",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "JIRRI/a5000 BOYKN/a5000 MARKD/a4000 DEJAA/a2600"
+          ]
+        },
+        "I6R": {
+          "runway": "26R",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ZELOW/a5000 HAINZ/a5000 BAMBU/a4000 AJAAY/a2700"
+          ]
+        },
+        "I7L": {
+          "runway": "27L",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "SLVAA/a7000 ROMMM/a6000 SEJAY/a5000 GRMPI/a4000 DEPOT/a2800"
+          ]
+        },
+        "I7R": {
+          "runway": "27R",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "YOUYU/a7000 MMCAP/a6000 MAASN/a5000 MRCER/a4000 OSTRR/a2700"
+          ]
+        },
+        "I28": {
+          "runway": "28",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "N033.37.09.702,W083.54.02.559 PRMAN/a4000 WONZR/a4000 JUBBA/a2700"
+          ]
+        }
+      },
+      "departure_routes": {
+        "26L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SNUFY BDODD CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "MPASS ZELAN SMOGG GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "MPASS ZELAN SMOGG JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SNUFY BDODD KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SNUFY BDODD NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "MPASS ZELAN/s250 PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG DLLNN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SNUFY BDODD POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "27R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SLAWW WESEK CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "FUTBL ZALLE GGOLF GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "FUTBL ZALLE GGOLF DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SLAWW WESEK KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SLAWW WESEK NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "CPARK MPASS ZELAN PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "CPARK MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "FUTBL ZALLE GGOLF PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "FUTBL ZALLE GGOLF PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SLAWW WESEK POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "CPARK MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "CPARK MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "8R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SKNNR GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "HRSHL KLEGG COBBB CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "RONII IGEBE GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SKNNR GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "RONII IGEBE JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "HRSHL KLEGG COBBB KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "HRSHL KLEGG COBBB NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "RONII IGEBE PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "RONII IGEBE PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "HRSHL KLEGG COBBB POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY VRSTY"
+          }
+        },
+        "9L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "GRITZ HYZMN TYRNN CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "GRITZ DDUBB GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "GRITZ DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "GRITZ HYZMN TYRNN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "GRITZ HYZMN TYRNN NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "PICKT RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "PICKT RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "LIDAS ERWIN PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "LIDAS ERWIN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "GRITZ HYZMN TYRNN POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "PICKT RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "PICKT RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "GRITZ HYZMN TROFY VRSTY"
+          }
+        }
+      },
+      "departures": [
+        {
+          "airlines": [
+            {
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KMCO",
+          "exit": "WALET",
+          "route": "WALET ZJAYX GRNCH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KFLL",
+          "exit": "WALET",
+          "route": "WALET ZPLEN TEEKY3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMIA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID FROGZ4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDFW",
+          "exit": "STNGA",
+          "route": "STNGA MLU YUYUN BEREE2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KBWI",
+          "exit": "KELLN",
+          "route": "KELLN Q58 PEETT THHMP RAVNN6"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "FFT"
+            },
+            {
+              "icao": "JBU"
+            }
+          ],
+          "destination": "KLGA",
+          "exit": "KELLN",
+          "route": "KELLN BYJAC Q60 HURTS HUBBS PXT KORRY4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "RPA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KDCA",
+          "exit": "KELLN",
+          "route": "KELLN Q56 KIWII WAVES CAPSS3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KORD",
+          "exit": "GLAZR",
+          "route": "GLAZR Q118 HEVAN BONNT VEECK5"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDEN",
+          "exit": "HANKO",
+          "route": "HANKO MEMFS BVO GCK KIISS CLASH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KTPA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID MAATY4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KIAH",
+          "exit": "STNGA",
+          "route": "STNGA MHZ AEX DOOBI2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KEWR",
+          "exit": "BURGG",
+          "route": "BURGG Q22 UMBRE QUART PHLBO4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KLAS",
+          "exit": "STNGA",
+          "route": "STNGA KF18I EIC UIM GTH CNX HAHHAA RKSTR3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KDTW",
+          "exit": "BURGG",
+          "route": "BURGG HNN SUBWY HTROD2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KLAX",
+          "exit": "YAALL",
+          "route": "YAALL J14 PNH J6 DRK J231 HIPPI GABBL HLYWD1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KPHL",
+          "exit": "BURGG",
+          "route": "BURGG Q22 BEARI BBDOL PAATS4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "JIA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KCLT",
+          "exit": "HRTWL",
+          "route": "HRTWL JONZE JONZE3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMSY",
+          "exit": "GRGIA",
+          "route": "GRGIA SJI MNSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KRDU",
+          "exit": "IRQ",
+          "route": "IRQ PYRES DMSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "long",
+              "icao": "DAL"
+            },
+            {
+              "icao": "VIR"
+            },
+            {
+              "fleet": "long",
+              "icao":"BAW"
+            }
+          ],
+          "destination": "EGLL",
+          "exit": "BURGG",
+          "route": "BURGG"
+        }
+      ],
+      "exit_categories": {
+        "LUCKK": "South",
+        "HANKO": "West",
+        "IRQ": "East",
+        "SARGE": "South",
+        "KELLN": "East",
+        "STNGA": "West",
+        "CHOOK": "West",
+        "VUZ": "West",
+        "YAALL": "West",
+        "RAFTN": "North",
+        "SMTTH": "North",
+        "JAACE": "North",
+        "BNA": "North",
+        "EMAHH": "North",
+        "HRTWL": "North",
+        "BURGG": "East",
+        "STEIT": "West",
+        "GRGIA": "West",
+        "BOBBD": "North",
+        "SMLTZ": "South",
+        "RESPE": "North",
+        "GLAZR": "North",
+        "NOKIE": "East"
+      },
+      "tower_list": 5
+    },
+    "KPUJ": {
+      "omit_arrival_scratchpad": true,
+      "approaches": {
+        "I8L": {
+          "runway": "8L",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "LARII/a5000 JAAJJ/a5000 BAZAR/a4000 SCHEL/a2900"
+          ]
+        },
+        "I8R": {
+          "runway": "8R",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "GPEAT/a5000 PEARI/a5000 NZBIT/a4000 HARSN/a2800"
+          ]
+        },
+        "I9L": {
+          "runway": "9L",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "RYENN/a7000 AAKAY/a6000 ARRBE/a5000 HRDEY/a4000 VINII/a2700"
+          ]
+        },
+        "I9R": {
+          "runway": "9R",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ANDIY/a7000 DFINS/a6000 GGUYY/a5000 EEASY/a4000 BURNY/a2700"
+          ]
+        },
+        "I10": {
+          "runway": "10",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "DEWHY/a4000 CTEEE/a4000 ZMANN/a2700"
+          ]
+        },
+        "I6L": {
+          "runway": "26L",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "JIRRI/a5000 BOYKN/a5000 MARKD/a4000 DEJAA/a2600"
+          ]
+        },
+        "I6R": {
+          "runway": "26R",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ZELOW/a5000 HAINZ/a5000 BAMBU/a4000 AJAAY/a2700"
+          ]
+        },
+        "I7L": {
+          "runway": "27L",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "SLVAA/a7000 ROMMM/a6000 SEJAY/a5000 GRMPI/a4000 DEPOT/a2800"
+          ]
+        },
+        "I7R": {
+          "runway": "27R",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "YOUYU/a7000 MMCAP/a6000 MAASN/a5000 MRCER/a4000 OSTRR/a2700"
+          ]
+        },
+        "I28": {
+          "runway": "28",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "N033.37.09.702,W083.54.02.559 PRMAN/a4000 WONZR/a4000 JUBBA/a2700"
+          ]
+        }
+      },
+      "departure_routes": {
+        "26L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SNUFY BDODD CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "MPASS ZELAN SMOGG GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "MPASS ZELAN SMOGG JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SNUFY BDODD KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SNUFY BDODD NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "MPASS ZELAN/s250 PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG DLLNN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SNUFY BDODD POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "27R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SLAWW WESEK CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "FUTBL ZALLE GGOLF GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "FUTBL ZALLE GGOLF DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SLAWW WESEK KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SLAWW WESEK NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "CPARK MPASS ZELAN PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "CPARK MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "FUTBL ZALLE GGOLF PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "FUTBL ZALLE GGOLF PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SLAWW WESEK POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "CPARK MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "CPARK MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "8R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SKNNR GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "HRSHL KLEGG COBBB CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "RONII IGEBE GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SKNNR GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "RONII IGEBE JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "HRSHL KLEGG COBBB KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "HRSHL KLEGG COBBB NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "RONII IGEBE PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "RONII IGEBE PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "HRSHL KLEGG COBBB POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY VRSTY"
+          }
+        },
+        "9L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "GRITZ HYZMN TYRNN CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "GRITZ DDUBB GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "GRITZ DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "GRITZ HYZMN TYRNN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "GRITZ HYZMN TYRNN NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "PICKT RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "PICKT RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "LIDAS ERWIN PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "LIDAS ERWIN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "GRITZ HYZMN TYRNN POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "PICKT RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "PICKT RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "GRITZ HYZMN TROFY VRSTY"
+          }
+        }
+      },
+      "departures": [
+        {
+          "airlines": [
+            {
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KMCO",
+          "exit": "WALET",
+          "route": "WALET ZJAYX GRNCH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KFLL",
+          "exit": "WALET",
+          "route": "WALET ZPLEN TEEKY3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMIA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID FROGZ4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDFW",
+          "exit": "STNGA",
+          "route": "STNGA MLU YUYUN BEREE2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KBWI",
+          "exit": "KELLN",
+          "route": "KELLN Q58 PEETT THHMP RAVNN6"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "FFT"
+            },
+            {
+              "icao": "JBU"
+            }
+          ],
+          "destination": "KLGA",
+          "exit": "KELLN",
+          "route": "KELLN BYJAC Q60 HURTS HUBBS PXT KORRY4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "RPA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KDCA",
+          "exit": "KELLN",
+          "route": "KELLN Q56 KIWII WAVES CAPSS3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KORD",
+          "exit": "GLAZR",
+          "route": "GLAZR Q118 HEVAN BONNT VEECK5"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDEN",
+          "exit": "HANKO",
+          "route": "HANKO MEMFS BVO GCK KIISS CLASH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KTPA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID MAATY4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KIAH",
+          "exit": "STNGA",
+          "route": "STNGA MHZ AEX DOOBI2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KEWR",
+          "exit": "BURGG",
+          "route": "BURGG Q22 UMBRE QUART PHLBO4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KLAS",
+          "exit": "STNGA",
+          "route": "STNGA KF18I EIC UIM GTH CNX HAHHAA RKSTR3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KDTW",
+          "exit": "BURGG",
+          "route": "BURGG HNN SUBWY HTROD2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KLAX",
+          "exit": "YAALL",
+          "route": "YAALL J14 PNH J6 DRK J231 HIPPI GABBL HLYWD1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KPHL",
+          "exit": "BURGG",
+          "route": "BURGG Q22 BEARI BBDOL PAATS4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "JIA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KCLT",
+          "exit": "HRTWL",
+          "route": "HRTWL JONZE JONZE3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMSY",
+          "exit": "GRGIA",
+          "route": "GRGIA SJI MNSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KRDU",
+          "exit": "IRQ",
+          "route": "IRQ PYRES DMSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "long",
+              "icao": "DAL"
+            },
+            {
+              "icao": "VIR"
+            },
+            {
+              "fleet": "long",
+              "icao":"BAW"
+            }
+          ],
+          "destination": "EGLL",
+          "exit": "BURGG",
+          "route": "BURGG"
+        }
+      ],
+      "exit_categories": {
+        "LUCKK": "South",
+        "HANKO": "West",
+        "IRQ": "East",
+        "SARGE": "South",
+        "KELLN": "East",
+        "STNGA": "West",
+        "CHOOK": "West",
+        "VUZ": "West",
+        "YAALL": "West",
+        "RAFTN": "North",
+        "SMTTH": "North",
+        "JAACE": "North",
+        "BNA": "North",
+        "EMAHH": "North",
+        "HRTWL": "North",
+        "BURGG": "East",
+        "STEIT": "West",
+        "GRGIA": "West",
+        "BOBBD": "North",
+        "SMLTZ": "South",
+        "RESPE": "North",
+        "GLAZR": "North",
+        "NOKIE": "East"
+      },
+      "tower_list": 5
+    },
+    "KVPC": {
+      "omit_arrival_scratchpad": true,
+      "approaches": {
+        "I8L": {
+          "runway": "8L",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "LARII/a5000 JAAJJ/a5000 BAZAR/a4000 SCHEL/a2900"
+          ]
+        },
+        "I8R": {
+          "runway": "8R",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "GPEAT/a5000 PEARI/a5000 NZBIT/a4000 HARSN/a2800"
+          ]
+        },
+        "I9L": {
+          "runway": "9L",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "RYENN/a7000 AAKAY/a6000 ARRBE/a5000 HRDEY/a4000 VINII/a2700"
+          ]
+        },
+        "I9R": {
+          "runway": "9R",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ANDIY/a7000 DFINS/a6000 GGUYY/a5000 EEASY/a4000 BURNY/a2700"
+          ]
+        },
+        "I10": {
+          "runway": "10",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "DEWHY/a4000 CTEEE/a4000 ZMANN/a2700"
+          ]
+        },
+        "I6L": {
+          "runway": "26L",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "JIRRI/a5000 BOYKN/a5000 MARKD/a4000 DEJAA/a2600"
+          ]
+        },
+        "I6R": {
+          "runway": "26R",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ZELOW/a5000 HAINZ/a5000 BAMBU/a4000 AJAAY/a2700"
+          ]
+        },
+        "I7L": {
+          "runway": "27L",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "SLVAA/a7000 ROMMM/a6000 SEJAY/a5000 GRMPI/a4000 DEPOT/a2800"
+          ]
+        },
+        "I7R": {
+          "runway": "27R",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "YOUYU/a7000 MMCAP/a6000 MAASN/a5000 MRCER/a4000 OSTRR/a2700"
+          ]
+        },
+        "I28": {
+          "runway": "28",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "N033.37.09.702,W083.54.02.559 PRMAN/a4000 WONZR/a4000 JUBBA/a2700"
+          ]
+        }
+      },
+      "departure_routes": {
+        "26L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SNUFY BDODD CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "MPASS ZELAN SMOGG GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "MPASS ZELAN SMOGG JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SNUFY BDODD KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SNUFY BDODD NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "MPASS ZELAN/s250 PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG DLLNN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SNUFY BDODD POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "27R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SLAWW WESEK CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "FUTBL ZALLE GGOLF GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "FUTBL ZALLE GGOLF DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SLAWW WESEK KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SLAWW WESEK NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "CPARK MPASS ZELAN PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "CPARK MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "FUTBL ZALLE GGOLF PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "FUTBL ZALLE GGOLF PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SLAWW WESEK POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "CPARK MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "CPARK MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "8R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SKNNR GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "HRSHL KLEGG COBBB CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "RONII IGEBE GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SKNNR GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "RONII IGEBE JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "HRSHL KLEGG COBBB KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "HRSHL KLEGG COBBB NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "RONII IGEBE PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "RONII IGEBE PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "HRSHL KLEGG COBBB POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY VRSTY"
+          }
+        },
+        "9L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "GRITZ HYZMN TYRNN CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "GRITZ DDUBB GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "GRITZ DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "GRITZ HYZMN TYRNN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "GRITZ HYZMN TYRNN NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "PICKT RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "PICKT RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "LIDAS ERWIN PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "LIDAS ERWIN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "GRITZ HYZMN TYRNN POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "PICKT RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "PICKT RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "GRITZ HYZMN TROFY VRSTY"
+          }
+        }
+      },
+      "departures": [
+        {
+          "airlines": [
+            {
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KMCO",
+          "exit": "WALET",
+          "route": "WALET ZJAYX GRNCH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KFLL",
+          "exit": "WALET",
+          "route": "WALET ZPLEN TEEKY3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMIA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID FROGZ4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDFW",
+          "exit": "STNGA",
+          "route": "STNGA MLU YUYUN BEREE2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KBWI",
+          "exit": "KELLN",
+          "route": "KELLN Q58 PEETT THHMP RAVNN6"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "FFT"
+            },
+            {
+              "icao": "JBU"
+            }
+          ],
+          "destination": "KLGA",
+          "exit": "KELLN",
+          "route": "KELLN BYJAC Q60 HURTS HUBBS PXT KORRY4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "RPA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KDCA",
+          "exit": "KELLN",
+          "route": "KELLN Q56 KIWII WAVES CAPSS3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KORD",
+          "exit": "GLAZR",
+          "route": "GLAZR Q118 HEVAN BONNT VEECK5"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDEN",
+          "exit": "HANKO",
+          "route": "HANKO MEMFS BVO GCK KIISS CLASH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KTPA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID MAATY4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KIAH",
+          "exit": "STNGA",
+          "route": "STNGA MHZ AEX DOOBI2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KEWR",
+          "exit": "BURGG",
+          "route": "BURGG Q22 UMBRE QUART PHLBO4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KLAS",
+          "exit": "STNGA",
+          "route": "STNGA KF18I EIC UIM GTH CNX HAHHAA RKSTR3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KDTW",
+          "exit": "BURGG",
+          "route": "BURGG HNN SUBWY HTROD2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KLAX",
+          "exit": "YAALL",
+          "route": "YAALL J14 PNH J6 DRK J231 HIPPI GABBL HLYWD1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KPHL",
+          "exit": "BURGG",
+          "route": "BURGG Q22 BEARI BBDOL PAATS4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "JIA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KCLT",
+          "exit": "HRTWL",
+          "route": "HRTWL JONZE JONZE3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMSY",
+          "exit": "GRGIA",
+          "route": "GRGIA SJI MNSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KRDU",
+          "exit": "IRQ",
+          "route": "IRQ PYRES DMSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "long",
+              "icao": "DAL"
+            },
+            {
+              "icao": "VIR"
+            },
+            {
+              "fleet": "long",
+              "icao":"BAW"
+            }
+          ],
+          "destination": "EGLL",
+          "exit": "BURGG",
+          "route": "BURGG"
+        }
+      ],
+      "exit_categories": {
+        "LUCKK": "South",
+        "HANKO": "West",
+        "IRQ": "East",
+        "SARGE": "South",
+        "KELLN": "East",
+        "STNGA": "West",
+        "CHOOK": "West",
+        "VUZ": "West",
+        "YAALL": "West",
+        "RAFTN": "North",
+        "SMTTH": "North",
+        "JAACE": "North",
+        "BNA": "North",
+        "EMAHH": "North",
+        "HRTWL": "North",
+        "BURGG": "East",
+        "STEIT": "West",
+        "GRGIA": "West",
+        "BOBBD": "North",
+        "SMLTZ": "South",
+        "RESPE": "North",
+        "GLAZR": "North",
+        "NOKIE": "East"
+      },
+      "tower_list": 5
+    },
+    "KMGE": {
+      "omit_arrival_scratchpad": true,
+      "approaches": {
+        "I8L": {
+          "runway": "8L",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "LARII/a5000 JAAJJ/a5000 BAZAR/a4000 SCHEL/a2900"
+          ]
+        },
+        "I8R": {
+          "runway": "8R",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "GPEAT/a5000 PEARI/a5000 NZBIT/a4000 HARSN/a2800"
+          ]
+        },
+        "I9L": {
+          "runway": "9L",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "RYENN/a7000 AAKAY/a6000 ARRBE/a5000 HRDEY/a4000 VINII/a2700"
+          ]
+        },
+        "I9R": {
+          "runway": "9R",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ANDIY/a7000 DFINS/a6000 GGUYY/a5000 EEASY/a4000 BURNY/a2700"
+          ]
+        },
+        "I10": {
+          "runway": "10",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "DEWHY/a4000 CTEEE/a4000 ZMANN/a2700"
+          ]
+        },
+        "I6L": {
+          "runway": "26L",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "JIRRI/a5000 BOYKN/a5000 MARKD/a4000 DEJAA/a2600"
+          ]
+        },
+        "I6R": {
+          "runway": "26R",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ZELOW/a5000 HAINZ/a5000 BAMBU/a4000 AJAAY/a2700"
+          ]
+        },
+        "I7L": {
+          "runway": "27L",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "SLVAA/a7000 ROMMM/a6000 SEJAY/a5000 GRMPI/a4000 DEPOT/a2800"
+          ]
+        },
+        "I7R": {
+          "runway": "27R",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "YOUYU/a7000 MMCAP/a6000 MAASN/a5000 MRCER/a4000 OSTRR/a2700"
+          ]
+        },
+        "I28": {
+          "runway": "28",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "N033.37.09.702,W083.54.02.559 PRMAN/a4000 WONZR/a4000 JUBBA/a2700"
+          ]
+        }
+      },
+      "departure_routes": {
+        "26L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SNUFY BDODD CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "MPASS ZELAN SMOGG GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "MPASS ZELAN SMOGG JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SNUFY BDODD KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SNUFY BDODD NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "MPASS ZELAN/s250 PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG DLLNN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SNUFY BDODD POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "27R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SLAWW WESEK CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "FUTBL ZALLE GGOLF GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "FUTBL ZALLE GGOLF DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SLAWW WESEK KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SLAWW WESEK NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "CPARK MPASS ZELAN PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "CPARK MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "FUTBL ZALLE GGOLF PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "FUTBL ZALLE GGOLF PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SLAWW WESEK POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "CPARK MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "CPARK MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "8R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SKNNR GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "HRSHL KLEGG COBBB CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "RONII IGEBE GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SKNNR GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "RONII IGEBE JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "HRSHL KLEGG COBBB KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "HRSHL KLEGG COBBB NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "RONII IGEBE PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "RONII IGEBE PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "HRSHL KLEGG COBBB POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY VRSTY"
+          }
+        },
+        "9L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "GRITZ HYZMN TYRNN CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "GRITZ DDUBB GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "GRITZ DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "GRITZ HYZMN TYRNN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "GRITZ HYZMN TYRNN NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "PICKT RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "PICKT RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "LIDAS ERWIN PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "LIDAS ERWIN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "GRITZ HYZMN TYRNN POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "PICKT RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "PICKT RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "GRITZ HYZMN TROFY VRSTY"
+          }
+        }
+      },
+      "departures": [
+        {
+          "airlines": [
+            {
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KMCO",
+          "exit": "WALET",
+          "route": "WALET ZJAYX GRNCH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KFLL",
+          "exit": "WALET",
+          "route": "WALET ZPLEN TEEKY3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMIA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID FROGZ4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDFW",
+          "exit": "STNGA",
+          "route": "STNGA MLU YUYUN BEREE2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KBWI",
+          "exit": "KELLN",
+          "route": "KELLN Q58 PEETT THHMP RAVNN6"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "FFT"
+            },
+            {
+              "icao": "JBU"
+            }
+          ],
+          "destination": "KLGA",
+          "exit": "KELLN",
+          "route": "KELLN BYJAC Q60 HURTS HUBBS PXT KORRY4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "RPA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KDCA",
+          "exit": "KELLN",
+          "route": "KELLN Q56 KIWII WAVES CAPSS3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KORD",
+          "exit": "GLAZR",
+          "route": "GLAZR Q118 HEVAN BONNT VEECK5"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDEN",
+          "exit": "HANKO",
+          "route": "HANKO MEMFS BVO GCK KIISS CLASH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KTPA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID MAATY4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KIAH",
+          "exit": "STNGA",
+          "route": "STNGA MHZ AEX DOOBI2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KEWR",
+          "exit": "BURGG",
+          "route": "BURGG Q22 UMBRE QUART PHLBO4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KLAS",
+          "exit": "STNGA",
+          "route": "STNGA KF18I EIC UIM GTH CNX HAHHAA RKSTR3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KDTW",
+          "exit": "BURGG",
+          "route": "BURGG HNN SUBWY HTROD2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KLAX",
+          "exit": "YAALL",
+          "route": "YAALL J14 PNH J6 DRK J231 HIPPI GABBL HLYWD1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KPHL",
+          "exit": "BURGG",
+          "route": "BURGG Q22 BEARI BBDOL PAATS4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "JIA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KCLT",
+          "exit": "HRTWL",
+          "route": "HRTWL JONZE JONZE3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMSY",
+          "exit": "GRGIA",
+          "route": "GRGIA SJI MNSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KRDU",
+          "exit": "IRQ",
+          "route": "IRQ PYRES DMSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "long",
+              "icao": "DAL"
+            },
+            {
+              "icao": "VIR"
+            },
+            {
+              "fleet": "long",
+              "icao":"BAW"
+            }
+          ],
+          "destination": "EGLL",
+          "exit": "BURGG",
+          "route": "BURGG"
+        }
+      ],
+      "exit_categories": {
+        "LUCKK": "South",
+        "HANKO": "West",
+        "IRQ": "East",
+        "SARGE": "South",
+        "KELLN": "East",
+        "STNGA": "West",
+        "CHOOK": "West",
+        "VUZ": "West",
+        "YAALL": "West",
+        "RAFTN": "North",
+        "SMTTH": "North",
+        "JAACE": "North",
+        "BNA": "North",
+        "EMAHH": "North",
+        "HRTWL": "North",
+        "BURGG": "East",
+        "STEIT": "West",
+        "GRGIA": "West",
+        "BOBBD": "North",
+        "SMLTZ": "South",
+        "RESPE": "North",
+        "GLAZR": "North",
+        "NOKIE": "East"
+      },
+      "tower_list": 5
+    },
+    "KRYY": {
+      "omit_arrival_scratchpad": true,
+      "approaches": {
+        "I8L": {
+          "runway": "8L",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "LARII/a5000 JAAJJ/a5000 BAZAR/a4000 SCHEL/a2900"
+          ]
+        },
+        "I8R": {
+          "runway": "8R",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "GPEAT/a5000 PEARI/a5000 NZBIT/a4000 HARSN/a2800"
+          ]
+        },
+        "I9L": {
+          "runway": "9L",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "RYENN/a7000 AAKAY/a6000 ARRBE/a5000 HRDEY/a4000 VINII/a2700"
+          ]
+        },
+        "I9R": {
+          "runway": "9R",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ANDIY/a7000 DFINS/a6000 GGUYY/a5000 EEASY/a4000 BURNY/a2700"
+          ]
+        },
+        "I10": {
+          "runway": "10",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "DEWHY/a4000 CTEEE/a4000 ZMANN/a2700"
+          ]
+        },
+        "I6L": {
+          "runway": "26L",
+          "tower_controller": "ATL_2_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "JIRRI/a5000 BOYKN/a5000 MARKD/a4000 DEJAA/a2600"
+          ]
+        },
+        "I6R": {
+          "runway": "26R",
+          "tower_controller": "ATL_1_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "ZELOW/a5000 HAINZ/a5000 BAMBU/a4000 AJAAY/a2700"
+          ]
+        },
+        "I7L": {
+          "runway": "27L",
+          "tower_controller": "ATL_4_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "SLVAA/a7000 ROMMM/a6000 SEJAY/a5000 GRMPI/a4000 DEPOT/a2800"
+          ]
+        },
+        "I7R": {
+          "runway": "27R",
+          "tower_controller": "ATL_3_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "YOUYU/a7000 MMCAP/a6000 MAASN/a5000 MRCER/a4000 OSTRR/a2700"
+          ]
+        },
+        "I28": {
+          "runway": "28",
+          "tower_controller": "ATL_5_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "N033.37.09.702,W083.54.02.559 PRMAN/a4000 WONZR/a4000 JUBBA/a2700"
+          ]
+        }
+      },
+      "departure_routes": {
+        "26L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SNUFY BDODD CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "MPASS ZELAN SMOGG GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "MPASS ZELAN SMOGG JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SNUFY BDODD KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SNUFY BDODD NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "MPASS ZELAN/s250 PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "MPASS ZELAN/s250 SMOGG DLLNN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SNUFY BDODD POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SNUFY SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "27R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SLAWW RIGGZ RIVTT/s250 BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "SLAWW WESEK CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "FUTBL ZALLE GGOLF GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SLAWW RIGGZ RIVTT HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "FUTBL ZALLE GGOLF DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "SLAWW WESEK KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "SLAWW WESEK NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "CPARK MPASS ZELAN PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "CPARK MPASS ZELAN/s250 WURLD PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "FUTBL ZALLE GGOLF PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "FUTBL ZALLE GGOLF PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "SLAWW WESEK POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "CPARK MPASS ZELAN/s250 SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SLAWW RIGGZ RIVTT SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "CPARK MPASS ZELAN WURLD VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SLAWW RIGGZ RIVTT VRSTY"
+          }
+        },
+        "8R": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "SKNNR GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "HRSHL KLEGG COBBB CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "RONII IGEBE GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "SKNNR GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "RONII IGEBE JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "HRSHL KLEGG COBBB KAJIN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "HRSHL KLEGG COBBB NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "RONII IGEBE PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "RONII IGEBE PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "HRSHL KLEGG COBBB POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "SKNNR GRITZ HYZMN TROFY VRSTY"
+          }
+        },
+        "9L": {
+          "LUCKK": {
+            "cleared_altitude": 10000,
+            "sid": "BANNG3",
+            "waypoints": "GRITZ HYZMN BANNG"
+          },
+          "HANKO": {
+            "cleared_altitude": 10000,
+            "sid": "CUTTN2",
+            "waypoints": "GRITZ HYZMN TYRNN CUTTN"
+          },
+          "IRQ": {
+            "cleared_altitude": 10000,
+            "sid": "GAIRY2",
+            "waypoints": "GRITZ DDUBB GAIRY"
+          },
+          "SARGE": {
+            "cleared_altitude": 10000,
+            "sid": "HAALO3",
+            "waypoints": "GRITZ HYZMN HAALO"
+          },
+          "KELLN": {
+            "cleared_altitude": 10000,
+            "sid": "JACCC2",
+            "waypoints": "GRITZ DDUBB JACCC SHUTT BFOUT"
+          },
+          "STNGA": {
+            "cleared_altitude": 10000,
+            "sid": "KAJIN2",
+            "waypoints": "GRITZ HYZMN TYRNN"
+          },
+          "VUZ,YAALL,CHOOK": {
+            "cleared_altitude": 10000,
+            "sid": "NASSA2",
+            "waypoints": "GRITZ HYZMN TYRNN NASSA ENGNR"
+          },
+          "RAFTN,SMTTH": {
+            "cleared_altitude": 10000,
+            "sid": "PADGT2",
+            "waypoints": "PICKT RONII HOYYT GRABA PADGT"
+          },
+          "JAACE,BNA,CEASE,EMAHH": {
+            "cleared_altitude": 10000,
+            "sid": "PENCL2",
+            "waypoints": "PICKT RONII HOYYT PENCL LEDRR"
+          },
+          "HRTWL": {
+            "cleared_altitude": 10000,
+            "sid": "PHIIL3",
+            "waypoints": "LIDAS ERWIN PHIIL LAGGR MULSN"
+          },
+          "BURGG": {
+            "cleared_altitude": 10000,
+            "sid": "PLMMR3",
+            "waypoints": "LIDAS ERWIN PLMMR PLMMR TENSE NWANT"
+          },
+          "STEIT,GRGIA": {
+            "cleared_altitude": 10000,
+            "sid": "POUNC2",
+            "waypoints": "GRITZ HYZMN TYRNN POUNC PNTHA GRGIA"
+          },
+          "BOBBD": {
+            "cleared_altitude": 10000,
+            "sid": "SMKEY2",
+            "waypoints": "PICKT RONII HOYYT CUMON SMKEY HUCHH"
+          },
+          "WALET": {
+            "cleared_altitude": 10000,
+            "sid": "SMLTZ3",
+            "waypoints": "GRITZ HYZMN TROFY SMLTZ WALET"
+          },
+          "RESPE,GLAZR": {
+            "cleared_altitude": 10000, 
+            "sid": "VARNM2",
+            "waypoints": "PICKT RONII HOYYT VARNM "
+          },
+          "NOKIE": {
+            "cleared_altitude": 10000,
+            "sid": "VRSTY3",
+            "waypoints": "GRITZ HYZMN TROFY VRSTY"
+          }
+        }
+      },
+      "departures": [
+        {
+          "airlines": [
+            {
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KMCO",
+          "exit": "WALET",
+          "route": "WALET ZJAYX GRNCH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KFLL",
+          "exit": "WALET",
+          "route": "WALET ZPLEN TEEKY3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMIA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID FROGZ4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "AAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDFW",
+          "exit": "STNGA",
+          "route": "STNGA MLU YUYUN BEREE2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "DAL",
+              "fleet": "short"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KBWI",
+          "exit": "KELLN",
+          "route": "KELLN Q58 PEETT THHMP RAVNN6"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "FFT"
+            },
+            {
+              "icao": "JBU"
+            }
+          ],
+          "destination": "KLGA",
+          "exit": "KELLN",
+          "route": "KELLN BYJAC Q60 HURTS HUBBS PXT KORRY4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "RPA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KDCA",
+          "exit": "KELLN",
+          "route": "KELLN Q56 KIWII WAVES CAPSS3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KORD",
+          "exit": "GLAZR",
+          "route": "GLAZR Q118 HEVAN BONNT VEECK5"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KDEN",
+          "exit": "HANKO",
+          "route": "HANKO MEMFS BVO GCK KIISS CLASH4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KTPA",
+          "exit": "LUCKK",
+          "route": "LUCKK HONID MAATY4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KIAH",
+          "exit": "STNGA",
+          "route": "STNGA MHZ AEX DOOBI2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "fleet": "short",
+              "icao": "UAL"
+            },
+            {
+              "icao": "NKS"
+            }
+          ],
+          "destination": "KEWR",
+          "exit": "BURGG",
+          "route": "BURGG Q22 UMBRE QUART PHLBO4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "icao": "FFT"
+            }
+          ],
+          "destination": "KLAS",
+          "exit": "STNGA",
+          "route": "STNGA KF18I EIC UIM GTH CNX HAHHAA RKSTR3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KDTW",
+          "exit": "BURGG",
+          "route": "BURGG HNN SUBWY HTROD2"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "NKS"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KLAX",
+          "exit": "YAALL",
+          "route": "YAALL J14 PNH J6 DRK J231 HIPPI GABBL HLYWD1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KPHL",
+          "exit": "BURGG",
+          "route": "BURGG Q22 BEARI BBDOL PAATS4"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "JIA"
+            },
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KCLT",
+          "exit": "HRTWL",
+          "route": "HRTWL JONZE JONZE3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            },
+            {
+              "icao": "SWA"
+            }
+          ],
+          "destination": "KMSY",
+          "exit": "GRGIA",
+          "route": "GRGIA SJI MNSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KRDU",
+          "exit": "IRQ",
+          "route": "IRQ PYRES DMSTR1"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "long",
+              "icao": "DAL"
+            },
+            {
+              "icao": "VIR"
+            },
+            {
+              "fleet": "long",
+              "icao":"BAW"
+            }
+          ],
+          "destination": "EGLL",
+          "exit": "BURGG",
+          "route": "BURGG"
+        }
+      ],
+      "exit_categories": {
+        "LUCKK": "South",
+        "HANKO": "West",
+        "IRQ": "East",
+        "SARGE": "South",
+        "KELLN": "East",
+        "STNGA": "West",
+        "CHOOK": "West",
+        "VUZ": "West",
+        "YAALL": "West",
+        "RAFTN": "North",
+        "SMTTH": "North",
+        "JAACE": "North",
+        "BNA": "North",
+        "EMAHH": "North",
+        "HRTWL": "North",
+        "BURGG": "East",
+        "STEIT": "West",
+        "GRGIA": "West",
+        "BOBBD": "North",
+        "SMLTZ": "South",
+        "RESPE": "North",
+        "GLAZR": "North",
+        "NOKIE": "East"
+      },
+      "tower_list": 5
     }
   },
   "airspace": {
@@ -2525,6 +8138,168 @@
       "speed_restriction": 250,
       "waypoints": "FORCC/ho SITTH/a14000 TIZZY/a12000"
     }
+   ],
+   "BOKRT3": [
+    {
+      "airlines": {
+        "KFTY": [
+          {
+            "airport": "KMCO",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KMCO",
+            "icao": "FFT"
+          },
+          {
+            "airport": "KMCO",
+            "icao": "NKS"
+          },
+          {
+            "airport": "KMCO",
+            "icao": "SWA"
+          },
+          {
+            "airport": "KMIA",
+            "icao": "NKS"
+          },
+          {
+            "airport": "KMIA",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KFLL",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KFLL",
+            "icao": "NKS"
+          },
+          {
+            "airport": "KFLL",
+            "icao": "JBU"
+          },
+          {
+            "airport": "KJAX",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KCHS",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KSAV",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KMYR",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KTPA",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KTPA",
+            "icao": "SWA"
+          }
+        ]
+      },
+      "initial_altitude": 12000,
+      "initial_controller": "ATL_CTR",
+      "initial_speed": 280,
+      "star": "BOKRT3",
+      "waypoints": "KEEPS/ho BOKRT/a11000 PINGG PONGG BRTEN BAPPY KENZI/h082"
+    }
+   ],
+   "BUKHD3": [
+    {
+      "airlines": {
+        "KFTY": [
+          {
+            "airport": "KMCO",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KMCO",
+            "icao": "FFT"
+          },
+          {
+            "airport": "KMCO",
+            "icao": "NKS"
+          },
+          {
+            "airport": "KMCO",
+            "icao": "SWA"
+          },
+          {
+            "airport": "KMIA",
+            "icao": "NKS"
+          },
+          {
+            "airport": "KMIA",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KFLL",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KFLL",
+            "icao": "NKS"
+          },
+          {
+            "airport": "KFLL",
+            "icao": "JBU"
+          },
+          {
+            "airport": "KJAX",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KCHS",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KSAV",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KMYR",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KTPA",
+            "fleet": "short",
+            "icao": "DAL"
+          },
+          {
+            "airport": "KTPA",
+            "icao": "SWA"
+          }
+        ]
+      },
+      "initial_altitude": 12000,
+      "initial_controller": "ATL_CTR",
+      "initial_speed": 280,
+      "star": "BUKHD3",
+      "waypoints": "RIZZZ MDTWN HLNDS BUKHD/a5000"
+    }
    ]
   },
   "stars_config": {
@@ -2931,215 +8706,623 @@
         "speed": 1
          }
         },
-        "KATL East": {
-          "approach_airspace": [
-            "ATLAPP"
-          ],
-          "arrival_runways": [
-            {
-              "airport": "KATL",
-              "runway": "8L"
-            },
-            {
-              "airport": "KATL",
-              "runway": "9R"
-            },
-            {
-              "airport": "KATL",
-              "runway": "10"
+    "KATL East": {
+      "approach_airspace": [
+        "ATLAPP"
+      ],
+      "arrival_runways": [
+        {
+          "airport": "KATL",
+          "runway": "8L"
+        },
+        {
+          "airport": "KATL",
+          "runway": "9R"
+        },
+        {
+          "airport": "KATL",
+          "runway": "10"
+        }
+      ],
+      "arrivals": {
+        "CHPPR1 EAST": {
+          "KATL": 10
+        },
+        "GLAVN1 EAST": {
+          "KATL": 10
+        },
+        "GNDLF2": {
+          "KATL": 10
+        },
+        "SITTH2": {
+          "KATL": 10
+        },
+        "ONDRE1 EAST": {
+          "KATL": 10
+        },
+        "OZZZI1 EAST": {
+          "KATL": 10
+        }
+        },
+        "solo_controller": "ATL_APP",
+        "multi_controllers": {
+            "default" : {
+                "ATL_H_APP": {"primary": true, "arrivals": ["SITTH2"]}, 
+                "ATL_D_APP": {"backup": "ATL_H_APP", "arrivals": ["GLAVN1 EAST", "CHPPR1 EAST"]}, 
+                "ATL_L_APP": {"backup": "ATL_D_APP", "arrivals": ["ONDRE1 EAST", "OZZZI1 EAST"]}, 
+                "ATL_Y_APP": {"backup": "ATL_H_APP", "arrivals": ["GNDLF2"]},
+                "ATL_O_APP": {"backup": "ATL_H_APP"},
+                "ATL_V_APP": {"backup": "ATL_D_APP"},
+                "ATL_A_APP": {"backup": "ATL_L_APP"},
+                "ATL_N_DEP": {"departures": ["KATL"], "backup": "ATL_H_APP"},
+                "ATL_S_DEP": {"backup": "ATL_N_DEP"},
+                "ATL_I_DEP": {"backup": "ATL_S_DEP"},
+                "ATL_P_APP": {"backup": "ATL_I_DEP"},
+                "ATL_F_APP": {"backup": "ATL_P_APP"},
+                "ATL_X_APP": {"backup": "ATL_F_APP"},
+                "ATL_G_APP": {"backup": "ATL_X_APP"},
+                "ATL_Q_APP": {"backup": "ATL_G_APP"}
             }
-          ],
-          "arrivals": {
-            "CHPPR1 EAST": {
-              "KATL": 10
-            },
-            "GLAVN1 EAST": {
-              "KATL": 10
-            },
-            "GNDLF2": {
-              "KATL": 10
-            },
-            "SITTH2": {
-              "KATL": 10
-            },
-            "ONDRE1 EAST": {
-              "KATL": 10
-            },
-            "OZZZI1 EAST": {
-              "KATL": 10
+        },
+        "controllers": [
+          "ATL_1_TWR",
+          "ATL_CTR",
+          "ATL_2_TWR",
+          "ATL_3_TWR",
+          "ATL_4_TWR",
+          "ATL_5_TWR"
+        ],
+        "default_maps": [ "TERMINAL ARRIVAL RADAR EAST" ],
+        "departure_airspace": [
+          "ATLAPP"
+        ],
+        "departure_runways": [
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "8R",
+            "category": "North"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "8R",
+            "category": "West"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "9L",
+            "category": "East"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "9L",
+            "category": "South"
+          }
+        ],
+        "wind": {
+        "direction": 80,
+        "gust": 2,
+        "speed": 1
+          }
+        },
+    "KATL West + Satellites": {
+      "approach_airspace": [
+        "ATLAPP"
+      ],
+      "arrival_runways": [
+        {
+          "airport": "KATL",
+          "runway": "26R"
+        },
+        {
+          "airport": "KATL",
+          "runway": "27L"
+        },
+        {
+          "airport": "KATL",
+          "runway": "28"
+        }
+      ],
+      "arrivals": {
+        "CHPPR1": {
+          "KATL": 10
+        },
+        "GLAVN1": {
+          "KATL": 10
+        },       
+        "HOBTT2": {
+          "KATL": 10
+        },
+        "JJEDI3": {
+          "KATL": 10
+        },
+        "ONDRE1": {
+          "KATL": 10
+        },
+        "OZZZI1": {
+          "KATL": 10
+        }
+        },
+        "solo_controller": "ATL_APP",
+        "multi_controllers": {
+            "default" : {
+                "ATL_H_APP": {"primary": true, "arrivals": ["JJEDI3"]},
+                "ATL_D_APP": {"backup": "ATL_H_APP", "arrivals": ["GLAVN1", "CHPPR1"]},
+                "ATL_L_APP": {"backup": "ATL_D_APP", "arrivals": ["ONDRE1", "OZZZI1"]},
+                "ATL_Y_APP": {"backup": "ATL_H_APP", "arrivals": ["HOBTT2"]},
+                "ATL_O_APP": {"backup": "ATL_H_APP"},
+                "ATL_V_APP": {"backup": "ATL_D_APP"},
+                "ATL_A_APP": {"backup": "ATL_L_APP"},
+                "ATL_N_DEP": {"departures": ["KATL"], "backup": "ATL_H_APP"},
+                "ATL_S_DEP": {"backup": "ATL_N_DEP"},
+                "ATL_I_DEP": {"backup": "ATL_S_DEP"},
+                "ATL_P_APP": {"backup": "ATL_I_DEP"},
+                "ATL_F_APP": {"backup": "ATL_P_APP"},
+                "ATL_X_APP": {"backup": "ATL_F_APP"},
+                "ATL_G_APP": {"backup": "ATL_X_APP"},
+                "ATL_Q_APP": {"backup": "ATL_G_APP"}
             }
-            },
-            "solo_controller": "ATL_APP",
-            "multi_controllers": {
-                "default" : {
-                    "ATL_H_APP": {"primary": true, "arrivals": ["SITTH2"]}, 
-                    "ATL_D_APP": {"backup": "ATL_H_APP", "arrivals": ["GLAVN1 EAST", "CHPPR1 EAST"]}, 
-                    "ATL_L_APP": {"backup": "ATL_D_APP", "arrivals": ["ONDRE1 EAST", "OZZZI1 EAST"]}, 
-                    "ATL_Y_APP": {"backup": "ATL_H_APP", "arrivals": ["GNDLF2"]},
-                    "ATL_O_APP": {"backup": "ATL_H_APP"},
-                    "ATL_V_APP": {"backup": "ATL_D_APP"},
-                    "ATL_A_APP": {"backup": "ATL_L_APP"},
-                    "ATL_N_DEP": {"departures": ["KATL"], "backup": "ATL_H_APP"},
-                    "ATL_S_DEP": {"backup": "ATL_N_DEP"},
-                    "ATL_I_DEP": {"backup": "ATL_S_DEP"},
-                    "ATL_P_APP": {"backup": "ATL_I_DEP"},
-                    "ATL_F_APP": {"backup": "ATL_P_APP"},
-                    "ATL_X_APP": {"backup": "ATL_F_APP"},
-                    "ATL_G_APP": {"backup": "ATL_X_APP"},
-                    "ATL_Q_APP": {"backup": "ATL_G_APP"}
-                }
-            },
-            "controllers": [
-              "ATL_1_TWR",
-              "ATL_CTR",
-              "ATL_2_TWR",
-              "ATL_3_TWR",
-              "ATL_4_TWR",
-              "ATL_5_TWR"
-            ],
-            "default_maps": [ "TERMINAL ARRIVAL RADAR EAST" ],
-            "departure_airspace": [
-              "ATLAPP"
-            ],
-            "departure_runways": [
-              {
-                "airport": "KATL",
-                "rate": 15,
-                "runway": "8R",
-                "category": "North"
-              },
-              {
-                "airport": "KATL",
-                "rate": 15,
-                "runway": "8R",
-                "category": "West"
-              },
-              {
-                "airport": "KATL",
-                "rate": 15,
-                "runway": "9L",
-                "category": "East"
-              },
-              {
-                "airport": "KATL",
-                "rate": 15,
-                "runway": "9L",
-                "category": "South"
-              }
-            ],
-            "wind": {
-            "direction": 80,
-            "gust": 2,
-            "speed": 1
-             }
-            },
-            "KATL West Final Trips": {
-              "approach_airspace": [
-                "ATL_V_APPW",
-                "ATL_A_APPW",
-                "ATL_O_APPW"
-              ],
-              "arrival_runways": [
-                {
-                  "airport" : "KATL",
-                  "runway": "28"
-                },
-                {
-                  "airport": "KATL",
-                  "runway": "27L"
-                },
-                {
-                  "airport": "KATL",
-                  "runway": "26R"
-                }
-              ],
-              "arrivals": {
-                "NW_FINALTRIPS": {
-                  "KATL": 30
-                },
-                "HOBTT2_AFINALT": {
-                  "KATL": 15
-                },
-                "JJEDI3_FINALT": {
-                  "KATL": 25
-                },
-                "ONDRE1_FINALWT": {
-                  "KATL": 10
-                },
-                "OZZZI1_FINALWT": {
-                  "KATL": 25
-                }
-              },
-              "solo_controller": "ATL_O_APP",
-              "controllers": [
-                "ATL_D_APP",
-                "ATL_L_APP",
-                "ATL_Y_APP",
-                "ATL_H_APP",
-                "ATL_1_TWR",
-                "ATL_2_TWR",
-                "ATL_3_TWR",
-                "ATL_4_TWR",
-                "ATL_5_TWR",
-                "ATL_CTR"
-              ],
-              "default_maps": [ "ARRIVAL RADAR WEST TRIPS" ],
-              "wind": {
-                "direction": 270,
-                "speed": 5
-              }
-            },
-            "KATL West Final Duals": {
-              "approach_airspace": [
-                "ATL_V_APPW",
-                "ATL_A_APPW",
-                "ATL_O_APPW"
-              ],
-              "arrival_runways": [
-                {
-                  "airport": "KATL",
-                  "runway": "27L"
-                },
-                {
-                  "airport": "KATL",
-                  "runway": "26R"
-                }
-              ],
-              "arrivals": {
-                "NW_FINALTRIPS": {
-                  "KATL": 15
-                },
-                "HOBTT2_AFINALD": {
-                  "KATL": 8
-                },
-                "JJEDI3_FINALD": {
-                  "KATL": 15
-                },
-                "ONDRE1_FINALWT": {
-                  "KATL": 8
-                },
-                "OZZZI1_FINALWT": {
-                  "KATL": 13
-                }
-              },
-              "solo_controller": "ATL_O_APP",
-              "controllers": [
-                "ATL_D_APP",
-                "ATL_L_APP",
-                "ATL_Y_APP",
-                "ATL_H_APP",
-                "ATL_1_TWR",
-                "ATL_2_TWR",
-                "ATL_3_TWR",
-                "ATL_4_TWR",
-                "ATL_5_TWR",
-                "ATL_CTR"
-              ],
-              "default_maps": [ "ARRIVAL RADAR WEST DUALS" ],
-              "wind": {
-                "direction": 270,
-                "speed": 5
-              }
+        },
+        "controllers": [
+          "ATL_1_TWR",
+          "ATL_CTR",
+          "ATL_2_TWR",
+          "ATL_3_TWR",
+          "ATL_4_TWR",
+          "ATL_5_TWR"
+        ],
+        "default_maps": [ "TERMINAL ARRIVAL RADAR WEST" ],
+        "departure_airspace": [
+          "ATLAPP"
+        ],
+        "departure_runways": [
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "26L",
+            "category": "North"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "26L",
+            "category": "West"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "27R",
+            "category": "East"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "27R",
+            "category": "South"
+          }
+        ],
+        "wind": {
+        "direction": 280,
+        "gust": 2,
+        "speed": 1
+          }
+        },
+    "KATL East + Satellites": {
+      "approach_airspace": [
+        "ATLAPP"
+      ],
+      "arrival_runways": [
+        {
+          "airport": "KATL",
+          "runway": "8L"
+        },
+        {
+          "airport": "KATL",
+          "runway": "9R"
+        },
+        {
+          "airport": "KATL",
+          "runway": "10"
+        }
+      ],
+      "arrivals": {
+        "CHPPR1 EAST": {
+          "KATL": 10
+        },
+        "GLAVN1 EAST": {
+          "KATL": 10
+        },
+        "GNDLF2": {
+          "KATL": 10
+        },
+        "SITTH2": {
+          "KATL": 10
+        },
+        "ONDRE1 EAST": {
+          "KATL": 10
+        },
+        "OZZZI1 EAST": {
+          "KATL": 10
+        }
+        },
+        "solo_controller": "ATL_APP",
+        "multi_controllers": {
+            "default" : {
+                "ATL_H_APP": {"primary": true, "arrivals": ["SITTH2"]}, 
+                "ATL_D_APP": {"backup": "ATL_H_APP", "arrivals": ["GLAVN1 EAST", "CHPPR1 EAST"]}, 
+                "ATL_L_APP": {"backup": "ATL_D_APP", "arrivals": ["ONDRE1 EAST", "OZZZI1 EAST"]}, 
+                "ATL_Y_APP": {"backup": "ATL_H_APP", "arrivals": ["GNDLF2"]},
+                "ATL_O_APP": {"backup": "ATL_H_APP"},
+                "ATL_V_APP": {"backup": "ATL_D_APP"},
+                "ATL_A_APP": {"backup": "ATL_L_APP"},
+                "ATL_N_DEP": {"departures": ["KATL"], "backup": "ATL_H_APP"},
+                "ATL_S_DEP": {"backup": "ATL_N_DEP"},
+                "ATL_I_DEP": {"backup": "ATL_S_DEP"},
+                "ATL_P_APP": {"backup": "ATL_I_DEP"},
+                "ATL_F_APP": {"backup": "ATL_P_APP"},
+                "ATL_X_APP": {"backup": "ATL_F_APP"},
+                "ATL_G_APP": {"backup": "ATL_X_APP"},
+                "ATL_Q_APP": {"backup": "ATL_G_APP"}
             }
+        },
+        "controllers": [
+          "ATL_1_TWR",
+          "ATL_CTR",
+          "ATL_2_TWR",
+          "ATL_3_TWR",
+          "ATL_4_TWR",
+          "ATL_5_TWR"
+        ],
+        "default_maps": [ "TERMINAL ARRIVAL RADAR EAST" ],
+        "departure_airspace": [
+          "ATLAPP"
+        ],
+        "departure_runways": [
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "8R",
+            "category": "North"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "8R",
+            "category": "West"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "9L",
+            "category": "East"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "9L",
+            "category": "South"
+          }
+        ],
+        "wind": {
+        "direction": 80,
+        "gust": 2,
+        "speed": 1
+          }
+        },
+    "KATL West + Satellites + Uncontrolled": {
+      "approach_airspace": [
+        "ATLAPP"
+      ],
+      "arrival_runways": [
+        {
+          "airport": "KATL",
+          "runway": "26R"
+        },
+        {
+          "airport": "KATL",
+          "runway": "27L"
+        },
+        {
+          "airport": "KATL",
+          "runway": "28"
+        }
+      ],
+      "arrivals": {
+        "CHPPR1": {
+          "KATL": 10
+        },
+        "GLAVN1": {
+          "KATL": 10
+        },       
+        "HOBTT2": {
+          "KATL": 10
+        },
+        "JJEDI3": {
+          "KATL": 10
+        },
+        "ONDRE1": {
+          "KATL": 10
+        },
+        "OZZZI1": {
+          "KATL": 10
+        }
+        },
+        "solo_controller": "ATL_APP",
+        "multi_controllers": {
+            "default" : {
+                "ATL_H_APP": {"primary": true, "arrivals": ["JJEDI3"]},
+                "ATL_D_APP": {"backup": "ATL_H_APP", "arrivals": ["GLAVN1", "CHPPR1"]},
+                "ATL_L_APP": {"backup": "ATL_D_APP", "arrivals": ["ONDRE1", "OZZZI1"]},
+                "ATL_Y_APP": {"backup": "ATL_H_APP", "arrivals": ["HOBTT2"]},
+                "ATL_O_APP": {"backup": "ATL_H_APP"},
+                "ATL_V_APP": {"backup": "ATL_D_APP"},
+                "ATL_A_APP": {"backup": "ATL_L_APP"},
+                "ATL_N_DEP": {"departures": ["KATL"], "backup": "ATL_H_APP"},
+                "ATL_S_DEP": {"backup": "ATL_N_DEP"},
+                "ATL_I_DEP": {"backup": "ATL_S_DEP"},
+                "ATL_P_APP": {"backup": "ATL_I_DEP"},
+                "ATL_F_APP": {"backup": "ATL_P_APP"},
+                "ATL_X_APP": {"backup": "ATL_F_APP"},
+                "ATL_G_APP": {"backup": "ATL_X_APP"},
+                "ATL_Q_APP": {"backup": "ATL_G_APP"}
+            }
+        },
+        "controllers": [
+          "ATL_1_TWR",
+          "ATL_CTR",
+          "ATL_2_TWR",
+          "ATL_3_TWR",
+          "ATL_4_TWR",
+          "ATL_5_TWR"
+        ],
+        "default_maps": [ "TERMINAL ARRIVAL RADAR WEST" ],
+        "departure_airspace": [
+          "ATLAPP"
+        ],
+        "departure_runways": [
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "26L",
+            "category": "North"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "26L",
+            "category": "West"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "27R",
+            "category": "East"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "27R",
+            "category": "South"
+          }
+        ],
+        "wind": {
+        "direction": 280,
+        "gust": 2,
+        "speed": 1
+          }
+        },
+    "KATL East + Satellites + Uncontrolled": {
+      "approach_airspace": [
+        "ATLAPP"
+      ],
+      "arrival_runways": [
+        {
+          "airport": "KATL",
+          "runway": "8L"
+        },
+        {
+          "airport": "KATL",
+          "runway": "9R"
+        },
+        {
+          "airport": "KATL",
+          "runway": "10"
+        }
+      ],
+      "arrivals": {
+        "CHPPR1 EAST": {
+          "KATL": 10
+        },
+        "GLAVN1 EAST": {
+          "KATL": 10
+        },
+        "GNDLF2": {
+          "KATL": 10
+        },
+        "SITTH2": {
+          "KATL": 10
+        },
+        "ONDRE1 EAST": {
+          "KATL": 10
+        },
+        "OZZZI1 EAST": {
+          "KATL": 10
+        }
+        },
+        "solo_controller": "ATL_APP",
+        "multi_controllers": {
+            "default" : {
+                "ATL_H_APP": {"primary": true, "arrivals": ["SITTH2"]}, 
+                "ATL_D_APP": {"backup": "ATL_H_APP", "arrivals": ["GLAVN1 EAST", "CHPPR1 EAST"]}, 
+                "ATL_L_APP": {"backup": "ATL_D_APP", "arrivals": ["ONDRE1 EAST", "OZZZI1 EAST"]}, 
+                "ATL_Y_APP": {"backup": "ATL_H_APP", "arrivals": ["GNDLF2"]},
+                "ATL_O_APP": {"backup": "ATL_H_APP"},
+                "ATL_V_APP": {"backup": "ATL_D_APP"},
+                "ATL_A_APP": {"backup": "ATL_L_APP"},
+                "ATL_N_DEP": {"departures": ["KATL"], "backup": "ATL_H_APP"},
+                "ATL_S_DEP": {"backup": "ATL_N_DEP"},
+                "ATL_I_DEP": {"backup": "ATL_S_DEP"},
+                "ATL_P_APP": {"backup": "ATL_I_DEP"},
+                "ATL_F_APP": {"backup": "ATL_P_APP"},
+                "ATL_X_APP": {"backup": "ATL_F_APP"},
+                "ATL_G_APP": {"backup": "ATL_X_APP"},
+                "ATL_Q_APP": {"backup": "ATL_G_APP"}
+            }
+        },
+        "controllers": [
+          "ATL_1_TWR",
+          "ATL_CTR",
+          "ATL_2_TWR",
+          "ATL_3_TWR",
+          "ATL_4_TWR",
+          "ATL_5_TWR"
+        ],
+        "default_maps": [ "TERMINAL ARRIVAL RADAR EAST" ],
+        "departure_airspace": [
+          "ATLAPP"
+        ],
+        "departure_runways": [
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "8R",
+            "category": "North"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "8R",
+            "category": "West"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "9L",
+            "category": "East"
+          },
+          {
+            "airport": "KATL",
+            "rate": 15,
+            "runway": "9L",
+            "category": "South"
+          }
+        ],
+        "wind": {
+        "direction": 80,
+        "gust": 2,
+        "speed": 1
+          }
+        },
+    "KATL West Final Trips": {
+      "approach_airspace": [
+        "ATL_V_APPW",
+        "ATL_A_APPW",
+        "ATL_O_APPW"
+      ],
+      "arrival_runways": [
+        {
+          "airport" : "KATL",
+          "runway": "28"
+        },
+        {
+          "airport": "KATL",
+          "runway": "27L"
+        },
+        {
+          "airport": "KATL",
+          "runway": "26R"
+        }
+      ],
+      "arrivals": {
+        "NW_FINALTRIPS": {
+          "KATL": 30
+        },
+        "HOBTT2_AFINALT": {
+          "KATL": 15
+        },
+        "JJEDI3_FINALT": {
+          "KATL": 25
+        },
+        "ONDRE1_FINALWT": {
+          "KATL": 10
+        },
+        "OZZZI1_FINALWT": {
+          "KATL": 25
+        }
+      },
+      "solo_controller": "ATL_O_APP",
+      "controllers": [
+        "ATL_D_APP",
+        "ATL_L_APP",
+        "ATL_Y_APP",
+        "ATL_H_APP",
+        "ATL_1_TWR",
+        "ATL_2_TWR",
+        "ATL_3_TWR",
+        "ATL_4_TWR",
+        "ATL_5_TWR",
+        "ATL_CTR"
+      ],
+      "default_maps": [ "ARRIVAL RADAR WEST TRIPS" ],
+      "wind": {
+        "direction": 270,
+        "speed": 5
+      }
+    },
+    "KATL West Final Duals": {
+      "approach_airspace": [
+        "ATL_V_APPW",
+        "ATL_A_APPW",
+        "ATL_O_APPW"
+      ],
+      "arrival_runways": [
+        {
+          "airport": "KATL",
+          "runway": "27L"
+        },
+        {
+          "airport": "KATL",
+          "runway": "26R"
+        }
+      ],
+      "arrivals": {
+        "NW_FINALTRIPS": {
+          "KATL": 15
+        },
+        "HOBTT2_AFINALD": {
+          "KATL": 8
+        },
+        "JJEDI3_FINALD": {
+          "KATL": 15
+        },
+        "ONDRE1_FINALWT": {
+          "KATL": 8
+        },
+        "OZZZI1_FINALWT": {
+          "KATL": 13
+        }
+      },
+      "solo_controller": "ATL_O_APP",
+      "controllers": [
+        "ATL_D_APP",
+        "ATL_L_APP",
+        "ATL_Y_APP",
+        "ATL_H_APP",
+        "ATL_1_TWR",
+        "ATL_2_TWR",
+        "ATL_3_TWR",
+        "ATL_4_TWR",
+        "ATL_5_TWR",
+        "ATL_CTR"
+      ],
+      "default_maps": [ "ARRIVAL RADAR WEST DUALS" ],
+      "wind": {
+        "direction": 270,
+        "speed": 5
+      }
+    }
       }
     }

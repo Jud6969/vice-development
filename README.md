@@ -6,8 +6,11 @@ A80 TRACON Remaster (**10%**)
 
 NorCal TRACON (**0%**)<sub>soon™</sub>
 
+### Scenario Notes
 SoCal:
 - Requires Testing
 
 A80:
-- Working on sats
+- Add satellite arrivals
+ - Specify turboprop arrival routes and altitudes
+- Fix all the sat airports. Start with the north and work your way to the south
