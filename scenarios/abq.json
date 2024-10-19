@@ -562,10 +562,10 @@
   "control_positions": {
 
     "ABQ_TWR": {
-      "frequency": 120750,
-      "full_name": "Something Tower (i forgot the name)",
+      "frequency": 120300,
+      "full_name": "Albuquerque Tower",
       "scope_char": "T",
-      "sector_id": "OT"
+      "sector_id": "3T"
     },
     "ABQ_CTR": {
       "frequency": 120750,
