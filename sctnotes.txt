@@ -1,3 +1,5 @@
 add more flows
 test more
  - look for errors with the LA alerts. should not be happening at all when they first spawn in.
+
+ Combined: LA West / BUR 8/15 / SAN West / SNA South / ONT East - might be messed up
