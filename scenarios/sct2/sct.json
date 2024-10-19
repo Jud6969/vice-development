@@ -9053,8 +9053,7 @@
                   }
               ]
           },
-          "cruise_altitude": 3000,
-          "initial_altitude": 3000,
+          "initial_altitude": 7000,
           "initial_controller": "NTD_APP",
           "initial_speed": 150,
           "star": "SBAP2",
@@ -11551,7 +11550,7 @@
   "sector_id": "4V"
 }
   },
-  "default_scenario": "Combined: LA West / BUR 8/15 / SAN West / SNA North / ONT West",
+  "default_scenario": "Cmbnd: LAW BUR815 SANW SNAN ONTW",
   "fixes": {
     "_LAX": "33.942501,-118.407997",
     "_HHR": "N033.55.22.787,W118.20.05.886",
@@ -11588,11 +11587,11 @@
   "primary_airport": "KLAX",
   "scenarios": {
 
-    "Combined: LA West / BUR 8/15 / SAN West / SNA North / ONT West": {
+    "Cmbnd: LAW BUR815 SANW SNAN ONTW": {
       "arrival_runways": [
       {
           "airport": "KWHP",
-          "runway": "30"
+          "runway": "12"
       },
       {
           "airport": "KVNY",
@@ -11910,7 +11909,7 @@
           },
           "LAX_N_DEP": {
             "backup": "LAX_S_DEP",
-            "departures": ["KLAX/GMN7","KLAX/LADYJ4","KLAX/SUMMR2","KLAX/GARDY4","KLAX/MOOOS2","KLAX/MUELR4","KSMO"]
+            "departures": ["KLAX/GMN7","KLAX/LADYJ4","KLAX/SUMMR2","KLAX/MOOOS2","KLAX/MUELR4","KSMO"]
           },
           "LAX_X_DEP": {
             "backup": "LAX_N_DEP",
@@ -11980,52 +11979,7 @@
         "099S SCT NORMAL CFG SCT"
       ],
       "departure_runways":[
-        {
-          "airport": "KONT",
-          "rate": 0,
-          "runway":"8L"
-      },
-      {
-          "airport": "KPSP",
-          "rate": 0,
-          "runway":"13R"
-      },
-        {
-          "airport": "KBUR",
-          "rate": 2,
-          "runway":"33"
-      },
-      {
-          "airport": "KVNY",
-          "rate": 1,
-          "runway": "34L"
-      },
 
-        {
-          "airport":"KSAN",
-          "rate": 0,
-          "runway": "9"
-      },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"7L"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"6R"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"7R"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"6L"
-        },
         {
           "airport": "KSNA",
           "rate": 2,
@@ -12038,13 +11992,13 @@
       },
       {
         "airport":"KLAX",
-        "rate": 5,
+        "rate": 25,
         "runway":"25R",
         "category": "SOUTH"
       },
       {
         "airport":"KLAX",
-        "rate": 5,
+        "rate": 25,
         "runway":"24L",
         "category": "NORTH"
       },
@@ -12060,7 +12014,7 @@
     },
     {
       "airport": "KBUR",
-      "rate": 0,
+      "rate": 2,
       "runway":"8"
   },
   {
@@ -12070,20 +12024,9 @@
   },
   {
       "airport": "KVNY",
-      "rate": 0,
+      "rate": 2,
       "runway":"16R"
   },
-  
-  {
-    "airport": "KSNA",
-    "rate": 0,
-    "runway": "2L"
-},
-{
-    "airport": "KLGB",
-    "rate": 0,
-    "runway": "12"
-},
 {
   "airport": "KSAN",
   "rate": 1,
@@ -12093,10 +12036,6 @@
   "airport": "KWHP",
   "rate": 1,
   "runway": "12"
-},
-{
-  "airport": "KWHP",
-  "runway": "30"
 },
 {
   "airport": "KCRQ",
@@ -12214,20 +12153,16 @@
         "speed": 10
       }
     },
-    "Combined: LA West / BUR 8/15 / SAN West / SNA North / ONT East": {
+    "Cmbnd: LAW BUR815 SANW SNAN ONTE": {
       "arrival_runways": [
       {
           "airport": "KWHP",
-          "runway": "30"
+          "runway": "12"
       },
       {
         "airport": "KONT",
         "runway": "8L"
     },
-      {
-          "airport": "KVNY",
-          "runway": "34R"
-      },
         {
           "airport": "KLAX",
           "runway": "24R"
@@ -12253,12 +12188,8 @@
         "runway": "24R"
       },
     {
-        "airport": "KONT",
-        "runway": "26L"
-    },
-    {
         "airport": "KPSP",
-        "runway": "31L"
+        "runway": "13R"
     },
     {
         "airport": "KBUR",
@@ -12537,7 +12468,7 @@
           },
           "LAX_N_DEP": {
             "backup": "LAX_S_DEP",
-            "departures": ["KLAX/GMN7","KLAX/LADYJ4","KLAX/SUMMR2","KLAX/GARDY4","KLAX/MOOOS2","KLAX/MUELR4","KSMO"]
+            "departures": ["KLAX/GMN7","KLAX/LADYJ4","KLAX/SUMMR2","KLAX/MOOOS2","KLAX/MUELR4","KSMO"]
           },
           "LAX_X_DEP": {
             "backup": "LAX_N_DEP",
@@ -12617,42 +12548,6 @@
           "runway":"13R"
       },
         {
-          "airport": "KBUR",
-          "rate": 0,
-          "runway":"33"
-      },
-      {
-          "airport": "KVNY",
-          "rate": 0,
-          "runway": "34L"
-      },
-
-        {
-          "airport":"KSAN",
-          "rate": 0,
-          "runway": "9"
-      },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"7L"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"6R"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"7R"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"6L"
-        },
-        {
           "airport": "KSNA",
           "rate": 2,
           "runway": "20R"
@@ -12674,19 +12569,9 @@
         "runway":"24L",
         "category": "NORTH"
       },
-      {
-        "airport": "KONT",
-        "rate": 0,
-        "runway":"26R"
-    },
-    {
-        "airport": "KPSP",
-        "rate": 0,
-        "runway":"31L"
-    },
     {
       "airport": "KBUR",
-      "rate": 0,
+      "rate": 2,
       "runway":"8"
   },
   {
@@ -12696,20 +12581,9 @@
   },
   {
       "airport": "KVNY",
-      "rate": 0,
+      "rate": 2,
       "runway":"16R"
   },
-  
-  {
-    "airport": "KSNA",
-    "rate": 0,
-    "runway": "2L"
-},
-{
-    "airport": "KLGB",
-    "rate": 0,
-    "runway": "12"
-},
 {
   "airport": "KSAN",
   "rate": 1,
@@ -12832,20 +12706,16 @@
         "speed": 10
       }
     },
-    "Combined: LA West / BUR 8/15 / SAN West / SNA South / ONT East": {
+    "Cmbnd: LAW BUR815 SANW SNAS ONTE": {
       "arrival_runways": [
       {
           "airport": "KWHP",
-          "runway": "30"
+          "runway": "12"
       },
       {
         "airport": "KONT",
         "runway": "8L"
     },
-      {
-          "airport": "KVNY",
-          "runway": "34R"
-      },
         {
           "airport": "KLAX",
           "runway": "24R"
@@ -12864,16 +12734,12 @@
       },
       {
           "airport": "KLGB",
-          "runway": "30"
+          "runway": "12"
       },
       {
         "airport": "KLAX",
         "runway": "24R"
       },
-    {
-        "airport": "KONT",
-        "runway": "26L"
-    },
     {
         "airport": "KPSP",
         "runway": "13R"
@@ -12935,15 +12801,15 @@
 
 {
   "airport": "KFUL",
-  "runway": "6"
+  "runway": "24"
 },
 {
   "airport": "KSLI",
-  "runway": "4R"
+  "runway": "22L"
 },
 {
   "airport": "KTOA",
-  "runway": "29R"
+  "runway": "11L"
 },
 {
   "airport": "KCNO",
@@ -13156,7 +13022,7 @@
           },
           "LAX_N_DEP": {
             "backup": "LAX_S_DEP",
-            "departures": ["KLAX/GMN7","KLAX/LADYJ4","KLAX/SUMMR2","KLAX/GARDY4","KLAX/MOOOS2","KLAX/MUELR4","KSMO"]
+            "departures": ["KLAX/GMN7","KLAX/LADYJ4","KLAX/SUMMR2","KLAX/MOOOS2","KLAX/MUELR4","KSMO"]
           },
           "LAX_X_DEP": {
             "backup": "LAX_N_DEP",
@@ -13235,52 +13101,6 @@
           "rate": 2,
           "runway":"13R"
       },
-        {
-          "airport": "KBUR",
-          "rate": 0,
-          "runway":"33"
-      },
-      {
-          "airport": "KVNY",
-          "rate": 0,
-          "runway": "34L"
-      },
-
-        {
-          "airport":"KSAN",
-          "rate": 0,
-          "runway": "9"
-      },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"7L"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"6R"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"7R"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"6L"
-        },
-        {
-          "airport": "KSNA",
-          "rate": 0,
-          "runway": "20R"
-      },
-      {
-          "airport": "KLGB",
-          "rate": 0,
-          "runway": "30"
-      },
       {
         "airport":"KLAX",
         "rate": 25,
@@ -13293,21 +13113,6 @@
         "runway":"24L",
         "category": "NORTH"
       },
-      {
-        "airport": "KONT",
-        "rate": 0,
-        "runway":"26R"
-    },
-    {
-        "airport": "KPSP",
-        "rate": 0,
-        "runway":"31L"
-    },
-    {
-      "airport": "KBUR",
-      "rate": 0,
-      "runway":"8"
-  },
   {
       "airport": "KBUR",
       "rate": 2,
@@ -13460,20 +13265,16 @@
         "speed": 10
       }
     },
-    "Combined: LA West / BUR 8/15 / SAN East / SNA South / ONT East": {
+    "Cmbnd: LAW BUR815 SANE SNAS ONTE": {
       "arrival_runways": [
       {
           "airport": "KWHP",
-          "runway": "30"
+          "runway": "12"
       },
       {
         "airport": "KONT",
         "runway": "8L"
     },
-      {
-          "airport": "KVNY",
-          "runway": "34R"
-      },
         {
           "airport": "KLAX",
           "runway": "24R"
@@ -13492,7 +13293,7 @@
       },
       {
           "airport": "KLGB",
-          "runway": "30"
+          "runway": "12"
       },
       {
         "airport": "KLAX",
@@ -13504,7 +13305,7 @@
     },
     {
         "airport": "KPSP",
-        "runway": "31L"
+        "runway": "13R"
     },
     {
         "airport": "KBUR",
@@ -13778,7 +13579,7 @@
           },
           "LAX_N_DEP": {
             "backup": "LAX_S_DEP",
-            "departures": ["KLAX/GMN7","KLAX/LADYJ4","KLAX/SUMMR2","KLAX/GARDY4","KLAX/MOOOS2","KLAX/MUELR4","KSMO"]
+            "departures": ["KLAX/GMN7","KLAX/LADYJ4","KLAX/SUMMR2","KLAX/MOOOS2","KLAX/MUELR4","KSMO"]
           },
           "LAX_X_DEP": {
             "backup": "LAX_N_DEP",
@@ -13857,16 +13658,7 @@
           "rate": 2,
           "runway":"13R"
       },
-        {
-          "airport": "KBUR",
-          "rate": 0,
-          "runway":"33"
-      },
-      {
-          "airport": "KVNY",
-          "rate": 0,
-          "runway": "34L"
-      },
+
 
         {
           "airport":"KSAN",
@@ -13874,34 +13666,9 @@
           "runway": "9"
       },
         {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"7L"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"6R"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"7R"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"6L"
-        },
-        {
           "airport": "KSNA",
           "rate": 2,
           "runway": "20R"
-      },
-      {
-          "airport": "KLGB",
-          "rate": 0,
-          "runway": "30"
       },
       {
         "airport":"KLAX",
@@ -13915,16 +13682,6 @@
         "runway":"24L",
         "category": "NORTH"
       },
-      {
-        "airport": "KONT",
-        "rate": 0,
-        "runway":"26R"
-    },
-    {
-        "airport": "KPSP",
-        "rate": 0,
-        "runway":"31L"
-    },
     {
       "airport": "KBUR",
       "rate": 3,
@@ -13952,19 +13709,9 @@
     "runway": "12"
 },
 {
-  "airport": "KSAN",
-  "rate": 0,
-  "runway": "27"
-},
-{
   "airport": "KWHP",
   "rate": 1,
   "runway": "12"
-},
-{
-  "airport": "KWHP",
-  "rate": 0,
-  "runway": "30"
 },
 {
   "airport": "KCRQ",
@@ -14082,7 +13829,7 @@
         "speed": 10
       }
     },
-    "Combined: LA West / BUR 26/33 / SAN East / SNA South / ONT East": {
+    "Cmbnd: LAW BUR2633 SANE SNAS ONTE": {
       "arrival_runways": [
       {
           "airport": "KWHP",
@@ -14390,7 +14137,7 @@
           },
           "LAX_N_DEP": {
             "backup": "LAX_S_DEP",
-            "departures": ["KLAX/GMN7","KLAX/LADYJ4","KLAX/SUMMR2","KLAX/GARDY4","KLAX/MOOOS2","KLAX/MUELR4","KSMO"]
+            "departures": ["KLAX/GMN7","KLAX/LADYJ4","KLAX/SUMMR2","KLAX/MOOOS2","KLAX/MUELR4","KSMO"]
           },
           "LAX_X_DEP": {
             "backup": "LAX_N_DEP",
@@ -14482,36 +14229,6 @@
           "rate": 2,
           "runway": "9"
       },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"7L"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"6R"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"7R"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"6L"
-        },
-        {
-          "airport": "KSNA",
-          "rate": 0,
-          "runway": "20R"
-      },
-      {
-          "airport": "KLGB",
-          "rate": 0,
-          "runway": "30"
-      },
       {
         "airport":"KLAX",
         "rate": 5,
@@ -14524,32 +14241,6 @@
         "runway":"24L",
         "category": "NORTH"
       },
-      {
-        "airport": "KONT",
-        "rate": 0,
-        "runway":"26R"
-    },
-    {
-        "airport": "KPSP",
-        "rate": 0,
-        "runway":"31L"
-    },
-    {
-      "airport": "KBUR",
-      "rate": 0,
-      "runway":"8"
-  },
-  {
-      "airport": "KBUR",
-      "rate": 0,
-      "runway":"15"
-  },
-  {
-      "airport": "KVNY",
-      "rate": 0,
-      "runway":"16R"
-  },
-  
   {
     "airport": "KSNA",
     "rate": 2,
@@ -14559,16 +14250,6 @@
     "airport": "KLGB",
     "rate": 2,
     "runway": "12"
-},
-{
-  "airport": "KSAN",
-  "rate": 0,
-  "runway": "27"
-},
-{
-  "airport": "KWHP",
-  "rate": 0,
-  "runway": "12"
 },
 {
   "airport": "KWHP",
@@ -14676,7 +14357,7 @@
         "speed": 10
       }
     },
-    "Combined: LA East / BUR 26/33 / SAN East / SNA South / ONT East": {
+    "Cmbnd: LAE BUR2633 SANE SNAS ONTE": {
       "arrival_runways": [
       {
           "airport": "KWHP",
@@ -14688,7 +14369,7 @@
       },
         {
           "airport": "KLAX",
-          "runway": "24R"
+          "runway": "6L"
         },
         {
           "airport": "KHHR",
@@ -14981,7 +14662,7 @@
           },
           "LAX_S_DEP": {
             "backup": "BUR_W_APP",
-            "departures": ["KLAX/DOTSS2","KLAX/LAXX1","KTOA","KLAX/OSHNN1","KLAX/PNDAH2"]
+            "departures": ["KLAX/DOTSS2","KLAX/LAXX1","KTOA","KLAX/PNDAH2"]
           },
           "LAX_N_DEP": {
             "backup": "LAX_S_DEP",
@@ -15090,82 +14771,15 @@
           "category": "NORTH"
         },
         {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"7R"
-        },
-        {
-          "airport":"KLAX",
-          "rate": 0,
-          "runway":"6L"
-        },
-        {
           "airport": "KSNA",
-          "rate": 0,
+          "rate": 2,
           "runway": "20R"
       },
-      {
-          "airport": "KLGB",
-          "rate": 0,
-          "runway": "30"
-      },
-      {
-        "airport":"KLAX",
-        "rate": 0,
-        "runway":"25R",
-        "category": "SOUTH"
-      },
-      {
-        "airport":"KLAX",
-        "rate": 0,
-        "runway":"24L",
-        "category": "NORTH"
-      },
-      {
-        "airport": "KONT",
-        "rate": 0,
-        "runway":"26R"
-    },
-    {
-        "airport": "KPSP",
-        "rate": 0,
-        "runway":"31L"
-    },
-    {
-      "airport": "KBUR",
-      "rate": 0,
-      "runway":"8"
-  },
-  {
-      "airport": "KBUR",
-      "rate": 0,
-      "runway":"15"
-  },
-  {
-      "airport": "KVNY",
-      "rate": 0,
-      "runway":"16R"
-  },
   
-  {
-    "airport": "KSNA",
-    "rate": 2,
-    "runway": "2L"
-},
 {
     "airport": "KLGB",
     "rate": 2,
     "runway": "12"
-},
-{
-  "airport": "KSAN",
-  "rate": 0,
-  "runway": "27"
-},
-{
-  "airport": "KWHP",
-  "rate": 0,
-  "runway": "12"
 },
 {
   "airport": "KWHP",
