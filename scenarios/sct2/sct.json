@@ -11742,7 +11742,7 @@
           "KLAX": 0 
         },
         "BOGET2": {
-          "KLAX": 10,
+          "KLAX": 0,
           "KSMO": 1
         },
         "BRUEN2": {
@@ -11761,7 +11761,7 @@
           "KLAX": 0 
         },
         "ZUUMA3": {
-          "KLAX": 10,
+          "KLAX": 0,
           "KSMO": 1
         },
         "OLAAA2": {
@@ -12301,7 +12301,7 @@
           "KLAX": 0 
         },
         "BOGET2": {
-          "KLAX": 10,
+          "KLAX": 0,
           "KSMO": 1
         },
         "BRUEN2": {
@@ -12320,7 +12320,7 @@
           "KLAX": 0 
         },
         "ZUUMA3": {
-          "KLAX": 10,
+          "KLAX": 0,
           "KSMO": 1
         },
         "OLAAA2": {
@@ -12855,7 +12855,7 @@
           "KLAX": 0 
         },
         "BOGET2": {
-          "KLAX": 10,
+          "KLAX": 0,
           "KSMO": 1
         },
         "BRUEN2": {
@@ -12874,7 +12874,7 @@
           "KLAX": 0 
         },
         "ZUUMA3": {
-          "KLAX": 10,
+          "KLAX": 0,
           "KSMO": 1
         },
         "OLAAA2": {
@@ -13412,7 +13412,7 @@
           "KLAX": 0 
         },
         "BOGET2": {
-          "KLAX": 10,
+          "KLAX": 0,
           "KSMO": 1
         },
         "BRUEN2": {
@@ -13431,7 +13431,7 @@
           "KLAX": 0 
         },
         "ZUUMA3": {
-          "KLAX": 10,
+          "KLAX": 0,
           "KSMO": 1
         },
         "OLAAA2": {
@@ -13971,7 +13971,7 @@
           "KLAX": 0 
         },
         "BOGET2": {
-          "KLAX": 10,
+          "KLAX": 0,
           "KSMO": 1
         },
         "BRUEN2": {
@@ -13990,7 +13990,7 @@
           "KLAX": 0 
         },
         "ZUUMA3": {
-          "KLAX": 10,
+          "KLAX": 0,
           "KSMO": 1
         },
         "OLAAA2": {
@@ -14487,48 +14487,48 @@
       ],
       "arrivals": {
         "ANJLL4": {
-          "KLAX": 10 
+          "KLAX": 0 
         },
         "HLYWD1": {
-          "KLAX": 10 
+          "KLAX": 0 
         },
         "BAYST1": {
-          "KLAX": 10 
+          "KLAX": 0 
         },
         "BIGBR3": {
-          "KLAX": 0 
+          "KLAX": 10 
         },
         "BOGET2": {
           "KLAX": 10,
           "KSMO": 1
         },
         "BRUEN2": {
-          "KLAX": 0 
+          "KLAX": 10
         },
         "DIRBY1": {
-          "KLAX": 10 
+          "KLAX": 0 
         },
         "GOATZ1": {
-          "KLAX": 10 
+          "KLAX": 0 
         },
         "HUULL2": {
-          "KLAX": 10 
+          "KLAX": 0 
         },
         "MDNYT2.AMMOR": {
-          "KLAX": 0 
+          "KLAX": 10 
         },
         "ZUUMA3": {
           "KLAX": 10,
           "KSMO": 1
         },
         "OLAAA2": {
-          "KLAX": 10 
+          "KLAX": 0 
         },
         "RYDRR2.ELKEY": {
-          "KLAX": 10 
+          "KLAX": 0 
         },
         "IRNMN2": {
-          "KLAX": 10 
+          "KLAX": 0 
         },
         "DSNEE5.MARUE": {
           "KSNA": 10,
