@@ -47,3 +47,7 @@ D01:
 - [ ] KCOF Departures
 - [ ] Check Sectorization
 
+I90:
+- [ ] Check tower procedures (if being done correctly)
+- [ ] Check Sectorization
+
