@@ -2,11 +2,6 @@ cd C:\Program Files (x86)\Vice
 
 vice.exe -scenario C:\Users\Jud\Downloads\vice-development\scenarios\sct2\sct.json -videomap C:\Users\Jud\Downloads\vice-development\videomaps\ZLA-videomaps.gob.zst
 
-vice.exe -scenario E:\vicedevelopment\vice-development\scenarios\mke.json -videomap E:\vicedevelopment\vice-development\videomaps\ZAU-videomaps.gob.zst
+vice.exe -scenario E:\vicedevelopment\vice-development\scenarios\dab.json -videomap E:\vicedevelopment\vice-development\videomaps\ZJX-videomaps.gob.zst
 
-
-
-vice.exe -runserver -scenario E:\vicedevelopment\vice-development\scenarios\sct2\sct.json -videomap E:\vicedevelopment\vice-development\videomaps\ZLA-videomaps.gob.zst
-
-
-vice.exe -scenario E:\vicedevelopment\scenarios\sct2\sct.json -videomap E:\vicedevelopment\videomaps\ZLA-videomaps.gob.zst
+vice.exe -scenario E:\vicedevelopment\vice-development\scenarios\nct.json -videomap E:\vicedevelopment\vice-development\videomaps\ZOA-videomaps.gob.zst
