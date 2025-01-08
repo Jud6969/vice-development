@@ -13,7 +13,7 @@ MYR TRACON: (**0%**)
 ### Scenario Notes
 JAX:
 - Add GNV, OCF, SGJ, 28J, NIP, CRG, FHB, NRB, VQQ, 42J, 0J8, X60, X35, KCGC, KINF, 17FL, 2CB, FL60, 3J6, 01J [ ]
-- Update Video Maps [ ]
+- [ ] Update Video Maps 
 - Add all the sectors [ ]
  - With this amount of airports, everybody finna have something to do. [ ]
 - TPA Stuff [ ]
