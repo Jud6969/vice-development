@@ -250,6 +250,756 @@
         "ROYES": "North"
       },
       "tower_list": 2
+    },
+    "KEVB": {
+      "approaches": {
+        "I7L": {
+          "runway": "7L",
+          "tower_controller": "DAB_N_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "HANAV/arc16OMN TIGAE/a1600 FOLIG/a1600 ZOPRI/a680",
+            "SMYRA/arc18.9OMN WAMAL/a1900 TIGAE/a1600 FOLIG/a1600 ZOPRI/a680"
+          ]
+        },
+        "R7R": {
+          "runway": "7R",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "GUANO/nopt TACUR/lhilpt4nm/a1700 JUSAD/a1600",
+            "TACUR/lhilpt4nm/a1700 JUSAD/a1600"
+          ]
+        },
+        "R16": {
+          "runway": "16",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "BARBS/nopt CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800",
+            "CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800"
+          ]
+        },
+        "I5R": {
+          "runway": "25R",
+          "tower_controller": "DAB_N_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "WISPO/a3000 RINEE/a2700 DIYAK/a1600"
+          ]
+        },
+        "R5L": {
+          "runway": "25L",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "FOMRO/a1600/lhilpt4nm ROLKE/a1600 CELAB/a1020"
+          ]
+        },
+        "R34": {
+          "runway": "34",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "BARBS/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
+            "OAKIE/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
+            "KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700"
+          ]
+        }
+      },
+      "departure_routes": {
+        "7L": {
+          "CRG": {
+            "cleared_altitude": 4000,
+            "sid": "ROYES7",
+            "waypoints": "_DAB_25R/h070 BARBS ROYES CRG"
+          },
+          "MALET": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_25L/h070 MALET"
+          },
+          "ROYES": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_25R/h070 ROYES"
+          }
+        },
+        "25R": {
+          "CRG": {
+            "cleared_altitude": 4000,
+            "sid": "ROYES7",
+            "waypoints": "_DAB_7L/h250 BARBS ROYES CRG"
+          },
+          "MALET": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_7R/h250 MALET"
+          },
+          "ROYES": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_7L/h250 ROYES"
+          }
+        }
+      },
+      "departures": [
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KATL",
+          "exit": "CRG",
+          "route": "CRG SHRKS LAIRI LARZZ JJEDI3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KCLT",
+          "exit": "CRG",
+          "route": "CRG VIYAP CHECR STOCR3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "VXP"
+            }
+          ],
+          "destination": "KILG",
+          "exit": "CRG",
+          "route": "CRG VIYAP Q87 JROSS LCAPE Q87 ASHEL Q87 NOWAE THHMP ARLFT2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "JIA"
+            }
+          ],
+          "destination": "KPHL",
+          "exit": "CRG",
+          "route": "CRG VIYAP Q87 JROSS RAPZZ Q135 CUDLE Q117 SAWED Q97 ZJAAY JIIMS4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "VXP"
+            }
+          ],
+          "destination": "KHVN",
+          "exit": "CRG",
+          "route": "CRG VIYAP Q87 JROSS LAANA Q190 DFENC SAWED Q97 DLAAY RADDS Q445 WNSTN Q445 BRIGS Q439 SARDI V139 RICED KEYED"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KDFW",
+          "exit": "CRG",
+          "route": "CRG SHRKS CABLO DEFUN CEW J50 AEX PNUTS BEREE2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KMLB",
+          "exit": "MALET",
+          "route": "MALET T208 VALKA MLB"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KVRB",
+          "exit": "MALET",
+          "route": "MALET T208 VALKA PBI"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KTIX",
+          "exit": "MALET",
+          "route": "MALET MLB"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KLCQ",
+          "exit": "ROYES",
+          "route": "ROYES TAY"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KJAX",
+          "exit": "ROYES",
+          "route": "ROYES CRG"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KSAV",
+          "exit": "ROYES",
+          "route": "ROYES CRG VIYAP SAV"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KCRG",
+          "exit": "ROYES",
+          "route": "ROYES CRG"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KCHS",
+          "exit": "ROYES",
+          "route": "ROYES CRG VIYAP SAV CHS"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KMYR",
+          "exit": "ROYES",
+          "route": "ROYES CRG VIYAP SAV CHS CHACA"
+        }
+      ],
+      "exit_categories": {
+        "MALET": "South",
+        "CRG": "North",
+        "ROYES": "North"
+      },
+      "tower_list": 2
+    },
+    "KOMN": {
+      "approaches": {
+        "I7L": {
+          "runway": "7L",
+          "tower_controller": "DAB_N_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "HANAV/arc16OMN TIGAE/a1600 FOLIG/a1600 ZOPRI/a680",
+            "SMYRA/arc18.9OMN WAMAL/a1900 TIGAE/a1600 FOLIG/a1600 ZOPRI/a680"
+          ]
+        },
+        "R7R": {
+          "runway": "7R",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "GUANO/nopt TACUR/lhilpt4nm/a1700 JUSAD/a1600",
+            "TACUR/lhilpt4nm/a1700 JUSAD/a1600"
+          ]
+        },
+        "R16": {
+          "runway": "16",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "BARBS/nopt CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800",
+            "CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800"
+          ]
+        },
+        "I5R": {
+          "runway": "25R",
+          "tower_controller": "DAB_N_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "WISPO/a3000 RINEE/a2700 DIYAK/a1600"
+          ]
+        },
+        "R5L": {
+          "runway": "25L",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "FOMRO/a1600/lhilpt4nm ROLKE/a1600 CELAB/a1020"
+          ]
+        },
+        "R34": {
+          "runway": "34",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "BARBS/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
+            "OAKIE/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
+            "KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700"
+          ]
+        }
+      },
+      "departure_routes": {
+        "7L": {
+          "CRG": {
+            "cleared_altitude": 4000,
+            "sid": "ROYES7",
+            "waypoints": "_DAB_25R/h070 BARBS ROYES CRG"
+          },
+          "MALET": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_25L/h070 MALET"
+          },
+          "ROYES": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_25R/h070 ROYES"
+          }
+        },
+        "25R": {
+          "CRG": {
+            "cleared_altitude": 4000,
+            "sid": "ROYES7",
+            "waypoints": "_DAB_7L/h250 BARBS ROYES CRG"
+          },
+          "MALET": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_7R/h250 MALET"
+          },
+          "ROYES": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_7L/h250 ROYES"
+          }
+        }
+      },
+      "departures": [
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KATL",
+          "exit": "CRG",
+          "route": "CRG SHRKS LAIRI LARZZ JJEDI3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KCLT",
+          "exit": "CRG",
+          "route": "CRG VIYAP CHECR STOCR3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "VXP"
+            }
+          ],
+          "destination": "KILG",
+          "exit": "CRG",
+          "route": "CRG VIYAP Q87 JROSS LCAPE Q87 ASHEL Q87 NOWAE THHMP ARLFT2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "JIA"
+            }
+          ],
+          "destination": "KPHL",
+          "exit": "CRG",
+          "route": "CRG VIYAP Q87 JROSS RAPZZ Q135 CUDLE Q117 SAWED Q97 ZJAAY JIIMS4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "VXP"
+            }
+          ],
+          "destination": "KHVN",
+          "exit": "CRG",
+          "route": "CRG VIYAP Q87 JROSS LAANA Q190 DFENC SAWED Q97 DLAAY RADDS Q445 WNSTN Q445 BRIGS Q439 SARDI V139 RICED KEYED"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KDFW",
+          "exit": "CRG",
+          "route": "CRG SHRKS CABLO DEFUN CEW J50 AEX PNUTS BEREE2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KMLB",
+          "exit": "MALET",
+          "route": "MALET T208 VALKA MLB"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KVRB",
+          "exit": "MALET",
+          "route": "MALET T208 VALKA PBI"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KTIX",
+          "exit": "MALET",
+          "route": "MALET MLB"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KLCQ",
+          "exit": "ROYES",
+          "route": "ROYES TAY"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KJAX",
+          "exit": "ROYES",
+          "route": "ROYES CRG"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KSAV",
+          "exit": "ROYES",
+          "route": "ROYES CRG VIYAP SAV"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KCRG",
+          "exit": "ROYES",
+          "route": "ROYES CRG"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KCHS",
+          "exit": "ROYES",
+          "route": "ROYES CRG VIYAP SAV CHS"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KMYR",
+          "exit": "ROYES",
+          "route": "ROYES CRG VIYAP SAV CHS CHACA"
+        }
+      ],
+      "exit_categories": {
+        "MALET": "South",
+        "CRG": "North",
+        "ROYES": "North"
+      },
+      "tower_list": 2
+    },
+    "KFIN": {
+      "approaches": {
+        "I7L": {
+          "runway": "7L",
+          "tower_controller": "DAB_N_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "HANAV/arc16OMN TIGAE/a1600 FOLIG/a1600 ZOPRI/a680",
+            "SMYRA/arc18.9OMN WAMAL/a1900 TIGAE/a1600 FOLIG/a1600 ZOPRI/a680"
+          ]
+        },
+        "R7R": {
+          "runway": "7R",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "GUANO/nopt TACUR/lhilpt4nm/a1700 JUSAD/a1600",
+            "TACUR/lhilpt4nm/a1700 JUSAD/a1600"
+          ]
+        },
+        "R16": {
+          "runway": "16",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "BARBS/nopt CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800",
+            "CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800"
+          ]
+        },
+        "I5R": {
+          "runway": "25R",
+          "tower_controller": "DAB_N_TWR",
+          "type": "ILS",
+          "waypoints": [
+            "WISPO/a3000 RINEE/a2700 DIYAK/a1600"
+          ]
+        },
+        "R5L": {
+          "runway": "25L",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "FOMRO/a1600/lhilpt4nm ROLKE/a1600 CELAB/a1020"
+          ]
+        },
+        "R34": {
+          "runway": "34",
+          "tower_controller": "DAB_N_TWR",
+          "type": "RNAV",
+          "waypoints": [
+            "BARBS/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
+            "OAKIE/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
+            "KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700"
+          ]
+        }
+      },
+      "departure_routes": {
+        "7L": {
+          "CRG": {
+            "cleared_altitude": 4000,
+            "sid": "ROYES7",
+            "waypoints": "_DAB_25R/h070 BARBS ROYES CRG"
+          },
+          "MALET": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_25L/h070 MALET"
+          },
+          "ROYES": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_25R/h070 ROYES"
+          }
+        },
+        "25R": {
+          "CRG": {
+            "cleared_altitude": 4000,
+            "sid": "ROYES7",
+            "waypoints": "_DAB_7L/h250 BARBS ROYES CRG"
+          },
+          "MALET": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_7R/h250 MALET"
+          },
+          "ROYES": {
+            "cleared_altitude": 3000,
+            "waypoints": "_DAB_7L/h250 ROYES"
+          }
+        }
+      },
+      "departures": [
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "DAL"
+            }
+          ],
+          "destination": "KATL",
+          "exit": "CRG",
+          "route": "CRG SHRKS LAIRI LARZZ JJEDI3"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KCLT",
+          "exit": "CRG",
+          "route": "CRG VIYAP CHECR STOCR3"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "VXP"
+            }
+          ],
+          "destination": "KILG",
+          "exit": "CRG",
+          "route": "CRG VIYAP Q87 JROSS LCAPE Q87 ASHEL Q87 NOWAE THHMP ARLFT2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "JIA"
+            }
+          ],
+          "destination": "KPHL",
+          "exit": "CRG",
+          "route": "CRG VIYAP Q87 JROSS RAPZZ Q135 CUDLE Q117 SAWED Q97 ZJAAY JIIMS4"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "VXP"
+            }
+          ],
+          "destination": "KHVN",
+          "exit": "CRG",
+          "route": "CRG VIYAP Q87 JROSS LAANA Q190 DFENC SAWED Q97 DLAAY RADDS Q445 WNSTN Q445 BRIGS Q439 SARDI V139 RICED KEYED"
+        },
+        {
+          "airlines": [
+            {
+              "fleet": "short",
+              "icao": "AAL"
+            }
+          ],
+          "destination": "KDFW",
+          "exit": "CRG",
+          "route": "CRG SHRKS CABLO DEFUN CEW J50 AEX PNUTS BEREE2"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KMLB",
+          "exit": "MALET",
+          "route": "MALET T208 VALKA MLB"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KVRB",
+          "exit": "MALET",
+          "route": "MALET T208 VALKA PBI"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KTIX",
+          "exit": "MALET",
+          "route": "MALET MLB"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KLCQ",
+          "exit": "ROYES",
+          "route": "ROYES TAY"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KJAX",
+          "exit": "ROYES",
+          "route": "ROYES CRG"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KSAV",
+          "exit": "ROYES",
+          "route": "ROYES CRG VIYAP SAV"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KCRG",
+          "exit": "ROYES",
+          "route": "ROYES CRG"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KCHS",
+          "exit": "ROYES",
+          "route": "ROYES CRG VIYAP SAV CHS"
+        },
+        {
+          "airlines": [
+            {
+              "icao": "ERU"
+            }
+          ],
+          "destination": "KMYR",
+          "exit": "ROYES",
+          "route": "ROYES CRG VIYAP SAV CHS CHACA"
+        }
+      ],
+      "exit_categories": {
+        "MALET": "South",
+        "CRG": "North",
+        "ROYES": "North"
+      },
+      "tower_list": 2
     }
   },
   "airspace": {
@@ -595,7 +1345,8 @@
       "approach_airspace": [
         "DAB_H_APP"
       ],
-      "arrival_runways": [
+      "arrival_runways": [
+
         {
           "airport": "KDAB",
           "runway": "7L"

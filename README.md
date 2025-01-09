@@ -48,6 +48,6 @@ D01:
 - [ ] Check Sectorization
 
 I90:
-- [ ] Check tower procedures (if being done correctly)
+- [ ] Check tower procedures (if being done correctlygit)
 - [ ] Check Sectorization
 
