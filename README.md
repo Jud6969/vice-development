@@ -1,6 +1,6 @@
 # My Development Repo
 ## Currently in development:
-JAX TRACON: (**5%**)
+JAX TRACON: (**15%**)
 
 DAB TRACON: (**5%**)
 

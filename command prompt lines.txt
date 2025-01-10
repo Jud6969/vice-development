@@ -5,3 +5,11 @@ vice.exe -scenario C:\Users\Jud\Downloads\vice-development\scenarios\sct2\sct.js
 vice.exe -scenario E:\vicedevelopment\vice-development\scenarios\dab.json -videomap E:\vicedevelopment\vice-development\videomaps\ZJX-videomaps.gob.zst
 
 vice.exe -scenario E:\vicedevelopment\vice-development\scenarios\nct.json -videomap E:\vicedevelopment\vice-development\videomaps\ZOA-videomaps.gob.zst
+
+- laptop
+
+vice.exe -scenario C:\Users\Jud\Downloads\vice-development\scenarios\sct2\sct.json -videomap C:\Users\Jud\Downloads\vice-development\videomaps\ZLA-videomaps.gob.zst
+
+vice.exe -scenario E:\vicedevelopment\vice-development\scenarios\jax.json -videomap E:\vicedevelopment\vice-development\videomaps\ZJX-videomaps.gob.zst
+
+vice.exe -scenario E:\vicedevelopment\vice-development\scenarios\nct.json -videomap E:\vicedevelopment\vice-development\videomaps\ZOA-videomaps.gob.zst
