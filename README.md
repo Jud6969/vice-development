@@ -10,6 +10,14 @@ CHS TRACON: (**5%**)
 
 MYR TRACON: (**0%**)
 
+D01 TRACON: (**5%**)
+
+I90 TRACON: (**0%**)
+
+PCT TRACON: (**0%**)
+
+SJU TRACON: (**0%**)
+
 ### Scenario Notes
 JAX:
 - [ ] Add GNV, OCF, SGJ, 28J, NIP, CRG, FHB, NRB, VQQ, 42J, 0J8, X60, X35, KCGC, KINF, 17FL, 2CB, FL60, 3J6, 01J
@@ -51,3 +59,10 @@ I90:
 - [ ] Check tower procedures (if being done correctlygit)
 - [ ] Check Sectorization
 
+PCT:
+- [ ] Add Airports
+- [ ] Add Videomaps
+
+SJU TRACON
+- [ ] Add Airports
+- [ ] Add Videomaps
