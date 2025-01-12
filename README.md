@@ -1,6 +1,6 @@
 # My Development Repo
 ## Currently in development:
-JAX TRACON: (**15%**)
+JAX TRACON: (**60%**)
 
 DAB TRACON: (**5%**)
 
@@ -20,13 +20,14 @@ SJU TRACON: (**0%**)
 
 ### Scenario Notes
 JAX:
-- [ ] Add GNV, OCF, SGJ, 28J, NIP, CRG, FHB, NRB, VQQ, 42J, 0J8, X60, X35, KCGC, KINF, 17FL, 2CB, FL60, 3J6, 01J
+- [x] Add --GNV--, --OCF--, --SGJ--, 28J, --NIP--, --CRG--, --FHB--, --NRB--, --VQQ--, --42J--, --0J8--, --X60--, --X35--, --KCGC--, --KINF--, --17FL--, --2CB--, --FL60--, --3J6--, --01J--
+ - Couldn't do any of the uncontrolled airports except for FHB due to vice not letting me without a runway specification, which it couldn't find any runways due to CIFP.
 - [ ] Update Video Maps
-- [ ] Add all the sectors
- - With this amount of airports, everybody finna have something to do.
+- [x] Add all the sectors
+ - With this amount of airports, everybody is going to have something to do.
 - [ ] TPA Stuff
 - [ ] F11 Stuff
-- [ ] F11 TRACON activies? (You see F11 doing stuff) []
+- [ ] F11 TRACON activies? (You see F11 doing stuff)
  - Same with DAB, and TPA.
 
 DAB:
