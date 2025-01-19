@@ -62,6 +62,7 @@ I90:
 
 PCT:
 - [ ] Add Airports
+    - KIAD, KBWI, other surrounding airports including sats and uncontrolled/
 - [ ] Add Videomaps
 
 SJU TRACON
