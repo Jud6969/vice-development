@@ -235,234 +235,234 @@
                     "CRIED": {
                         "assigned_altitude": 4000,
                         "sid": "BLTWY7",
-                        "waypoints": "KIAH~33R/h149 DREMR LITLD BLTWY"
+                        "waypoints": "KIAH-33R/h149 DREMR LITLD BLTWY"
                     },
                     "CRGER": {
                         "assigned_altitude": 4000,
                         "sid": "BNDTO5",
-                        "waypoints": "JINIP SCAMM/a5000~ SHAAK BNDTO CUZZZ/a13000+ ZUUUU PUFER PSTUR"
+                        "waypoints": "JINIP SCAMM/a5000- SHAAK BNDTO CUZZZ/a13000+ ZUUUU PUFER PSTUR"
                     },
                     "SAT": {
                         "assigned_altitude": 4000,
                         "sid": "BNDTO5",
-                        "waypoints": "JINIP SCAMM/a5000~ SHAAK BNDTO FFOAM/a13000+ BOCCK MNURE MARCS"
+                        "waypoints": "JINIP SCAMM/a5000- SHAAK BNDTO FFOAM/a13000+ BOCCK MNURE MARCS"
                     },
                     "WAILN": {
                         "assigned_altitude": 4000,
                         "sid": "BNDTO5",
-                        "waypoints": "JINIP SCAMM/a5000~ SHAAK BNDTO BAAKE/a13000+ WEEED"
+                        "waypoints": "JINIP SCAMM/a5000- SHAAK BNDTO BAAKE/a13000+ WEEED"
                     },
                     "MUSYL,ANKRR,KELPP": {
                         "assigned_altitude": 4000,
                         "sid": "FLYZA5",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ FLYZA/a7000+ PPALE/a11000+ VUH"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- FLYZA/a7000+ PPALE/a11000+ VUH"
                     },
                     "LCH": {
                         "assigned_altitude": 4000,
                         "sid": "GUMBY3",
-                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000~ GUMBY/a5000~ HOURN BLING"
+                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000- GUMBY/a5000- HOURN BLING"
                     },
                     "GUSTI": {
                         "assigned_altitude": 4000,
                         "sid": "GUMBY3",
-                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000~ GUMBY/a5000~ JAAYE SPINY"
+                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000- GUMBY/a5000- JAAYE SPINY"
                     },
                     "LLA": {
                         "assigned_altitude": 4000,
                         "sid": "GUMBY3",
-                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000~ GUMBY/a5000~ YOKEM SBI"
+                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000- GUMBY/a5000- YOKEM SBI"
                     },
                     "HRV,LEV": {
                         "assigned_altitude": 4000,
                         "sid": "HOODO7",
-                        "waypoints": "KIAH~33R/h149 VUH HOODO SBIRD CFOOD BOWFN"
+                        "waypoints": "KIAH-33R/h149 VUH HOODO SBIRD CFOOD BOWFN"
                     },
                     "TPAKK": {
                         "assigned_altitude": 4000,
                         "sid": "INDIE8",
-                        "waypoints": "KIAH~33R/h149 RENNK COLET SUSHI WWELL INDIE"
+                        "waypoints": "KIAH-33R/h149 RENNK COLET SUSHI WWELL INDIE"
                     },
                     "HAWES,ORRTH": {
                         "assigned_altitude": 4000,
                         "sid": "LURIC8",
-                        "waypoints": "KIAH~33R/h149 KNTKY PEETY DARTR MUSIQ CLAVN VELCO ENJOY LURIC"
+                        "waypoints": "KIAH-33R/h149 KNTKY PEETY DARTR MUSIQ CLAVN VELCO ENJOY LURIC"
                     },
                     "BLING": {
                         "assigned_altitude": 4000,
                         "sid": "MMUGS4",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ MMUGS MMALT/a10000+ HOURN"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- MMUGS MMALT/a10000+ HOURN"
                     },
                     "SPINY": {
                         "assigned_altitude": 4000,
                         "sid": "MMUGS4",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ MMUGS HHOPS/a11000+ JAAYE"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- MMUGS HHOPS/a11000+ JAAYE"
                     },
                     "SBI": {
                         "assigned_altitude": 4000,
                         "sid": "MMUGS4",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ MMUGS GRAYN/a11000+ YOKEM"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- MMUGS GRAYN/a11000+ YOKEM"
                     },
                     "PSTUR": {
                         "assigned_altitude": 4000,
                         "sid": "PITZZ4",
-                        "waypoints": "JINIP JAYLO/a5000~ RODKL PITZZ/a7000+ CUZZZ/a13000+ ZUUUU PUFER"
+                        "waypoints": "JINIP JAYLO/a5000- RODKL PITZZ/a7000+ CUZZZ/a13000+ ZUUUU PUFER"
                     },
                     "MNURE": {
                         "assigned_altitude": 4000,
                         "sid": "PITZZ4",
-                        "waypoints": "JINIP JAYLO/a5000~ RODKL PITZZ/a7000+ GRZIA/a10000+ CHATI/a13000+ BOCCK"
+                        "waypoints": "JINIP JAYLO/a5000- RODKL PITZZ/a7000+ GRZIA/a10000+ CHATI/a13000+ BOCCK"
                     },
                     "WEEED": {
                         "assigned_altitude": 4000,
                         "sid": "PITZZ4",
-                        "waypoints": "JINIP JAYLO/a5000~ RODKL PITZZ/a7000+ MNNKE/a13000+"
+                        "waypoints": "JINIP JAYLO/a5000- RODKL PITZZ/a7000+ MNNKE/a13000+"
                     },
                     "CRP": {
                         "assigned_altitude": 4000,
                         "sid": "RITAA7",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ SKUBA PSX YOMOM"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ SKUBA PSX YOMOM"
                     },
                     "NGP,WWREN": {
                         "assigned_altitude": 4000,
                         "sid": "RITAA7",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ RIIGG"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ RIIGG"
                     },
                     "DPATY,JBULL": {
                         "assigned_altitude": 4000,
                         "sid": "STRYA8",
-                        "waypoints": "KIAH~33R/h149 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
+                        "waypoints": "KIAH-33R/h149 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
                     },
                     "DOLEY,WTSON": {
                         "assigned_altitude": 4000,
                         "sid": "STYCK8",
-                        "waypoints": "KIAH~33R/h149 BBYSE SPICR WLLIS STYCK"
+                        "waypoints": "KIAH-33R/h149 BBYSE SPICR WLLIS STYCK"
                     },
                     "MAJKK": {
                         "assigned_altitude": 4000,
                         "sid": "WYLSN8",
-                        "waypoints": "KIAH~33R/h149 WYLSN MONNT KLJOY"
+                        "waypoints": "KIAH-33R/h149 WYLSN MONNT KLJOY"
                     },
                     "GIFFA": {
                         "assigned_altitude": 4000,
                         "sid": "WYLSN8",
-                        "waypoints": "KIAH~33R/h149 WYLSN MONNT BUMCO"
+                        "waypoints": "KIAH-33R/h149 WYLSN MONNT BUMCO"
                     }
                 },
                 "15R": {
                     "CRIED": {
                         "assigned_altitude": 4000,
                         "sid": "BLTWY7",
-                        "waypoints": "KIAH~33L/h149 DREMR LITLD BLTWY"
+                        "waypoints": "KIAH-33L/h149 DREMR LITLD BLTWY"
                     },
                     "CRGER": {
                         "assigned_altitude": 4000,
                         "sid": "BNDTO5",
-                        "waypoints": "JINIP SCAMM/a5000~ SHAAK BNDTO CUZZZ/a13000+ ZUUUU PUFER PSTUR"
+                        "waypoints": "JINIP SCAMM/a5000- SHAAK BNDTO CUZZZ/a13000+ ZUUUU PUFER PSTUR"
                     },
                     "SAT": {
                         "assigned_altitude": 4000,
                         "sid": "BNDTO5",
-                        "waypoints": "JINIP SCAMM/a5000~ SHAAK BNDTO FFOAM/a13000+ BOCCK MNURE MARCS"
+                        "waypoints": "JINIP SCAMM/a5000- SHAAK BNDTO FFOAM/a13000+ BOCCK MNURE MARCS"
                     },
                     "WAILN": {
                         "assigned_altitude": 4000,
                         "sid": "BNDTO5",
-                        "waypoints": "JINIP SCAMM/a5000~ SHAAK BNDTO BAAKE/a13000+ WEEED"
+                        "waypoints": "JINIP SCAMM/a5000- SHAAK BNDTO BAAKE/a13000+ WEEED"
                     },
                     "MUSYL,ANKRR,KELPP": {
                         "assigned_altitude": 4000,
                         "sid": "FLYZA5",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ FLYZA/a7000+ PPALE/a11000+ VUH"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- FLYZA/a7000+ PPALE/a11000+ VUH"
                     },
                     "LCH": {
                         "assigned_altitude": 4000,
                         "sid": "GUMBY3",
-                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000~ GUMBY/a5000~ HOURN BLING"
+                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000- GUMBY/a5000- HOURN BLING"
                     },
                     "GUSTI": {
                         "assigned_altitude": 4000,
                         "sid": "GUMBY3",
-                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000~ GUMBY/a5000~ JAAYE SPINY"
+                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000- GUMBY/a5000- JAAYE SPINY"
                     },
                     "LLA": {
                         "assigned_altitude": 4000,
                         "sid": "GUMBY3",
-                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000~ GUMBY/a5000~ YOKEM SBI"
+                        "waypoints": "JINIP CRTMN/s230 DWSUN/a4000- GUMBY/a5000- YOKEM SBI"
                     },
                     "HRV,LEV": {
                         "assigned_altitude": 4000,
                         "sid": "HOODO7",
-                        "waypoints": "KIAH~33L/h149 VUH HOODO SBIRD CFOOD BOWFN"
+                        "waypoints": "KIAH-33L/h149 VUH HOODO SBIRD CFOOD BOWFN"
                     },
                     "TPAKK": {
                         "assigned_altitude": 4000,
                         "sid": "INDIE8",
-                        "waypoints": "KIAH~33L/h149 RENNK COLET SUSHI WWELL INDIE"
+                        "waypoints": "KIAH-33L/h149 RENNK COLET SUSHI WWELL INDIE"
                     },
                     "HAWES,ORRTH": {
                         "assigned_altitude": 4000,
                         "sid": "LURIC8",
-                        "waypoints": "KIAH~33L/h149 KNTKY PEETY DARTR MUSIQ CLAVN VELCO ENJOY LURIC"
+                        "waypoints": "KIAH-33L/h149 KNTKY PEETY DARTR MUSIQ CLAVN VELCO ENJOY LURIC"
                     },
                     "BLING": {
                         "assigned_altitude": 4000,
                         "sid": "MMUGS4",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ MMUGS MMALT/a10000+ HOURN"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- MMUGS MMALT/a10000+ HOURN"
                     },
                     "SPINY": {
                         "assigned_altitude": 4000,
                         "sid": "MMUGS4",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ MMUGS HHOPS/a11000+ JAAYE"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- MMUGS HHOPS/a11000+ JAAYE"
                     },
                     "SBI": {
                         "assigned_altitude": 4000,
                         "sid": "MMUGS4",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ MMUGS GRAYN/a11000+ YOKEM"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- MMUGS GRAYN/a11000+ YOKEM"
                     },
                     "PSTUR": {
                         "assigned_altitude": 4000,
                         "sid": "PITZZ4",
-                        "waypoints": "JINIP JAYLO/a5000~ RODKL PITZZ/a7000+ CUZZZ/a13000+ ZUUUU PUFER"
+                        "waypoints": "JINIP JAYLO/a5000- RODKL PITZZ/a7000+ CUZZZ/a13000+ ZUUUU PUFER"
                     },
                     "MNURE": {
                         "assigned_altitude": 4000,
                         "sid": "PITZZ4",
-                        "waypoints": "JINIP JAYLO/a5000~ RODKL PITZZ/a7000+ GRZIA/a10000+ CHATI/a13000+ BOCCK"
+                        "waypoints": "JINIP JAYLO/a5000- RODKL PITZZ/a7000+ GRZIA/a10000+ CHATI/a13000+ BOCCK"
                     },
                     "WEEED": {
                         "assigned_altitude": 4000,
                         "sid": "PITZZ4",
-                        "waypoints": "JINIP JAYLO/a5000~ RODKL PITZZ/a7000+ MNNKE/a13000+"
+                        "waypoints": "JINIP JAYLO/a5000- RODKL PITZZ/a7000+ MNNKE/a13000+"
                     },
                     "CRP": {
                         "assigned_altitude": 4000,
                         "sid": "RITAA7",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ SKUBA PSX YOMOM"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ SKUBA PSX YOMOM"
                     },
                     "NGP,WWREN": {
                         "assigned_altitude": 4000,
                         "sid": "RITAA7",
-                        "waypoints": "JINIP TTAPS/a4000~ BOTLL/a5000~ FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ RIIGG"
+                        "waypoints": "JINIP TTAPS/a4000- BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ RIIGG"
                     },
                     "DPATY,JBULL": {
                         "assigned_altitude": 4000,
                         "sid": "STRYA8",
-                        "waypoints": "KIAH~33L/h149 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
+                        "waypoints": "KIAH-33L/h149 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
                     },
                     "DOLEY,WTSON": {
                         "assigned_altitude": 4000,
                         "sid": "STYCK8",
-                        "waypoints": "KIAH~33L/h149 BBYSE SPICR WLLIS STYCK"
+                        "waypoints": "KIAH-33L/h149 BBYSE SPICR WLLIS STYCK"
                     },
                     "MAJKK": {
                         "assigned_altitude": 4000,
                         "sid": "WYLSN8",
-                        "waypoints": "KIAH~33L/h149 WYLSN MONNT KLJOY"
+                        "waypoints": "KIAH-33L/h149 WYLSN MONNT KLJOY"
                     },
                     "GIFFA": {
                         "assigned_altitude": 4000,
                         "sid": "WYLSN8",
-                        "waypoints": "KIAH~33L/h149 WYLSN MONNT BUMCO"
+                        "waypoints": "KIAH-33L/h149 WYLSN MONNT BUMCO"
                     }
                 }
             },
@@ -962,12 +962,12 @@
                     "LLA": {
                         "assigned_altitude": 5000,
                         "sid": "ELOCO6",
-                        "waypoints": "KHOU~4/h140 ELOCO CHPEE GRIPY YOKEM SBI"
+                        "waypoints": "KHOU-4/h140 ELOCO CHPEE GRIPY YOKEM SBI"
                     },
                     "HRV": {
                         "assigned_altitude": 5000,
                         "sid": "HOODO7",
-                        "waypoints": "KHOU~4/h140 HOODO SBIRD CFOOD BOWFN"
+                        "waypoints": "KHOU-4/h140 HOODO SBIRD CFOOD BOWFN"
                     },
                     "TPAKK": {
                         "assigned_altitude": 5000,
@@ -982,22 +982,22 @@
                     "MUSYL": {
                         "assigned_altitude": 5000,
                         "sid": "PEECE6",
-                        "waypoints": "KHOU~4/h140 PEECE VUH"
+                        "waypoints": "KHOU-4/h140 PEECE VUH"
                     },
                     "CRP": {
                         "assigned_altitude": 5000,
                         "sid": "PTRON9",
-                        "waypoints": "KHOU~4/h150 SAALT PTRON SKUBA PSX YOMOM"
+                        "waypoints": "KHOU-4/h150 SAALT PTRON SKUBA PSX YOMOM"
                     },
                     "JCT": {
                         "assigned_altitude": 5000,
                         "sid": "RETYR8",
-                        "waypoints": "KHOU~4/h220 RETYR MNNKE BOCCK MNURE HAYYY FOWLR"
+                        "waypoints": "KHOU-4/h220 RETYR MNNKE BOCCK MNURE HAYYY FOWLR"
                     },
                     "MNURE": {
                         "assigned_altitude": 5000,
                         "sid": "RETYR8",
-                        "waypoints": "KHOU~4/h220 RETYR MNNKE BOCCK"
+                        "waypoints": "KHOU-4/h220 RETYR MNNKE BOCCK"
                     },
                     "DOLEY": {
                         "assigned_altitude": 5000,
@@ -1019,12 +1019,12 @@
                     "LLA": {
                         "assigned_altitude": 5000,
                         "sid": "ELOCO6",
-                        "waypoints": "KHOU~31L/h130 ELOCO CHPEE GRIPY YOKEM SBI"
+                        "waypoints": "KHOU-31L/h130 ELOCO CHPEE GRIPY YOKEM SBI"
                     },
                     "HRV": {
                         "assigned_altitude": 5000,
                         "sid": "HOODO7",
-                        "waypoints": "KHOU~31L/h130 HOODO SBIRD CFOOD BOWFN"
+                        "waypoints": "KHOU-31L/h130 HOODO SBIRD CFOOD BOWFN"
                     },
                     "TPAKK": {
                         "assigned_altitude": 5000,
@@ -1039,12 +1039,12 @@
                     "MUSYL": {
                         "assigned_altitude": 5000,
                         "sid": "PEECE6",
-                        "waypoints": "KHOU~31L/h130 PEECE VUH"
+                        "waypoints": "KHOU-31L/h130 PEECE VUH"
                     },
                     "CRP": {
                         "assigned_altitude": 5000,
                         "sid": "PTRON9",
-                        "waypoints": "KHOU~31L/h150 SAALT PTRON SKUBA PSX YOMOM"
+                        "waypoints": "KHOU-31L/h150 SAALT PTRON SKUBA PSX YOMOM"
                     },
                     "JCT": {
                         "assigned_altitude": 5000,
@@ -1289,24 +1289,24 @@
                     "LCH": {
                         "assigned_altitude": 2000,
                         "sid": "MMALT7",
-                        "waypoints": "KSGR~35/h170 MMALT MOOKI HOURN BLING"
+                        "waypoints": "KSGR-35/h170 MMALT MOOKI HOURN BLING"
                     },
                     "JCT": {
                         "assigned_altitude": 2000,
                         "sid": "BORRN6",
-                        "waypoints": "KSGR~35/h170 BORRN DILRE BOCCK MNURE HAYYY FOWLR"
+                        "waypoints": "KSGR-35/h170 BORRN DILRE BOCCK MNURE HAYYY FOWLR"
                     }
                 },
                 "35": {
                     "LCH": {
                         "assigned_altitude": 2000,
                         "sid": "MMALT7",
-                        "waypoints": "KSGR~17/h350 MMALT MOOKI HOURN BLING"
+                        "waypoints": "KSGR-17/h350 MMALT MOOKI HOURN BLING"
                     },
                     "JCT": {
                         "assigned_altitude": 2000,
                         "sid": "BORRN6",
-                        "waypoints": "KSGR~17/h350 BORRN DILRE BOCCK MNURE HAYYY FOWLR"
+                        "waypoints": "KSGR-17/h350 BORRN DILRE BOCCK MNURE HAYYY FOWLR"
                     }
                 }
             },
@@ -1391,24 +1391,24 @@
                     "LCH": {
                         "assigned_altitude": 2000,
                         "sid": "MMALT7",
-                        "waypoints": "KGLS~32/h138 MMALT MOOKI HOURN BLING"
+                        "waypoints": "KGLS-32/h138 MMALT MOOKI HOURN BLING"
                     },
                     "JCT": {
                         "assigned_altitude": 2000,
                         "sid": "BORRN6",
-                        "waypoints": "KGLS~32/h138 BORRN DILRE BOCCK MNURE HAYYY FOWLR"
+                        "waypoints": "KGLS-32/h138 BORRN DILRE BOCCK MNURE HAYYY FOWLR"
                     }
                 },
                 "32": {
                     "LCH": {
                         "assigned_altitude": 2000,
                         "sid": "MMALT7",
-                        "waypoints": "KGLS~32/h318 MMALT MOOKI HOURN BLING"
+                        "waypoints": "KGLS-32/h318 MMALT MOOKI HOURN BLING"
                     },
                     "JCT": {
                         "assigned_altitude": 2000,
                         "sid": "BORRN6",
-                        "waypoints": "KGLS~32/h318 BORRN DILRE BOCCK MNURE HAYYY FOWLR"
+                        "waypoints": "KGLS-32/h318 BORRN DILRE BOCCK MNURE HAYYY FOWLR"
                     }
                 }
             },
@@ -1473,11 +1473,11 @@
   "BAYYY5": {
     "arrivals": [
       {
-        "waypoints": "SHUDL BAYYY/a17000~20000/s280/ho PUCKS/a10000~14000",
+        "waypoints": "SHUDL BAYYY/a17000-20000/s280/ho PUCKS/a10000-14000",
         "runway_waypoints": {
           "KHOU": {
-            "13R": "PUCKS/a10000~14000 FRDDY/a8000~10000/s240 FIGGG/a6000~7000 IVEEE/a6000/s210 VILLI ALLLY/flyover/h311",
-            "4": "PUCKS/a10000~14000 FRDDY/a8000~10000/s240 FIGGG/a6000~7000 SHUUG/a6000/s210 EMARR/flyover/h222"
+            "13R": "PUCKS/a10000-14000 FRDDY/a8000-10000/s240 FIGGG/a6000-7000 IVEEE/a6000/s210 VILLI ALLLY/flyover/h311",
+            "4": "PUCKS/a10000-14000 FRDDY/a8000-10000/s240 FIGGG/a6000-7000 SHUUG/a6000/s210 EMARR/flyover/h222"
           }
         },
         "star": "BAYYY5",
@@ -1500,11 +1500,11 @@
   "BELLR5": {
     "arrivals": [
       {
-        "waypoints": "KMMBR BELLR/a11000~13000/s250/ho HNTRR/a8000~10000",
+        "waypoints": "KMMBR BELLR/a11000-13000/s250/ho HNTRR/a8000-10000",
         "runway_waypoints": {
           "KHOU": {
-            "13R": "HNTRR/a8000~10000 HACKT/a7000~ CRSTY/a6000/s210 SEUSS/a6000/flyover/h42",
-            "4": "HNTRR/a8000~10000 GEEEO/a6000/s210"
+            "13R": "HNTRR/a8000-10000 HACKT/a7000- CRSTY/a6000/s210 SEUSS/a6000/flyover/h42",
+            "4": "HNTRR/a8000-10000 GEEEO/a6000/s210"
           }
         },
         "star": "BELLR5",
@@ -1591,7 +1591,7 @@
   "DOOBI2": {
     "arrivals": [
       {
-        "waypoints": "BEATL/a17000~23000/s280 DOOBI/a15000~17000/s250/ho HHART/a10000~13000/s230 BOPPR/a9000+/s210 ODISS/a8000+/s210 BOZZZ/a8000/s210",
+        "waypoints": "BEATL/a17000-23000/s280 DOOBI/a15000-17000/s250/ho HHART/a10000-13000/s230 BOPPR/a9000+/s210 ODISS/a8000+/s210 BOZZZ/a8000/s210",
         "star": "DOOBI2",
         "initial_controller": "HOU_81_CTR",
         "initial_altitude": 19000,
@@ -1622,12 +1622,12 @@
   "DRLLR5": {
     "arrivals": [
       {
-        "waypoints": "SSTAX/a20000~24000 MPORT/a16000~19000/s280/ho DRLLR/a13000~16000/s250 PTROL/a11000~13000 DOMNO/a8000~10000/s240",
+        "waypoints": "SSTAX/a20000-24000 MPORT/a16000-19000/s280/ho DRLLR/a13000-16000/s250 PTROL/a11000-13000 DOMNO/a8000-10000/s240",
         "runway_waypoints": {
           "KIAH": {
-            "26L": "DOMNO/a8000~10000/s240 ZOEEE/a7000/s210/flyover/h87",
-            "26R": "DOMNO/a8000~10000/s240 SKLER/a6000/s210/flyover/h87",
-            "27": "DOMNO/a8000~10000/s240 BYSUN/a6000 SMOCR PRAYY/a6000/s210/flyover/h87"
+            "26L": "DOMNO/a8000-10000/s240 ZOEEE/a7000/s210/flyover/h87",
+            "26R": "DOMNO/a8000-10000/s240 SKLER/a6000/s210/flyover/h87",
+            "27": "DOMNO/a8000-10000/s240 BYSUN/a6000 SMOCR PRAYY/a6000/s210/flyover/h87"
           }
         },
         "star": "DRLLR5",
@@ -1764,12 +1764,12 @@
   "GESNR1": {
     "arrivals": [
       {
-        "waypoints": "MURFF/a22000~27000/s280 ZEEKK/a17000~20000/s280/ho GESNR/a13000~16000/s280",
+        "waypoints": "MURFF/a22000-27000/s280 ZEEKK/a17000-20000/s280/ho GESNR/a13000-16000/s280",
         "runway_waypoints": {
           "KIAH": {
-            "8L": "GESNR/a13000~16000/s280 KENNN/a10000~11000/s250 KNGWD/a8000~10000/s240 ZOEEE/a7000/s240 CASST/a6000/s210/flyover/h267",
-            "8R": "GESNR/a13000~16000/s280 KENNN/a10000~11000/s250 KNGWD/a8000~10000/s240 EDEEE/a8000~ REAPR/a6000 SHIVV/a6000/s240 HOWLN/a6000/s210/flyover/h267",
-            "9": "GESNR/a13000~16000/s280 KENNN/a10000~11000/s250 KNGWD/a8000~10000/s240 EDEEE/a8000~ REAPR/a6000 SHIVV/a6000/s240 HOWLN/a6000/s210/flyover/h267"
+            "8L": "GESNR/a13000-16000/s280 KENNN/a10000-11000/s250 KNGWD/a8000-10000/s240 ZOEEE/a7000/s240 CASST/a6000/s210/flyover/h267",
+            "8R": "GESNR/a13000-16000/s280 KENNN/a10000-11000/s250 KNGWD/a8000-10000/s240 EDEEE/a8000- REAPR/a6000 SHIVV/a6000/s240 HOWLN/a6000/s210/flyover/h267",
+            "9": "GESNR/a13000-16000/s280 KENNN/a10000-11000/s250 KNGWD/a8000-10000/s240 EDEEE/a8000- REAPR/a6000 SHIVV/a6000/s240 HOWLN/a6000/s210/flyover/h267"
           }
         },
         "star": "GESNR1",
@@ -1802,7 +1802,7 @@
   "GUSHR3": {
     "arrivals": [
       {
-        "waypoints": "WUUDZ/a12000+/s280 MPORT/a9000~12000/s250/ho GUSHR/a6000/s210",
+        "waypoints": "WUUDZ/a12000+/s280 MPORT/a9000-12000/s250/ho GUSHR/a6000/s210",
         "star": "GUSHR3",
         "initial_controller": "HOU_81_CTR",
         "initial_altitude": 14000,
@@ -1833,7 +1833,7 @@
   "HTOWN3": {
     "arrivals": [
       {
-        "waypoints": "CATTT/a14000+ GMANN/a13000~16000/s250/ho HTOWN/a9000/s240 WDLNS/a7000/s210",
+        "waypoints": "CATTT/a14000+ GMANN/a13000-16000/s250/ho HTOWN/a9000/s240 WDLNS/a7000/s210",
         "star": "HTOWN3",
         "initial_controller": "HOU_81_CTR",
         "initial_altitude": 16000,
@@ -1864,7 +1864,7 @@
   "KIDDZ4": {
     "arrivals": [
       {
-        "waypoints": "CAASE/a16000~19000 KIDDZ/a12000~14000/ho SNIFY/a12000/s270 QTRBK RVEEE/a11000+ AAHZZ/a10000 GLUVR/a9000+/s240",
+        "waypoints": "CAASE/a16000-19000 KIDDZ/a12000-14000/ho SNIFY/a12000/s270 QTRBK RVEEE/a11000+ AAHZZ/a10000 GLUVR/a9000+/s240",
         "runway_waypoints": {
           "KHOU": {
             "13R": "GLUVR/a9000+/s240 CRSTY/a6000/s210 SEUSS/flyover/h42",
@@ -1896,12 +1896,12 @@
   "LINKK1": {
     "arrivals": [
       {
-        "waypoints": "BBQUE/a21000~/s280 LINKK/a12000~15000/s250/ho GILLL/a8000~10000/s240",
+        "waypoints": "BBQUE/a21000-/s280 LINKK/a12000-15000/s250/ho GILLL/a8000-10000/s240",
         "runway_waypoints": {
           "KIAH": {
-            "26L": "GILLL/a8000~10000/s240 GARRR/a7000/s210",
-            "26R": "GILLL/a8000~10000/s240 GARRR/a7000/s210/flyover/h290",
-            "27": "GILLL/a8000~10000/s240 RDFSH/a6000/s210"
+            "26L": "GILLL/a8000-10000/s240 GARRR/a7000/s210",
+            "26R": "GILLL/a8000-10000/s240 GARRR/a7000/s210/flyover/h290",
+            "27": "GILLL/a8000-10000/s240 RDFSH/a6000/s210"
           }
         },
         "star": "LINKK1",
@@ -1934,12 +1934,12 @@
   "MSCOT4": {
     "arrivals": [
       {
-        "waypoints": "JJACK/a16000~19000 SUUNR/a12000~15000/s280/ho MSCOT/a10000 HWKII DOMNO/a8000~10000/s240",
+        "waypoints": "JJACK/a16000-19000 SUUNR/a12000-15000/s280/ho MSCOT/a10000 HWKII DOMNO/a8000-10000/s240",
         "runway_waypoints": {
           "KIAH": {
-            "26L": "DOMNO/a8000~10000/s240 ZOEEE/a7000/s210/flyover/h87",
-            "26R": "DOMNO/a8000~10000/s240 SKLER/a6000/s210/flyover/h87",
-            "27": "DOMNO/a8000~10000/s240 BYSUN/a6000 SMOCR PRAYY/a6000/s210/flyover/h87"
+            "26L": "DOMNO/a8000-10000/s240 ZOEEE/a7000/s210/flyover/h87",
+            "26R": "DOMNO/a8000-10000/s240 SKLER/a6000/s210/flyover/h87",
+            "27": "DOMNO/a8000-10000/s240 BYSUN/a6000 SMOCR PRAYY/a6000/s210/flyover/h87"
           }
         },
         "star": "MSCOT4",
@@ -1972,12 +1972,12 @@
   "NNCEE2": {
     "arrivals": [
       {
-        "waypoints": "BBQUE/a29000~/s280 LINKK/a17000~20000/ho NNCEE/a15000~ KONZZ/a12000 BEDLM/a10000+/s250",
+        "waypoints": "BBQUE/a29000-/s280 LINKK/a17000-20000/ho NNCEE/a15000- KONZZ/a12000 BEDLM/a10000+/s250",
         "runway_waypoints": {
           "KIAH": {
-            "8L": "BEDLM/a10000+/s250 CHKEN/a7000~ PRAYY/a6000 GOVVV/a6000/s240 CASST/a6000/s210/flyover/h267",
-            "8R": "BEDLM/a10000+/s250 CHKEN/a7000~ PRAYY/a6000 SMOCR SHIVV/s240 HOWLN/a6000/s210/flyover/h267",
-            "9": "BEDLM/a10000+/s250 CHKEN/a7000~ PRAYY/a6000 SMOCR SHIVV/s240 HOWLN/a6000/s210/flyover/h267"
+            "8L": "BEDLM/a10000+/s250 CHKEN/a7000- PRAYY/a6000 GOVVV/a6000/s240 CASST/a6000/s210/flyover/h267",
+            "8R": "BEDLM/a10000+/s250 CHKEN/a7000- PRAYY/a6000 SMOCR SHIVV/s240 HOWLN/a6000/s210/flyover/h267",
+            "9": "BEDLM/a10000+/s250 CHKEN/a7000- PRAYY/a6000 SMOCR SHIVV/s240 HOWLN/a6000/s210/flyover/h267"
           }
         },
         "star": "NNCEE2",
@@ -2010,12 +2010,12 @@
   "SKNRD4": {
     "arrivals": [
       {
-        "waypoints": "TURNR/a24000~28000/s280 DOOBI/a19000~22000/s280/ho SKNRD/a16000~/s280",
+        "waypoints": "TURNR/a24000-28000/s280 DOOBI/a19000-22000/s280/ho SKNRD/a16000-/s280",
         "runway_waypoints": {
           "KIAH": {
-            "8L": "SKNRD/a16000~/s280 BFFET/a12000~14000/s250 KNGWD/a8000~10000/s240 ZOEEE/a7000/s240 CASST/a6000/s210/flyover/h267",
-            "8R": "SKNRD/a16000~/s280 BFFET/a12000~14000/s250 KNGWD/a8000~10000/s240 EDEEE/a8000~ REAPR/a6000 SHIVV/a6000/s240 HOWLN/a6000/s210/flyover/h267",
-            "9": "SKNRD/a16000~/s280 BFFET/a12000~14000/s250 KNGWD/a8000~10000/s240 EDEEE/a8000~ REAPR/a6000 SHIVV/a6000/s240 HOWLN/a6000/s210/flyover/h267"
+            "8L": "SKNRD/a16000-/s280 BFFET/a12000-14000/s250 KNGWD/a8000-10000/s240 ZOEEE/a7000/s240 CASST/a6000/s210/flyover/h267",
+            "8R": "SKNRD/a16000-/s280 BFFET/a12000-14000/s250 KNGWD/a8000-10000/s240 EDEEE/a8000- REAPR/a6000 SHIVV/a6000/s240 HOWLN/a6000/s210/flyover/h267",
+            "9": "SKNRD/a16000-/s280 BFFET/a12000-14000/s250 KNGWD/a8000-10000/s240 EDEEE/a8000- REAPR/a6000 SHIVV/a6000/s240 HOWLN/a6000/s210/flyover/h267"
           }
         },
         "star": "SKNRD4",
@@ -2048,12 +2048,12 @@
   "TEJAS5": {
     "arrivals": [
       {
-        "waypoints": "CATTT/a19000+ GMANN/a16000~19000/s280/ho CITTE/a16000~ TEJAS/a12000~14000/s250",
+        "waypoints": "CATTT/a19000+ GMANN/a16000-19000/s280/ho CITTE/a16000- TEJAS/a12000-14000/s250",
         "runway_waypoints": {
           "KIAH": {
-            "26L": "TEJAS/a12000~14000/s250 RIDLR/a10000~ BEEEP/a8000~ HOWLN/a6000/s240 SMOCR PRAYY/a6000/s210/flyover/h87",
-            "26R": "TEJAS/a12000~14000/s250 RIDLR/a10000~ BEEEP/a8000~ HOWLN/a6000/s240 ZOEEE SKLER/a6000/s210/flyover/h87",
-            "27": "TEJAS/a12000~14000/s250 RIDLR/a10000~ BEEEP/a8000~ HOWLN/a6000/s240 SHIVV SMOCR PRAYY/a6000/s210/flyover/h87"
+            "26L": "TEJAS/a12000-14000/s250 RIDLR/a10000- BEEEP/a8000- HOWLN/a6000/s240 SMOCR PRAYY/a6000/s210/flyover/h87",
+            "26R": "TEJAS/a12000-14000/s250 RIDLR/a10000- BEEEP/a8000- HOWLN/a6000/s240 ZOEEE SKLER/a6000/s210/flyover/h87",
+            "27": "TEJAS/a12000-14000/s250 RIDLR/a10000- BEEEP/a8000- HOWLN/a6000/s240 SHIVV SMOCR PRAYY/a6000/s210/flyover/h87"
           }
         },
         "star": "TEJAS5",
@@ -2150,7 +2150,7 @@
   "TTORO3": {
     "arrivals": [
       {
-        "waypoints": "JJACK SUUNR/a10000~13000/s250/ho TTORO/a8000/s210",
+        "waypoints": "JJACK SUUNR/a10000-13000/s250/ho TTORO/a8000/s210",
         "star": "TTORO3",
         "initial_controller": "HOU_81_CTR",
         "initial_altitude": 14000,
@@ -2171,19 +2171,19 @@
   "WAPPL6": {
     "arrivals": [
       {
-        "waypoints": "WAPPL/a22000~27000/s280/ho WLMOR/a15000~21000 HUDZY CLWSN/a12000~14000 SWWAA/a10000~12000/s250 PUSHN/a8000+",
+        "waypoints": "WAPPL/a22000-27000/s280/ho WLMOR/a15000-21000 HUDZY CLWSN/a12000-14000 SWWAA/a10000-12000/s250 PUSHN/a8000+",
         "runway_waypoints": {
           "KGLS": {
-            "14": "PUSHN/a8000+ BUGZY/a10000~ PLKTN/a8000/flyover/h175",
-            "32": "PUSHN/a8000+ BUGZY/a10000~ PLKTN/a8000/flyover/h175"
+            "14": "PUSHN/a8000+ BUGZY/a10000- PLKTN/a8000/flyover/h175",
+            "32": "PUSHN/a8000+ BUGZY/a10000- PLKTN/a8000/flyover/h175"
           },
           "KHOU": {
-            "13R": "PUSHN/a8000+ BUGZY/a10000~ PRTCH/a7000~ MOLLR/a6000/s210 VILLI ALLLY/flyover/h311",
-            "4": "PUSHN/a8000+ BUGZY/a10000~ PRTCH/a7000~ SHUUG/a6000/s210 EMARR/flyover/h222"
+            "13R": "PUSHN/a8000+ BUGZY/a10000- PRTCH/a7000- MOLLR/a6000/s210 VILLI ALLLY/flyover/h311",
+            "4": "PUSHN/a8000+ BUGZY/a10000- PRTCH/a7000- SHUUG/a6000/s210 EMARR/flyover/h222"
           },
           "KSGR": {
-            "17": "PUSHN/a8000+ BUGZY/a10000~ PLKTN/a8000/flyover/h175",
-            "35": "PUSHN/a8000+ BUGZY/a10000~ PLKTN/a8000/flyover/h175"
+            "17": "PUSHN/a8000+ BUGZY/a10000- PLKTN/a8000/flyover/h175",
+            "35": "PUSHN/a8000+ BUGZY/a10000- PLKTN/a8000/flyover/h175"
           }
         },
         "star": "WAPPL6",
@@ -3020,9 +3020,9 @@
         },
           "stars_maps": [
               "I90 BASE MAP", "I90 MVA FUS 3", "I90 CLASS B", "I90 MVA FUS 3", "IAH FINAL EAST FLOW", "IAH FINAL EAST FLOW ALT",
-              "IAH FINAL WEST FLOW", "IAH FINAL WEST FLOW ALT", "HOU FINAL 4", "HOU FINAL EAST HOU 13 ALT", "HOU FINAL WEST~15~33 HOU 13 ALT",
-              "CLASS D AIRPORTS", "BPT EAST 15~33 HOU ALL", "BPT WEST~15 HOU ALL", "CLL~IDU EAST HOU ALL", "CLL~IDU WEST~15~33 HOU ALL", "DWH FINAL"
+              "IAH FINAL WEST FLOW", "IAH FINAL WEST FLOW ALT", "HOU FINAL 4", "HOU FINAL EAST HOU 13 ALT", "HOU FINAL WEST-15-33 HOU 13 ALT",
+              "CLASS D AIRPORTS", "BPT EAST 15-33 HOU ALL", "BPT WEST-15 HOU ALL", "CLL-IDU EAST HOU ALL", "CLL-IDU WEST-15-33 HOU ALL", "DWH FINAL"
           ],
-          "video_map_file": "videomaps/ZHU~videomaps.gob.zst"
+          "video_map_file": "videomaps/ZHU-videomaps.gob.zst"
     }
 }

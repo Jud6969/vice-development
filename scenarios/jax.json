@@ -20,45 +20,45 @@
         "32": {
           "GNV": {
             "cleared_altitude": 2000,
-            "waypoints": "KCRG~14/h321 GNV"
+            "waypoints": "KCRG-14/h321 GNV"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KCRG~14/h321 OCF"
+            "waypoints": "KCRG-14/h321 OCF"
           },
           "AYS": {
             "cleared_altitude": 2000,
-            "waypoints": "KCRG~14/h321 AYS"
+            "waypoints": "KCRG-14/h321 AYS"
           },
           "TAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KCRG~14/h321 TAY"
+            "waypoints": "KCRG-14/h321 TAY"
           },
           "SAWGY": {
             "cleared_altitude": 2000,
-            "waypoints": "KCRG~14/h321 SAWGY"
+            "waypoints": "KCRG-14/h321 SAWGY"
           }
         },
         "14": {
           "GNV": {
             "cleared_altitude": 2000,
-            "waypoints": "KCRG~32/h141 GNV"
+            "waypoints": "KCRG-32/h141 GNV"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KCRG~32/h141 OCF"
+            "waypoints": "KCRG-32/h141 OCF"
           },
           "AYS": {
             "cleared_altitude": 2000,
-            "waypoints": "KCRG~32/h141 AYS"
+            "waypoints": "KCRG-32/h141 AYS"
           },
           "TAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KCRG~32/h141 TAY"
+            "waypoints": "KCRG-32/h141 TAY"
           },
           "SAWGY": {
             "cleared_altitude": 2000,
-            "waypoints": "KCRG~32/h141 SAWGY"
+            "waypoints": "KCRG-32/h141 SAWGY"
           }
         }
       },
@@ -126,7 +126,7 @@
     "KJAX": {
       "atpa_volumes": {
         "8": {
-          "runway_threshold": "KJAX~8",
+          "runway_threshold": "KJAX-8",
           "heading": 77,
           "max_heading_deviation": 90,
           "floor": 100,
@@ -136,7 +136,7 @@
           "right_width": 2500
         },
         "14": {
-          "runway_threshold": "KJAX~14",
+          "runway_threshold": "KJAX-14",
           "heading": 137,
           "max_heading_deviation": 90,
           "floor": 100,
@@ -146,7 +146,7 @@
           "right_width": 2500
         },
         "26": {
-          "runway_threshold": "KJAX~26",
+          "runway_threshold": "KJAX-26",
           "heading": 257,
           "max_heading_deviation": 90,
           "floor": 100,
@@ -156,7 +156,7 @@
           "right_width": 2500
         },
         "32": {
-          "runway_threshold": "KJAX~32",
+          "runway_threshold": "KJAX-32",
           "heading": 317,
           "max_heading_deviation": 90,
           "floor": 100,
@@ -207,7 +207,7 @@
           "descent_altitude": 1900,
           "above_altitude_tolerance": 2000,
           "below_altitude_tolerance": 1000,
-          "reference_point": "30.49623,~81.70001",
+          "reference_point": "30.49623,-81.70001",
           "reference_heading": 77,
           "reference_length": 30,
           "reference_altitude": 0
@@ -222,7 +222,7 @@
           "descent_altitude": 1700,
           "above_altitude_tolerance": 2000,
           "below_altitude_tolerance": 1000,
-          "reference_point": "30.49219,~81.70088",
+          "reference_point": "30.49219,-81.70088",
           "reference_heading": 137,
           "reference_length": 30,
           "reference_altitude": 0
@@ -237,7 +237,7 @@
           "descent_altitude": 1500,
           "above_altitude_tolerance": 2000,
           "below_altitude_tolerance": 1000,
-          "reference_point": "30.50539,~81.67000",
+          "reference_point": "30.50539,-81.67000",
           "reference_heading": 257,
           "reference_length": 25,
           "reference_altitude": 0
@@ -252,7 +252,7 @@
           "descent_altitude": 1500,
           "above_altitude_tolerance": 2000,
           "below_altitude_tolerance": 1000,
-          "reference_point": "30.47840,~81.68227",
+          "reference_point": "30.47840,-81.68227",
           "reference_heading": 317,
           "reference_length": 25,
           "reference_altitude": 0
@@ -291,64 +291,64 @@
           "ALLMA,BAXLY": {
             "cleared_altitude": 3000,
             "sid": "BRSTL1",
-            "waypoints": "KJAX~26/h080 TEREE BRSTL"
+            "waypoints": "KJAX-26/h080 TEREE BRSTL"
           },
           "WISPR": {
             "cleared_altitude": 3000,
             "sid": "CROSB2",
-            "waypoints": "KJAX~26/h080 GIGLZ CROSB"
+            "waypoints": "KJAX-26/h080 GIGLZ CROSB"
           },
           "EXBOX,OMN": {
             "cleared_altitude": 3000,
             "sid": "EXBOX2",
-            "waypoints": "KJAX~26/h140 SAWGY"
+            "waypoints": "KJAX-26/h140 SAWGY"
           },
           "CAPPS": {
             "cleared_altitude": 3000,
             "sid": "JETIN2",
-            "waypoints": "KJAX~26/h80 DURTE JETIN ELAGE ZOOSS"
+            "waypoints": "KJAX-26/h80 DURTE JETIN ELAGE ZOOSS"
           },
           "JAYJA": {
             "cleared_altitude": 3000,
             "sid": "JETIN2",
-            "waypoints": "KJAX~26/h80 DURTE JETIN FELTZ"
+            "waypoints": "KJAX-26/h80 DURTE JETIN FELTZ"
           },
           "SAWGY": {
             "cleared_altitude": 3000,
             "sid": "SAWGY3",
-            "waypoints": "KJAX~26/h140 CRG SAWGY"
+            "waypoints": "KJAX-26/h140 CRG SAWGY"
           }
         },
         "26": {
           "ALLMA,BAXLY": {
             "cleared_altitude": 3000,
             "sid": "BRSTL1",
-            "waypoints": "KJAX~8/h320 TEREE BRSTL"
+            "waypoints": "KJAX-8/h320 TEREE BRSTL"
           },
           "WISPR": {
             "cleared_altitude": 3000,
             "sid": "CROSB2",
-            "waypoints": "KJAX~8/h320 GIGLZ CROSB"
+            "waypoints": "KJAX-8/h320 GIGLZ CROSB"
           },
           "EXBOX,OMN": {
             "cleared_altitude": 3000,
             "sid": "EXBOX2",
-            "waypoints": "KJAX~8/h220 SAWGY"
+            "waypoints": "KJAX-8/h220 SAWGY"
           },
           "CAPPS": {
             "cleared_altitude": 3000,
             "sid": "JETIN2",
-            "waypoints": "KJAX~8/h260 DURTE JETIN ELAGE ZOOSS"
+            "waypoints": "KJAX-8/h260 DURTE JETIN ELAGE ZOOSS"
           },
           "JAYJA": {
             "cleared_altitude": 3000,
             "sid": "JETIN2",
-            "waypoints": "KJAX~8/h260 DURTE JETIN FELTZ"
+            "waypoints": "KJAX-8/h260 DURTE JETIN FELTZ"
           },
           "SAWGY": {
             "cleared_altitude": 3000,
             "sid": "SAWGY3",
-            "waypoints": "KJAX~8/h220 CRG SAWGY"
+            "waypoints": "KJAX-8/h220 CRG SAWGY"
           }
         }
       },
@@ -577,61 +577,61 @@
         "13": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~31/h130 MMKAY"
+            "waypoints": "KSGJ-31/h130 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~31/h130 FOXAM"
+            "waypoints": "KSGJ-31/h130 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~31/h130 VIYAP" 
+            "waypoints": "KSGJ-31/h130 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~31/h130 SSI"
+            "waypoints": "KSGJ-31/h130 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~31/h130 HABLE"
+            "waypoints": "KSGJ-31/h130 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~31/h130 KENLL"
+            "waypoints": "KSGJ-31/h130 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~31/h130 OCF"
+            "waypoints": "KSGJ-31/h130 OCF"
           }
         },
         "31": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~13/h310 MMKAY"
+            "waypoints": "KSGJ-13/h310 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~13/h310 FOXAM"
+            "waypoints": "KSGJ-13/h310 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~13/h310 VIYAP" 
+            "waypoints": "KSGJ-13/h310 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~13/h310 SSI"
+            "waypoints": "KSGJ-13/h310 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~13/h310 HABLE"
+            "waypoints": "KSGJ-13/h310 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~13/h310 KENLL"
+            "waypoints": "KSGJ-13/h310 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KSGJ~13/h310 OCF"
+            "waypoints": "KSGJ-13/h310 OCF"
           }
         }
       },
@@ -737,61 +737,61 @@
         "36": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~18/h360 MMKAY"
+            "waypoints": "KOCF-18/h360 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~18/h360 FOXAM"
+            "waypoints": "KOCF-18/h360 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~18/h360 VIYAP" 
+            "waypoints": "KOCF-18/h360 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~18/h360 SSI"
+            "waypoints": "KOCF-18/h360 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~18/h360 HABLE"
+            "waypoints": "KOCF-18/h360 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~18/h360 KENLL"
+            "waypoints": "KOCF-18/h360 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~18/h360 OCF"
+            "waypoints": "KOCF-18/h360 OCF"
           }
         },
         "18": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~36/h180 MMKAY"
+            "waypoints": "KOCF-36/h180 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~36/h180 FOXAM"
+            "waypoints": "KOCF-36/h180 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~36/h180 VIYAP" 
+            "waypoints": "KOCF-36/h180 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~36/h180 SSI"
+            "waypoints": "KOCF-36/h180 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~36/h180 HABLE"
+            "waypoints": "KOCF-36/h180 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~36/h180 KENLL"
+            "waypoints": "KOCF-36/h180 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KOCF~36/h180 OCF"
+            "waypoints": "KOCF-36/h180 OCF"
           }
         }
       },
@@ -905,61 +905,61 @@
         "7": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~25/h070 MMKAY"
+            "waypoints": "KGNV-25/h070 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~25/h070 FOXAM"
+            "waypoints": "KGNV-25/h070 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~25/h070 VIYAP" 
+            "waypoints": "KGNV-25/h070 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~25/h070 SSI"
+            "waypoints": "KGNV-25/h070 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~25/h070 HABLE"
+            "waypoints": "KGNV-25/h070 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~25/h070 KENLL"
+            "waypoints": "KGNV-25/h070 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~25/h070 OCF"
+            "waypoints": "KGNV-25/h070 OCF"
           }
         },
         "25": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~7/h250 MMKAY"
+            "waypoints": "KGNV-7/h250 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~7/h250 FOXAM"
+            "waypoints": "KGNV-7/h250 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~7/h250 VIYAP" 
+            "waypoints": "KGNV-7/h250 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~7/h250 SSI"
+            "waypoints": "KGNV-7/h250 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~7/h250 HABLE"
+            "waypoints": "KGNV-7/h250 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~7/h250 KENLL"
+            "waypoints": "KGNV-7/h250 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KGNV~7/h250 OCF"
+            "waypoints": "KGNV-7/h250 OCF"
           }
         }
       },
@@ -1073,61 +1073,61 @@
         "36R": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~18L/h360 MMKAY"
+            "waypoints": "KVQQ-18L/h360 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~18L/h360 FOXAM"
+            "waypoints": "KVQQ-18L/h360 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~18L/h360 VIYAP" 
+            "waypoints": "KVQQ-18L/h360 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~18L/h360 SSI"
+            "waypoints": "KVQQ-18L/h360 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~18L/h360 HABLE"
+            "waypoints": "KVQQ-18L/h360 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~18L/h360 KENLL"
+            "waypoints": "KVQQ-18L/h360 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~18L/h360 OCF"
+            "waypoints": "KVQQ-18L/h360 OCF"
           }
         },
         "18L": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~36R/h180 MMKAY"
+            "waypoints": "KVQQ-36R/h180 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~36R/h180 FOXAM"
+            "waypoints": "KVQQ-36R/h180 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~36R/h180 VIYAP" 
+            "waypoints": "KVQQ-36R/h180 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~36R/h180 SSI"
+            "waypoints": "KVQQ-36R/h180 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~36R/h180 HABLE"
+            "waypoints": "KVQQ-36R/h180 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~36R/h180 KENLL"
+            "waypoints": "KVQQ-36R/h180 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KVQQ~36R/h180 OCF"
+            "waypoints": "KVQQ-36R/h180 OCF"
           }
         }
       },
@@ -1255,61 +1255,61 @@
         "10": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~28/h100 MMKAY"
+            "waypoints": "KNIP-28/h100 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~28/h100 FOXAM"
+            "waypoints": "KNIP-28/h100 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~28/h100 VIYAP" 
+            "waypoints": "KNIP-28/h100 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~28/h100 SSI"
+            "waypoints": "KNIP-28/h100 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~28/h100 HABLE"
+            "waypoints": "KNIP-28/h100 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~28/h100 KENLL"
+            "waypoints": "KNIP-28/h100 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~28/h100 OCF"
+            "waypoints": "KNIP-28/h100 OCF"
           }
         },
         "28": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~10/h280 MMKAY"
+            "waypoints": "KNIP-10/h280 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~10/h280 FOXAM"
+            "waypoints": "KNIP-10/h280 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~10/h280 VIYAP" 
+            "waypoints": "KNIP-10/h280 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~10/h280 SSI"
+            "waypoints": "KNIP-10/h280 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~10/h280 HABLE"
+            "waypoints": "KNIP-10/h280 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~10/h280 KENLL"
+            "waypoints": "KNIP-10/h280 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KNIP~10/h280 OCF"
+            "waypoints": "KNIP-10/h280 OCF"
           }
         }
       },
@@ -1412,61 +1412,61 @@
         "4": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~22/h040 MMKAY"
+            "waypoints": "KFHB-22/h040 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~22/h040 FOXAM"
+            "waypoints": "KFHB-22/h040 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~22/h040 VIYAP" 
+            "waypoints": "KFHB-22/h040 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~22/h040 SSI"
+            "waypoints": "KFHB-22/h040 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~22/h040 HABLE"
+            "waypoints": "KFHB-22/h040 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~22/h040 KENLL"
+            "waypoints": "KFHB-22/h040 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~22/h040 OCF"
+            "waypoints": "KFHB-22/h040 OCF"
           }
         },
         "22": {
           "MMKAY": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~4/h220 MMKAY"
+            "waypoints": "KFHB-4/h220 MMKAY"
           },
           "FOXAM": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~4/h220 FOXAM"
+            "waypoints": "KFHB-4/h220 FOXAM"
           },
           "VIYAP": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~4/h220 VIYAP" 
+            "waypoints": "KFHB-4/h220 VIYAP" 
           },
           "SSI": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~4/h220 SSI"
+            "waypoints": "KFHB-4/h220 SSI"
           },
           "HABLE": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~4/h220 HABLE"
+            "waypoints": "KFHB-4/h220 HABLE"
           },
           "KENLL": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~4/h220 KENLL"
+            "waypoints": "KFHB-4/h220 KENLL"
           },
           "OCF": {
             "cleared_altitude": 2000,
-            "waypoints": "KFHB~4/h220 OCF"
+            "waypoints": "KFHB-4/h220 OCF"
           }
         }
       },
@@ -1789,7 +1789,7 @@
   "ALCRN1": {
     "arrivals": [
       {
-        "waypoints": "ALLMA/a23000~ ALCRN/a12000~14000 SNKEM/a4000+",
+        "waypoints": "ALLMA/a23000- ALCRN/a12000-14000 SNKEM/a4000+",
         "star": "ALCRN1",
         "initial_controller": "JAX_79_CTR",
         "initial_altitude": 15000,
@@ -2008,13 +2008,13 @@
   "LUNNI1": {
     "arrivals": [
       {
-        "waypoints": "N031.18.26.213,W081.11.25.327 N031.13.31.601,W081.13.02.638/ho GOTBE LUNNI/a8000~12000/s250",
+        "waypoints": "N031.18.26.213,W081.11.25.327 N031.13.31.601,W081.13.02.638/ho GOTBE LUNNI/a8000-12000/s250",
         "runway_waypoints": {
           "KJAX": {
-            "14": "LUNNI/a8000~12000/s250 WADIG/a5000~6000/s230 DEDDA/a3000/s210",
-            "26": "LUNNI/a8000~12000/s250 LAYON/a3000/s210",
-            "32": "LUNNI/a8000~12000/s250 SSAWW/a6000~7000/s230 ZAXIT/a4000/s210 PALSY PEPIE/h137",
-            "8": "LUNNI/a8000~12000/s250 SAVAE/a6000~7000 PENSE/a4000/s210 RUMEE/h257"
+            "14": "LUNNI/a8000-12000/s250 WADIG/a5000-6000/s230 DEDDA/a3000/s210",
+            "26": "LUNNI/a8000-12000/s250 LAYON/a3000/s210",
+            "32": "LUNNI/a8000-12000/s250 SSAWW/a6000-7000/s230 ZAXIT/a4000/s210 PALSY PEPIE/h137",
+            "8": "LUNNI/a8000-12000/s250 SAVAE/a6000-7000 PENSE/a4000/s210 RUMEE/h257"
           }
         },
         "star": "LUNNI1",
@@ -2063,13 +2063,13 @@
   "MARQO2": {
     "arrivals": [
       {
-        "waypoints": "CAMJO/a13000~16000 MARQO/ho COROE/a9000~12000/s250",
+        "waypoints": "CAMJO/a13000-16000 MARQO/ho COROE/a9000-12000/s250",
         "runway_waypoints": {
           "KJAX": {
-            "14": "COROE/a9000~12000/s250 TASCH/a5000~6000 DIPDE/a3000/s210",
-            "26": "COROE/a9000~12000/s250 GWIIZ/a5000~6000 EGAGE/a4000/s210 NOMTE OLEKE/h77",
-            "32": "COROE/a9000~12000/s250 GWIIZ/a5000~6000 HITTS ACENE/a4000/s210 CALIM PEPIE/h137",
-            "8": "COROE/a9000~12000/s250 NATII/a5000~6000/s230 GUTTY/a3000/s210/h103"
+            "14": "COROE/a9000-12000/s250 TASCH/a5000-6000 DIPDE/a3000/s210",
+            "26": "COROE/a9000-12000/s250 GWIIZ/a5000-6000 EGAGE/a4000/s210 NOMTE OLEKE/h77",
+            "32": "COROE/a9000-12000/s250 GWIIZ/a5000-6000 HITTS ACENE/a4000/s210 CALIM PEPIE/h137",
+            "8": "COROE/a9000-12000/s250 NATII/a5000-6000/s230 GUTTY/a3000/s210/h103"
           }
         },
         "star": "MARQO2",
@@ -2177,13 +2177,13 @@
   "OHDEA1": {
     "arrivals": [
       {
-        "waypoints": "ILTAC/a19000~24000 N031.19.01.561,W082.30.40.649/ho FORMB/a10000~13000 OHDEA KIPLE/a7000~11000/s250",
+        "waypoints": "ILTAC/a19000-24000 N031.19.01.561,W082.30.40.649/ho FORMB/a10000-13000 OHDEA KIPLE/a7000-11000/s250",
         "runway_waypoints": {
           "KJAX": {
-            "14": "KIPLE/a7000~10000/s250 MAHKA/a5000~6000/s230 ORTAR/a3000/s210/h145",
-            "26": "KIPLE/a7000~10000/s250 MATLL/a6000~7000/s230 NANAA/a4000/s210 NOMTE OLEKE/h77",
-            "32": "KIPLE/a7000~10000/s250 NAMPE/a6000~7000/s230 ACENE/a4000/s230 CALIM PEPIE/h137",
-            "8": "KIPLE/a7000~10000/s250 KITZO/a5000~6000/s230 CEDOT/a3000/s210/h150"
+            "14": "KIPLE/a7000-10000/s250 MAHKA/a5000-6000/s230 ORTAR/a3000/s210/h145",
+            "26": "KIPLE/a7000-10000/s250 MATLL/a6000-7000/s230 NANAA/a4000/s210 NOMTE OLEKE/h77",
+            "32": "KIPLE/a7000-10000/s250 NAMPE/a6000-7000/s230 ACENE/a4000/s230 CALIM PEPIE/h137",
+            "8": "KIPLE/a7000-10000/s250 KITZO/a5000-6000/s230 CEDOT/a3000/s210/h150"
           }
         },
         "star": "OHDEA1",
@@ -2241,7 +2241,7 @@
   "OMN": {
     "arrivals": [
       {
-        "waypoints": "BARBS ROYES/ho CRG",
+        "waypoints": "BARBS ROYES/ho CRG SGJ",
         "route": "KDAB BARBS ROYES CRG",
         "initial_controller": "DAB_N_APP",
         "initial_altitude": 8000,
@@ -2348,7 +2348,7 @@
     "arrivals": [
       {
         "waypoints": "VIZTA/a12000 CUSAB OCF GNV CRG",
-        "route": "KORL VIZTA CUSAB V159 OCF GNV CRG",
+        "route": "KORL VIZTA CUSAB V159 OCF GNV",
         "initial_controller": "JAX_V_APP",
         "initial_altitude": 12000,
         "initial_speed": 250,
@@ -2397,7 +2397,7 @@
   "QUBEN1": {
     "arrivals": [
       {
-        "waypoints": "HAINY/a24000~ SHINR/a16000~19000/ho BASSS POGIE/a12000~14000 QUBEN/a9000~12000/s250 BETLE/a5000+/s230",
+        "waypoints": "HAINY/a24000- SHINR/a16000-19000/ho BASSS POGIE/a12000-14000 QUBEN/a9000-12000/s250 BETLE/a5000+/s230",
         "runway_waypoints": {
           "KJAX": {
             "14": "BETLE/a5000+/s230 PLANK EYLND/a4000/s210 KRISO/a3000 DUNTE JAKRU/h317",
@@ -2429,7 +2429,7 @@
         }
       },
       {
-        "waypoints": "ILBOC/a19000~ POGIE/a12000~14000 QUBEN/a9000~12000/s250 BETLE/a5000+/s230",
+        "waypoints": "ILBOC/a19000- POGIE/a12000-14000 QUBEN/a9000-12000/s250 BETLE/a5000+/s230",
         "runway_waypoints": {
           "KJAX": {
             "14": "BETLE/a5000+/s230 PLANK EYLND/a4000/s210 KRISO/a3000 DUNTE JAKRU/h317",
@@ -2465,13 +2465,13 @@
   "TEBOW1": {
     "arrivals": [
       {
-        "waypoints": "WILON/a22000 HILIS/a17000+/s280/ho FABES/a12000~15000 TEBOW/a9000~12000/s250",
+        "waypoints": "WILON/a22000 HILIS/a17000+/s280/ho FABES/a12000-15000 TEBOW/a9000-12000/s250",
         "runway_waypoints": {
           "KJAX": {
-            "14": "TEBOW/a9000~12000/s250 GRRAS/a5000+ KAYEM/a4000/s210 DUNTE JAKRU/h317",
-            "26": "TEBOW/a9000~12000/s250 BETLE/a5000+/s230 GUTNE/a4000/s210 CLART/h84",
-            "32": "TEBOW/a9000~12000/s250 BETLE/a5000+/s230 GURDE/a3000/s210/h23",
-            "8": "TEBOW/a9000~12000/s250 JERZI/a5000+/s230 FAROT/a3000/s210/h38"
+            "14": "TEBOW/a9000-12000/s250 GRRAS/a5000+ KAYEM/a4000/s210 DUNTE JAKRU/h317",
+            "26": "TEBOW/a9000-12000/s250 BETLE/a5000+/s230 GUTNE/a4000/s210 CLART/h84",
+            "32": "TEBOW/a9000-12000/s250 BETLE/a5000+/s230 GURDE/a3000/s210/h23",
+            "8": "TEBOW/a9000-12000/s250 JERZI/a5000+/s230 FAROT/a3000/s210/h38"
           }
         },
         "star": "TEBOW1",
@@ -3806,7 +3806,7 @@
     "radar_sites": {
       "JAX": {
         "char": "J",
-        "position": "30.49333,~81.69267",
+        "position": "30.49333,-81.69267",
         "elevation": 140,
         "primary_range": 60,
         "secondary_range": 60,
@@ -3815,7 +3815,7 @@
       },
       "GNV": {
         "char": "G",
-        "position": "29.41514,~82.23247",
+        "position": "29.41514,-82.23247",
         "elevation": 155,
         "primary_range": 60,
         "secondary_range": 60,
@@ -3824,7 +3824,7 @@
       },
       "ZNEN": {
         "char": "N",
-        "position": "30.34600,~81.87397",
+        "position": "30.34600,-81.87397",
         "elevation": 125,
         "primary_range": 250,
         "secondary_range": 250,
@@ -3833,7 +3833,7 @@
       },
       "ZCTY": {
         "char": "C",
-        "position": "29.74403,~83.00106",
+        "position": "29.74403,-83.00106",
         "elevation": 150,
         "primary_range": 250,
         "secondary_range": 250,
@@ -3842,7 +3842,7 @@
       },
       "DAB": {
         "char": "D",
-        "position": "29.17267,~81.19224",
+        "position": "29.17267,-81.19224",
         "elevation": 150,
         "primary_range": 60,
         "secondary_range": 60,
@@ -3898,7 +3898,7 @@
       "CLASS D AIRSPACE",
       "MULTI MVA",
       "EMERGENCY",
-      "T~ROUTES",
+      "T-ROUTES",
       "HOTAR STAR",
       "MARQO STAR",
       "QUBEN STAR",
@@ -3930,6 +3930,6 @@
       "HEG RNAV",
       "GNV RNAV APPROACHES"
     ],
-    "video_map_file": "videomaps/ZJX~videomaps.gob.zst"
+    "video_map_file": "videomaps/ZJX-videomaps.gob.zst"
   }
 }
