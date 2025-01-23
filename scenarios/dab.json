@@ -253,89 +253,48 @@
     },
     "KEVB": {
       "approaches": {
-        "I7L": {
-          "runway": "7L",
-          "tower_controller": "DAB_N_TWR",
-          "type": "ILS",
-          "waypoints": [
-            "HANAV/arc16OMN TIGAE/a1600 FOLIG/a1600 ZOPRI/a680",
-            "SMYRA/arc18.9OMN WAMAL/a1900 TIGAE/a1600 FOLIG/a1600 ZOPRI/a680"
-          ]
+        "R2": {
+          "cifp_id": "R2"
         },
-        "R7R": {
-          "runway": "7R",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "GUANO/nopt TACUR/lhilpt4nm/a1700 JUSAD/a1600",
-            "TACUR/lhilpt4nm/a1700 JUSAD/a1600"
-          ]
+        "R25": {
+          "cifp_id": "R25"
         },
-        "R16": {
-          "runway": "16",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "BARBS/nopt CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800",
-            "CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800"
-          ]
+        "R29": {
+          "cifp_id": "R29"
         },
-        "I5R": {
-          "runway": "25R",
-          "tower_controller": "DAB_N_TWR",
-          "type": "ILS",
-          "waypoints": [
-            "WISPO/a3000 RINEE/a2700 DIYAK/a1600"
-          ]
-        },
-        "R5L": {
-          "runway": "25L",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "FOMRO/a1600/lhilpt4nm ROLKE/a1600 CELAB/a1020"
-          ]
-        },
-        "R34": {
-          "runway": "34",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "BARBS/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
-            "OAKIE/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
-            "KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700"
-          ]
+        "R7": {
+          "cifp_id": "R7"
         }
       },
       "departure_routes": {
-        "7L": {
+        "25": {
           "CRG": {
             "cleared_altitude": 4000,
             "sid": "ROYES7",
-            "waypoints": "_DAB_25R/h070 BARBS ROYES CRG"
+            "waypoints": "KEVB-7/h250 BARBS ROYES CRG"
           },
           "MALET": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_25L/h070 MALET"
+            "waypoints": "KEVB-7/h250 MALET"
           },
           "ROYES": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_25R/h070 ROYES"
+            "waypoints": "KEVB-7/h250 ROYES"
           }
         },
-        "25R": {
+        "11": {
           "CRG": {
             "cleared_altitude": 4000,
             "sid": "ROYES7",
-            "waypoints": "_DAB_7L/h250 BARBS ROYES CRG"
+            "waypoints": "KEVB-29/h250 BARBS ROYES CRG"
           },
           "MALET": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_7R/h250 MALET"
+            "waypoints": "KEVB-29/h250 MALET"
           },
           "ROYES": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_7L/h250 ROYES"
+            "waypoints": "KEVB-29/h250 ROYES"
           }
         }
       },
@@ -503,89 +462,45 @@
     },
     "KOMN": {
       "approaches": {
-        "I7L": {
-          "runway": "7L",
-          "tower_controller": "DAB_N_TWR",
-          "type": "ILS",
-          "waypoints": [
-            "HANAV/arc16OMN TIGAE/a1600 FOLIG/a1600 ZOPRI/a680",
-            "SMYRA/arc18.9OMN WAMAL/a1900 TIGAE/a1600 FOLIG/a1600 ZOPRI/a680"
-          ]
+        "R17": {
+          "cifp_id": "R17"
         },
-        "R7R": {
-          "runway": "7R",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "GUANO/nopt TACUR/lhilpt4nm/a1700 JUSAD/a1600",
-            "TACUR/lhilpt4nm/a1700 JUSAD/a1600"
-          ]
+        "R27": {
+          "cifp_id": "R27"
         },
-        "R16": {
-          "runway": "16",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "BARBS/nopt CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800",
-            "CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800"
-          ]
-        },
-        "I5R": {
-          "runway": "25R",
-          "tower_controller": "DAB_N_TWR",
-          "type": "ILS",
-          "waypoints": [
-            "WISPO/a3000 RINEE/a2700 DIYAK/a1600"
-          ]
-        },
-        "R5L": {
-          "runway": "25L",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "FOMRO/a1600/lhilpt4nm ROLKE/a1600 CELAB/a1020"
-          ]
-        },
-        "R34": {
-          "runway": "34",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "BARBS/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
-            "OAKIE/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
-            "KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700"
-          ]
+        "R9": {
+          "cifp_id": "R9"
         }
       },
       "departure_routes": {
-        "7L": {
+        "9": {
           "CRG": {
             "cleared_altitude": 4000,
             "sid": "ROYES7",
-            "waypoints": "_DAB_25R/h070 BARBS ROYES CRG"
+            "waypoints": "KOMN-27/h090 BARBS ROYES CRG"
           },
           "MALET": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_25L/h070 MALET"
+            "waypoints": "KOMN-27/h090MALET"
           },
           "ROYES": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_25R/h070 ROYES"
+            "waypoints": "KOMN-27/h090 ROYES"
           }
         },
-        "25R": {
+        "27": {
           "CRG": {
             "cleared_altitude": 4000,
             "sid": "ROYES7",
-            "waypoints": "_DAB_7L/h250 BARBS ROYES CRG"
+            "waypoints": "KOMN-9/h270 BARBS ROYES CRG"
           },
           "MALET": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_7R/h250 MALET"
+            "waypoints": "KOMN-9/h270 MALET"
           },
           "ROYES": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_7L/h250 ROYES"
+            "waypoints": "KOMN-9/h270 ROYES"
           }
         }
       },
@@ -753,89 +668,48 @@
     },
     "KFIN": {
       "approaches": {
-        "I7L": {
-          "runway": "7L",
-          "tower_controller": "DAB_N_TWR",
-          "type": "ILS",
-          "waypoints": [
-            "HANAV/arc16OMN TIGAE/a1600 FOLIG/a1600 ZOPRI/a680",
-            "SMYRA/arc18.9OMN WAMAL/a1900 TIGAE/a1600 FOLIG/a1600 ZOPRI/a680"
-          ]
+        "R24": {
+          "cifp_id": "R24"
         },
-        "R7R": {
-          "runway": "7R",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "GUANO/nopt TACUR/lhilpt4nm/a1700 JUSAD/a1600",
-            "TACUR/lhilpt4nm/a1700 JUSAD/a1600"
-          ]
+        "R29": {
+          "cifp_id": "R29"
         },
-        "R16": {
-          "runway": "16",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "BARBS/nopt CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800",
-            "CEPDA/lhilpt4nm/a2000 FEMBA/a1600 DOGRE/a800"
-          ]
+        "R6": {
+          "cifp_id": "R6"
         },
-        "I5R": {
-          "runway": "25R",
-          "tower_controller": "DAB_N_TWR",
-          "type": "ILS",
-          "waypoints": [
-            "WISPO/a3000 RINEE/a2700 DIYAK/a1600"
-          ]
-        },
-        "R5L": {
-          "runway": "25L",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "FOMRO/a1600/lhilpt4nm ROLKE/a1600 CELAB/a1020"
-          ]
-        },
-        "R34": {
-          "runway": "34",
-          "tower_controller": "DAB_N_TWR",
-          "type": "RNAV",
-          "waypoints": [
-            "BARBS/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
-            "OAKIE/nopt KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700",
-            "KESLR/a1700/hilpt4nm EYORE/a1600 HERLO/a700"
-          ]
+        "R11": {
+          "cifp_id": "R11"
         }
       },
       "departure_routes": {
-        "7L": {
+        "11": {
           "CRG": {
             "cleared_altitude": 4000,
             "sid": "ROYES7",
-            "waypoints": "_DAB_25R/h070 BARBS ROYES CRG"
+            "waypoints": "KFIN-29/h110 BARBS ROYES CRG"
           },
           "MALET": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_25L/h070 MALET"
+            "waypoints": "KFIN-29/h110 MALET"
           },
           "ROYES": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_25R/h070 ROYES"
+            "waypoints": "KFIN-29/h110 ROYES"
           }
         },
-        "25R": {
+        "29": {
           "CRG": {
             "cleared_altitude": 4000,
             "sid": "ROYES7",
-            "waypoints": "_DAB_7L/h250 BARBS ROYES CRG"
+            "waypoints": "KFIN-11/h290 BARBS ROYES CRG"
           },
           "MALET": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_7R/h250 MALET"
+            "waypoints": "KFIN-11/h290 MALET"
           },
           "ROYES": {
             "cleared_altitude": 3000,
-            "waypoints": "_DAB_7L/h250 ROYES"
+            "waypoints": "KFIN-11/h290 ROYES"
           }
         }
       },
