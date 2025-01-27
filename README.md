@@ -40,6 +40,8 @@ DAB:
 
 NCT:
 - [ ] Update Flight Plans
+- [ ] Fix Arrivals
+- [ ] Fix Scenario Flows
 - [ ] Fix Handoffs
 - [ ] Add more center controllers
 - [ ] Span arrivals farther out
