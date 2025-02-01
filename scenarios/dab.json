@@ -481,7 +481,7 @@
           },
           "MALET": {
             "cleared_altitude": 3000,
-            "waypoints": "KOMN-27/h090MALET"
+            "waypoints": "KOMN-27/h090 MALET"
           },
           "ROYES": {
             "cleared_altitude": 3000,
@@ -954,6 +954,48 @@
               "icao": "ERU",
               "airport": "KORL"
             }
+          ],
+          "KFIN": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
+          ],
+          "KOMN": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
+          ],
+          "KEVB": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
           ]
         }
       }
@@ -1004,6 +1046,48 @@
               "icao": "ERU",
               "airport": "KSSI"
             }
+          ],
+          "KFIN": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
+          ],
+          "KOMN": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
+          ],
+          "KEVB": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
           ]
         }
       }
@@ -1042,6 +1126,48 @@
               "icao": "ERU",
               "airport": "KOCF"
             }
+          ],
+          "KFIN": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
+          ],
+          "KOMN": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
+          ],
+          "KEVB": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
           ]
         }
       }
@@ -1071,6 +1197,48 @@
             {
               "icao": "ERU",
               "airport": "KPGD"
+            }
+          ],
+          "KFIN": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
+          ],
+          "KOMN": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
+          ],
+          "KEVB": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
             }
           ]
         }
@@ -1112,6 +1280,48 @@
             {
               "icao": "VXP",
               "airport": "KILG"
+            }
+          ],
+          "KFIN": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
+          ],
+          "KOMN": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
+            }
+          ],
+          "KEVB": [
+            {
+              "icao": "ERU",
+              "airport": "KMLB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KVRB"
+            },
+            {
+              "icao": "ERU",
+              "airport": "KORL"
             }
           ]
         }
@@ -1195,6 +1405,24 @@
       "full_name": "Daytona Beach tower",
       "scope_char": "T",
       "sector_id": "5ST"
+    },
+    "FIN_TWR": {
+      "frequency": 118100,
+      "full_name": "Flagler County Tower",
+      "scope_char": "T",
+      "sector_id": "FT"
+    },
+    "EVB_TWR": {
+      "frequency": 118100,
+      "full_name": "Vero Beach Tower",
+      "scope_char": "T",
+      "sector_id": "ET"
+    },
+    "OMN_TWR": {
+      "frequency": 118100,
+      "full_name": "Ormond Beach Tower",
+      "scope_char": "T",
+      "sector_id": "OT"
     }
   },
   "default_scenario": "KDAB Depart 7L/R Land 7L/R",
@@ -1228,23 +1456,50 @@
         {
           "airport": "KDAB",
           "runway": "7R"
+        },
+        {
+          "airport": "KEVB",
+          "runway": "7"
+        },
+        {
+          "airport": "KFIN",
+          "runway": "11"
+        },
+        {
+          "airport": "KOMN",
+          "runway": "9"
         }
       ],
       "arrivals": {
         "TTHOR3": {
-          "KDAB": 5
+          "KDAB": 5,
+          "KOMN": 2,
+          "KFIN": 2,
+          "KEVB": 2
         },
         "FONEX": {
-          "KDAB": 10
+          "KDAB": 10,
+          "KOMN": 2,
+          "KFIN": 2,
+          "KEVB": 2
         },
         "FOLUT": {
-          "KDAB": 10
+          "KDAB": 10,
+          "KOMN": 2,
+          "KFIN": 2,
+          "KEVB": 2
         },
         "KIZER": {
-          "KDAB": 10
+          "KDAB": 10,
+          "KOMN": 2,
+          "KFIN": 2,
+          "KEVB": 2
         },
         "DOMES": {
-          "KDAB": 10
+          "KDAB": 10,
+          "KOMN": 2,
+          "KFIN": 2,
+          "KEVB": 2
         }
       },
       "solo_controller": "DAB_H_APP",
@@ -1255,7 +1510,7 @@
               "DAB_L_APP": {"backup": "DAB_H_APP"},
               "DAB_N_APP": {"backup": "DAB_H_APP"},
               "DAB_S_APP": {"backup": "DAB_H_APP"},
-              "DAB_E_APP": {"backup": "DAB_H_APP", "departures": ["KDAB"]},
+              "DAB_E_APP": {"backup": "DAB_H_APP", "departures": ["KDAB","KOMN","KFIN","KEVB"]},
               "DAB_W_APP": {"backup": "DAB_H_APP"}
           }
       },
@@ -1276,6 +1531,21 @@
           "airport": "KDAB",
           "rate": 25,
           "runway": "7L"
+        },
+        {
+          "airport": "KEVB",
+          "rate": 8,
+          "runway": "11"
+        },
+        {
+          "airport": "KFIN",
+          "rate": 8,
+          "runway": "11"
+        },
+        {
+          "airport": "KOMN",
+          "rate": 8,
+          "runway": "9"
         }
       ],
       "wind": {
@@ -1295,23 +1565,50 @@
         {
           "airport": "KDAB",
           "runway": "25R"
+        },
+        {
+          "airport": "KEVB",
+          "runway": "25"
+        },
+        {
+          "airport": "KFIN",
+          "runway": "29"
+        },
+        {
+          "airport": "KOMN",
+          "runway": "27"
         }
       ],
       "arrivals": {
         "TTHOR3": {
-          "KDAB": 5
+          "KDAB": 5,
+          "KOMN": 2,
+          "KFIN": 2,
+          "KEVB": 2
         },
         "FONEX": {
-          "KDAB": 10
+          "KDAB": 10,
+          "KOMN": 2,
+          "KFIN": 2,
+          "KEVB": 2
         },
         "FOLUT": {
-          "KDAB": 10
+          "KDAB": 10,
+          "KOMN": 2,
+          "KFIN": 2,
+          "KEVB": 2
         },
         "KIZER": {
-          "KDAB": 10
+          "KDAB": 10,
+          "KOMN": 2,
+          "KFIN": 2,
+          "KEVB": 2
         },
         "DOMES": {
-          "KDAB": 10
+          "KDAB": 10,
+          "KOMN": 2,
+          "KFIN": 2,
+          "KEVB": 2
         }
       },
       "solo_controller": "DAB_H_APP",
@@ -1323,7 +1620,7 @@
               "DAB_N_APP": {"backup": "DAB_H_APP"},
               "DAB_S_APP": {"backup": "DAB_H_APP"},
               "DAB_E_APP": {"backup": "DAB_H_APP"},
-              "DAB_W_APP": {"backup": "DAB_H_APP", "departures": ["KDAB"]}
+              "DAB_W_APP": {"backup": "DAB_H_APP", "departures": ["KDAB","KEVB","KOMN","KFIN"]}
           }
       },
       "controllers": [
@@ -1343,6 +1640,21 @@
           "airport": "KDAB",
           "rate": 25,
           "runway": "25R"
+        },
+        {
+          "airport": "KEVB",
+          "rate": 10,
+          "runway": "25"
+        },
+        {
+          "airport": "KFIN",
+          "rate": 10,
+          "runway": "29"
+        },
+        {
+          "airport": "KOMN",
+          "rate": 10,
+          "runway": "27"
         }
       ],
       "wind": {
