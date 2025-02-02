@@ -792,6 +792,228 @@
         "NOKIE": "East"
       },
       "tower_list": 5
+    },
+    "KFTY": {
+      "approaches": {
+        "I8": {
+          "cifp_id": "I8"
+        },
+        "R26": {
+          "cifp_id": "R26"
+        },
+        "RY8": {
+          "cifp_id": "RY8"
+        },
+        "RZ8": {
+          "cifp_id": "RZ8"
+        }
+      },
+      "departure_routes": {
+        "8": {
+          "NOONE": {
+            "cleared_altitude": 10000,
+            "waypoints": "KFTY-26/h080"
+          },
+          "NOTWO": { 
+            "cleared_altitude": 10000,
+            "waypoints": "KFTY-26/h080"
+          },
+          "SOONE": { 
+            "cleared_altitude": 10000,
+            "waypoints": "KFTY-26/h080"
+          },
+          "SOTWO": { 
+            "cleared_altitude": 10000,
+            "waypoints": "KFTY-26/h080"
+          },
+          "WEONE": { 
+            "cleared_altitude": 10000,
+            "waypoints": "KFTY-26/h080"
+          },
+          "WETWO": { 
+            "cleared_altitude": 10000,
+            "waypoints": "KFTY-26/h080"
+          },
+          "EAONE": { 
+            "cleared_altitude": 10000,
+            "waypoints": "KFTY-26/h080"
+          },
+          "EATWO": { 
+            "cleared_altitude": 10000,
+            "waypoints": "KFTY-26/h080"
+          }
+        },
+        "26": {
+          "FTY": {
+            "cleared_altitude": 10000,
+            "waypoints": "KFTY-8/h260"
+          }
+        }
+      },
+      "departures": [
+        {
+            "airlines": [
+                {
+                    "icao": "LXJ"
+                }
+            ],
+            "destination": "KORL",
+            "route": "SOONE LGC AMG KORL",
+            "exit": "SOONE"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "DPJ"
+                }
+            ],
+            "destination": "KTMB",
+            "route": "SOTWO PZD Q102 ORL KTMB",
+            "exit": "SOTWO"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "XOJ"
+                }
+            ],
+            "destination": "KTEB",
+            "route": "NOONE HRTWL JONZE SPA Q22 TEB",
+            "exit": "NOONE"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "EJA"
+                }
+            ],
+            "destination": "KSAV",
+            "route": "EAONE MCN SAV",
+            "exit": "EAONE"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "LXJ"
+                }
+            ],
+            "destination": "KBCT",
+            "route": "SOTWO PZD CRG OMN KBCT",
+            "exit": "SOTWO"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "SCX"
+                }
+            ],
+            "destination": "KDEN",
+            "route": "WEONE MEM VUZ J14 GCK KDEN",
+            "exit": "WEONE"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "EJA"
+                }
+            ],
+            "destination": "KMEM",
+            "route": "WETWO VUZ KMEM",
+            "exit": "WETWO"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "DPJ"
+                }
+            ],
+            "destination": "KBHM",
+            "route": "WETWO VUZ KBHM",
+            "exit": "WETWO"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "XOJ"
+                }
+            ],
+            "destination": "KPHL",
+            "route": "EAONE SPA HCH J48 HVQ J150 BYJAC KPHL",
+            "exit": "EAONE"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "LXJ"
+                }
+            ],
+            "destination": "KORD",
+            "route": "NOTWO GAD J89 FAM KORD",
+            "exit": "NOTWO"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "XOJ"
+                }
+            ],
+            "destination": "KDFW",
+            "route": "WETWO MEM CQY KDFW",
+            "exit": "WETWO"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "DPJ"
+                }
+            ],
+            "destination": "KRIC",
+            "route": "EAONE SPA HCM KRIC",
+            "exit": "EAONE"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "LXJ"
+                }
+            ],
+            "destination": "KLIT",
+            "route": "WETWO VUZ SQS KLIT",
+            "exit": "WETWO"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "EJA"
+                }
+            ],
+            "destination": "KIND",
+            "route": "NOONE GAD BNA PXV KIND",
+            "exit": "NOONE"
+        },
+        {
+            "airlines": [
+                {
+                    "icao": "GJS"
+                }
+            ],
+            "destination": "KCLE",
+            "route": "NOTWO HCH HVQ YRKES2 KCLE",
+            "exit": "NOTWO"
+        }
+    ],
+      "exit_categories": {
+          "NOONE": "North",
+          "NOTWO": "North",
+          "SOONE": "South",
+          "SOTWO": "South",
+          "WEONE": "West",
+          "WETWO": "West",
+          "EAONE": "East",
+          "EATWO": "East"
+      },
+      "tower_list": 6,
+      "hold_for_release": true
     }
   },
   "airspace": {
@@ -2566,6 +2788,209 @@
         }
       }
     ]
+  },
+  "BOKRT3": {
+    "arrivals": [
+      {
+        "waypoints": "KEEPS/ho BOKRT/a11000 PINGG PONGG BRTEN BAPPY KENZI/h082",
+        "star": "BOKRT3",
+        "initial_controller": "ATL_CTR",
+        "description": "Turbojets",
+        "initial_altitude": 12000,
+        "initial_speed": 290,
+        "speed_restriction": 250,
+        "expect_approach": null,
+        "airlines": {
+          "KFTY": [
+            {
+                "icao": "LXJ",
+                "airport": "KMCO"
+            },
+            {
+                "icao": "DPJ",
+                "airport": "KMCO"
+            },
+            {
+                "icao": "EJA",
+                "airport": "KMCO"
+            },
+            {
+                "icao": "LXJ",
+                "airport": "KMIA"
+            },
+            {
+                "icao": "DPJ",
+                "airport": "KMIA"
+            },
+            {
+                "icao": "XOJ",
+                "airport": "KMIA"
+            },
+            {
+                "icao": "EJA",
+                "airport": "KFLL"
+            },
+            {
+                "icao": "LXJ",
+                "airport": "KFLL"
+            },
+            {
+                "icao": "XOJ",
+                "airport": "KFLL"
+            },
+            {
+                "icao": "LXJ",
+                "airport": "KJAX"
+            },
+            {
+                "icao": "DPJ",
+                "airport": "KJAX"
+            },
+            {
+                "icao": "EJA",
+                "airport": "KCHS"
+            },
+            {
+                "icao": "XOJ",
+                "airport": "KCHS"
+            },
+            {
+                "icao": "LXJ",
+                "airport": "KSAV"
+            },
+            {
+                "icao": "DPJ",
+                "airport": "KSAV"
+            },
+            {
+                "icao": "EJA",
+                "airport": "KMYR"
+            },
+            {
+                "icao": "LXJ",
+                "airport": "KTPA"
+            },
+            {
+                "icao": "DPJ",
+                "airport": "KTPA"
+            },
+            {
+                "icao": "XOJ",
+                "airport": "KTPA"
+            }
+        ]
+        }
+      },
+      {
+        "waypoints": "KEEPS/ho BOKRT/a7000-9000 PINGG PONGG BRTEN BAPPY KENZI/h082",
+        "star": "BOKRT3",
+        "initial_controller": "ATL_CTR",
+        "description": "props",
+        "initial_altitude": 12000,
+        "initial_speed": 290,
+        "speed_restriction": 250,
+        "expect_approach": null,
+        "airlines": {
+          "KFTY": [
+              {
+                  "icao": "N",
+                  "airport": "KMCO",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KMCO",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KMCO",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KMIA",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KMIA",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KMIA",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KFLL",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KFLL",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KFLL",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KJAX",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KJAX",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KCHS",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KCHS",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KSAV",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KSAV",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KMYR",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KTPA",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KTPA",
+                  "fleet": "lightGA"
+              },
+              {
+                  "icao": "N",
+                  "airport": "KTPA",
+                  "fleet": "lightGA"
+              }
+          ]
+      }      
+      }
+    ]
   }
 },
   "stars_config": {
@@ -2649,7 +3074,7 @@
         "GLAZR": "VNM",
         "RESPE": "VNM",
         "NOKIE": "VTY"
-      },          
+    },
       "significant_points": {
           "BNA": { },
           "BOBBD": { },
@@ -2850,6 +3275,7 @@
   "fixes": {
     "KATL": "N33.38.24.307,W84.25.52.604",
     "ATL": "N33.38.24.307,W84.25.52.604",
+    "FTY": "N33.46.44.760,W84.31.18.120",
     "_ATL_8L": "N33.38.58.339,W84.26.20.454",
     "_ATL_8R": "N33.38.48.431,W84.26.17.992",
     "_ATL_9L": "N33.38.04.874,W84.26.52.650",
@@ -2894,11 +3320,18 @@
         {
           "airport": "KATL",
           "runway": "28"
+        },
+        {
+          "airport": "KFTY",
+          "runway": "26"
         }
       ],
       "arrivals": {
         "CHPPR1": {
           "KATL": 10
+        },
+        "BOKRT3": {
+          "KFTY": 10
         },
         "GLAVN1": {
           "KATL": 10
@@ -2930,8 +3363,8 @@
                 "ATL_S_DEP": {"backup": "ATL_N_DEP"},
                 "ATL_I_DEP": {"backup": "ATL_S_DEP"},
                 "ATL_P_APP": {"backup": "ATL_I_DEP"},
-                "ATL_F_APP": {"backup": "ATL_P_APP"},
-                "ATL_X_APP": {"backup": "ATL_F_APP"},
+                "ATL_F_APP": {"backup": "ATL_P_APP", "departures": ["KFTY"]},
+                "ATL_X_APP": {"backup": "ATL_F_APP", "arrivals": ["BOKRT3"]},
                 "ATL_G_APP": {"backup": "ATL_X_APP"},
                 "ATL_Q_APP": {"backup": "ATL_G_APP"}
             }
@@ -2969,6 +3402,11 @@
             "rate": 15,
             "runway": "27R",
             "category": "South"
+          },
+          {
+            "airport": "KFTY",
+            "rate": 8,
+            "runway": "26"
           }
         ],
         "wind": {
