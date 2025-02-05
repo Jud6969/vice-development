@@ -3864,279 +3864,758 @@
         }
       },
       "departure_routes": {
-        "31": {
-          "NOONE": {
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-13/h310"
+          "31": {
+              "UGAAA": {
+                  "cleared_altitude": 5000,
+                  "waypoints": "KWDR-13/h310"
+              },
+              "TIROE": {
+                  "cleared_altitude": 5000,
+                  "waypoints": "KWDR-13/h310"
+              },
+              "SPA": {
+                  "cleared_altitude": 5000,
+                  "waypoints": "KWDR-13/h310"
+              },
+              "VUZ": {
+                  "cleared_altitude": 5000,
+                  "waypoints": "KWDR-13/h310"
+              }
           },
-          "NOTWO": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-13/h310"
-          },
-          "SOONE": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-13/h310"
-          },
-          "SOTWO": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-13/h310"
-          },
-          "WEONE": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-13/h310"
-          },
-          "WETWO": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-13/h310"
-          },
-          "EAONE": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-13/h310"
-          },
-          "EATWO": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-13/h310"
+          "13": {
+              "UGAAA": {
+                  "cleared_altitude": 5000,
+                  "waypoints": "KWDR-31/h130"
+              },
+              "TIROE": {
+                  "cleared_altitude": 5000,
+                  "waypoints": "KWDR-31/h130"
+              },
+              "SPA": {
+                  "cleared_altitude": 5000,
+                  "waypoints": "KWDR-31/h130"
+              },
+              "VUZ": {
+                  "cleared_altitude": 5000,
+                  "waypoints": "KWDR-31/h130"
+              }
           }
-        },
-        "13": {
-          "NOONE": {
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-31/h130"
-          },
-          "NOTWO": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-31/h130"
-          },
-          "SOONE": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-31/h130"
-          },
-          "SOTWO": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-31/h130"
-          },
-          "WEONE": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-31/h130"
-          },
-          "WETWO": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-31/h130"
-          },
-          "EAONE": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-31/h130"
-          },
-          "EATWO": { 
-            "cleared_altitude": 10000,
-            "waypoints": "KWDR-31/h130"
-          }
-        }
       },
       "departures": [
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "fastGA"
-                }
-            ],
-            "destination": "KORL",
-            "route": "SOONE LGC AMG KORL",
-            "exit": "SOONE"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "GAJ"
-                }
-            ],
-            "destination": "KPBI",
-            "route": "SOONE MCN AMG KPBI",
-            "exit": "SOONE"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "lightGA"
-                }
-            ],
-            "destination": "KTMB",
-            "route": "SOTWO PZD Q102 ORL KTMB",
-            "exit": "SOTWO"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "GAJ"
-                }
-            ],
-            "destination": "KTEB",
-            "route": "NOONE HRTWL JONZE SPA Q22 TEB",
-            "exit": "NOONE"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "lightGA"
-                }
-            ],
-            "destination": "KSAV",
-            "route": "EAONE MCN SAV",
-            "exit": "EAONE"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "EJA"
-                }
-            ],
-            "destination": "KHPN",
-            "route": "NOONE SPA J48 HVQ KHPN",
-            "exit": "NOONE"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "fastGA"
-                }
-            ],
-            "destination": "KBCT",
-            "route": "SOTWO PZD CRG OMN KBCT",
-            "exit": "SOTWO"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "fastGA"
-                }
-            ],
-            "destination": "KDEN",
-            "route": "WEONE MEM VUZ J14 GCK KDEN",
-            "exit": "WEONE"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "lightGA"
-                }
-            ],
-            "destination": "KMEM",
-            "route": "WETWO VUZ KMEM",
-            "exit": "WETWO"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "lightGA"
-                }
-            ],
-            "destination": "KBHM",
-            "route": "WETWO VUZ KBHM",
-            "exit": "WETWO"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "XOJ"
-                }
-            ],
-            "destination": "KPHL",
-            "route": "EAONE SPA HCH J48 HVQ J150 BYJAC KPHL",
-            "exit": "EAONE"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "lightGA"
-                }
-            ],
-            "destination": "KORD",
-            "route": "NOTWO GAD J89 FAM KORD",
-            "exit": "NOTWO"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "fastGA"
-                }
-            ],
-            "destination": "KDFW",
-            "route": "WETWO MEM CQY KDFW",
-            "exit": "WETWO"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "DPJ"
-                }
-            ],
-            "destination": "KAPF",
-            "route": "SOTWO MCN TLH KAPF",
-            "exit": "SOTWO"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "lightGA"
-                }
-            ],
-            "destination": "KRIC",
-            "route": "EAONE SPA HCM KRIC",
-            "exit": "EAONE"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "fastGA"
-                }
-            ],
-            "destination": "KLIT",
-            "route": "WETWO VUZ SQS KLIT",
-            "exit": "WETWO"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "lightGA"
-                }
-            ],
-            "destination": "KIND",
-            "route": "NOONE GAD BNA PXV KIND",
-            "exit": "NOONE"
-        },
-        {
-            "airlines": [
-                {
-                    "icao": "N",
-                    "fleet": "fastGA"
-                }
-            ],
-            "destination": "KCLE",
-            "route": "NOTWO HCH HVQ YRKES2 KCLE",
-            "exit": "NOTWO"
-        }
-    ],
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "fastGA"
+                  }
+              ],
+              "destination": "KORL",
+              "route": "UGAAA MCN AMG KORL",
+              "exit": "UGAAA"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "GAJ"
+                  }
+              ],
+              "destination": "KPBI",
+              "route": "UGAAA MCN SAV KPBI",
+              "exit": "UGAAA"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "lightGA"
+                  }
+              ],
+              "destination": "KTMB",
+              "route": "TIROE MCN TAY KTMB",
+              "exit": "TIROE"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "GAJ"
+                  }
+              ],
+              "destination": "KTEB",
+              "route": "SPA HNN J6 TEB",
+              "exit": "SPA"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "lightGA"
+                  }
+              ],
+              "destination": "KSAV",
+              "route": "TIROE MCN SAV",
+              "exit": "TIROE"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "EJA"
+                  }
+              ],
+              "destination": "KHPN",
+              "route": "SPA J48 HVQ KHPN",
+              "exit": "SPA"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "fastGA"
+                  }
+              ],
+              "destination": "KBCT",
+              "route": "UGAAA MCN SAV OMN KBCT",
+              "exit": "UGAAA"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "fastGA"
+                  }
+              ],
+              "destination": "KDEN",
+              "route": "VUZ MEM J14 GCK KDEN",
+              "exit": "VUZ"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "lightGA"
+                  }
+              ],
+              "destination": "KMEM",
+              "route": "VUZ SQS KMEM",
+              "exit": "VUZ"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "lightGA"
+                  }
+              ],
+              "destination": "KBHM",
+              "route": "VUZ KBHM",
+              "exit": "VUZ"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "XOJ"
+                  }
+              ],
+              "destination": "KPHL",
+              "route": "SPA J48 HVQ J150 BYJAC KPHL",
+              "exit": "SPA"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "lightGA"
+                  }
+              ],
+              "destination": "KORD",
+              "route": "SPA PXV BDF KORD",
+              "exit": "SPA"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "fastGA"
+                  }
+              ],
+              "destination": "KDFW",
+              "route": "VUZ CQY KDFW",
+              "exit": "VUZ"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "DPJ"
+                  }
+              ],
+              "destination": "KAPF",
+              "route": "TIROE MCN TLH KAPF",
+              "exit": "TIROE"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "lightGA"
+                  }
+              ],
+              "destination": "KRIC",
+              "route": "SPA HCM KRIC",
+              "exit": "SPA"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "fastGA"
+                  }
+              ],
+              "destination": "KLIT",
+              "route": "VUZ SQS KLIT",
+              "exit": "VUZ"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "lightGA"
+                  }
+              ],
+              "destination": "KIND",
+              "route": "SPA BNA PXV KIND",
+              "exit": "SPA"
+          },
+          {
+              "airlines": [
+                  {
+                      "icao": "N",
+                      "fleet": "fastGA"
+                  }
+              ],
+              "destination": "KCLE",
+              "route": "SPA J48 HVQ YRKES KCLE",
+              "exit": "SPA"
+          }
+      ],
       "exit_categories": {
-          "NOONE": "North",
-          "NOTWO": "North",
-          "SOONE": "South",
-          "SOTWO": "South",
-          "WEONE": "West",
-          "WETWO": "West",
-          "EAONE": "East",
-          "EATWO": "East"
+          "UGAAA": "East",
+          "TIROE": "Southeast",
+          "SPA": "North",
+          "VUZ": "West"
+      },
+
+      "tower_list": 11,
+      "hold_for_release": true
+    },
+    "KAHN": {
+      "approaches": {
+        "I27": {
+          "cifp_id": "I27"
+        },
+        "R2": {
+          "cifp_id": "R2"
+        },
+        "R20": {
+          "cifp_id": "R20"
+        },
+        "R27": {
+          "cifp_id": "R27"
+        },
+        "R9": {
+          "cifp_id": "R9"
+        }
+      },
+"departure_routes": {
+    "9": {
+        "UGAAA": {
+            "cleared_altitude": 3000,
+            "waypoints": "KAHN-27/h090"
+        },
+        "TIROE": {
+            "cleared_altitude": 3000,
+            "waypoints": "KAHN-27/h090"
+        },
+        "SPA": {
+            "cleared_altitude": 3000,
+            "waypoints": "KAHN-27/h090"
+        },
+        "VUZ": {
+            "cleared_altitude": 3000,
+            "waypoints": "KAHN-27/h090"
+        }
+    },
+    "27": {
+        "UGAAA": {
+            "cleared_altitude": 3000,
+            "waypoints": "KAHN-9/h270"
+        },
+        "TIROE": {
+            "cleared_altitude": 3000,
+            "waypoints": "KAHN-9/h270"
+        },
+        "SPA": {
+            "cleared_altitude": 3000,
+            "waypoints": "KAHN-9/h270"
+        },
+        "VUZ": {
+            "cleared_altitude": 3000,
+            "waypoints": "KAHN-9/h270"
+        }
+    }
+},
+"departures": [
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KORL",
+        "route": "UGAAA MCN AMG KORL",
+        "exit": "UGAAA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "GAJ"
+            }
+        ],
+        "destination": "KPBI",
+        "route": "UGAAA MCN SAV KPBI",
+        "exit": "UGAAA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KTMB",
+        "route": "UGAAA MCN TAY KTMB",
+        "exit": "UGAAA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "GAJ"
+            }
+        ],
+        "destination": "KTEB",
+        "route": "SPA HNN J6 TEB",
+        "exit": "SPA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KSAV",
+        "route": "TIROE MCN SAV",
+        "exit": "TIROE"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "EJA"
+            }
+        ],
+        "destination": "KHPN",
+        "route": "SPA J48 HVQ KHPN",
+        "exit": "SPA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KBCT",
+        "route": "UGAAA MCN SAV OMN KBCT",
+        "exit": "UGAAA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KDEN",
+        "route": "VUZ MEM J14 GCK KDEN",
+        "exit": "VUZ"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KMEM",
+        "route": "TIROE VUZ KMEM",
+        "exit": "TIROE"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KBHM",
+        "route": "UGAAA VUZ KBHM",
+        "exit": "UGAAA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "XOJ"
+            }
+        ],
+        "destination": "KPHL",
+        "route": "SPA J48 HVQ J150 BYJAC KPHL",
+        "exit": "SPA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KORD",
+        "route": "SPA BNA PXV VHP KORD",
+        "exit": "SPA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KDFW",
+        "route": "TIROE MEM CQY KDFW",
+        "exit": "TIROE"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "DPJ"
+            }
+        ],
+        "destination": "KAPF",
+        "route": "UGAAA MCN TLH KAPF",
+        "exit": "UGAAA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KRIC",
+        "route": "SPA HCH LYH KRIC",
+        "exit": "SPA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KLIT",
+        "route": "VUZ SQS LIT KLIT",
+        "exit": "VUZ"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KIND",
+        "route": "SPA BNA PXV KIND",
+        "exit": "SPA"
+    },
+    {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KCLE",
+        "route": "SPA J48 HVQ YRKES KCLE",
+        "exit": "SPA"
+    }
+],
+"exit_categories": {
+    "UGAAA": "East",
+    "TIROE": "Southeast",
+    "SPA": "North",
+    "VUZ": "West"
+},
+      "tower_list": 11,
+      "hold_for_release": true
+    },
+    "KGVL": {
+      "approaches": {
+        "I5": {
+          "cifp_id": "I5"
+        },
+        "R23": {
+          "cifp_id": "R23"
+        },
+        "R5": {
+          "cifp_id": "R5"
+        }
+      },
+      "departure_routes": {
+          "11": {
+              "UGAAA": {
+                  "cleared_altitude": 3000,
+                  "waypoints": "KGVL-29/h110"
+              },
+              "TIROE": {
+                  "cleared_altitude": 3000,
+                  "waypoints": "KGVL-29/h110"
+              },
+              "SPA": {
+                  "cleared_altitude": 3000,
+                  "waypoints": "KGVL-29/h110"
+              },
+              "VUZ": {
+                  "cleared_altitude": 3000,
+                  "waypoints": "KGVL-29/h110"
+              }
+          },
+          "23": {
+              "UGAAA": {
+                  "cleared_altitude": 3000,
+                  "waypoints": "KGVL-5/h230"
+              },
+              "TIROE": {
+                  "cleared_altitude": 3000,
+                  "waypoints": "KGVL-5/h230"
+              },
+              "SPA": {
+                  "cleared_altitude": 3000,
+                  "waypoints": "KGVL-5/h230"
+              },
+              "VUZ": {
+                  "cleared_altitude": 3000,
+                  "waypoints": "KGVL-5/h230"
+              }
+          }
+      },
+      "departures": [
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KORL",
+        "route": "UGAAA MCN AMG KORL",
+        "exit": "UGAAA"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "GAJ"
+            }
+        ],
+        "destination": "KPBI",
+        "route": "UGAAA MCN SAV KPBI",
+        "exit": "UGAAA"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KTMB",
+        "route": "TIROE MCN TAY KTMB",
+        "exit": "TIROE"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "GAJ"
+            }
+        ],
+        "destination": "KTEB",
+        "route": "SPA HNN J6 TEB",
+        "exit": "SPA"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KSAV",
+        "route": "TIROE MCN SAV",
+        "exit": "TIROE"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "EJA"
+            }
+        ],
+        "destination": "KHPN",
+        "route": "SPA J48 HVQ KHPN",
+        "exit": "SPA"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KBCT",
+        "route": "UGAAA MCN SAV OMN KBCT",
+        "exit": "UGAAA"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KDEN",
+        "route": "VUZ MEM J14 GCK KDEN",
+        "exit": "VUZ"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KMEM",
+        "route": "VUZ SQS KMEM",
+        "exit": "VUZ"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KBHM",
+        "route": "VUZ KBHM",
+        "exit": "VUZ"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "XOJ"
+            }
+        ],
+        "destination": "KPHL",
+        "route": "SPA J48 HVQ J150 BYJAC KPHL",
+        "exit": "SPA"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KORD",
+        "route": "SPA PXV BDF KORD",
+        "exit": "SPA"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KDFW",
+        "route": "TIROE MEM CQY KDFW",
+        "exit": "TIROE"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "DPJ"
+            }
+        ],
+        "destination": "KAPF",
+        "route": "UGAAA MCN TLH KAPF",
+        "exit": "UGAAA"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KRIC",
+        "route": "SPA HCM KRIC",
+        "exit": "SPA"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KLIT",
+        "route": "VUZ SQS LIT KLIT",
+        "exit": "VUZ"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "lightGA"
+            }
+        ],
+        "destination": "KIND",
+        "route": "SPA BNA PXV KIND",
+        "exit": "SPA"
+      },
+      {
+        "airlines": [
+            {
+                "icao": "N",
+                "fleet": "fastGA"
+            }
+        ],
+        "destination": "KCLE",
+        "route": "SPA J48 HVQ YRKES KCLE",
+        "exit": "SPA"
+      }
+      ],
+      "exit_categories": {
+          "UGAAA": "East",
+          "TIROE": "Southeast",
+          "SPA": "North",
+          "VUZ": "West"
       },
       "tower_list": 11,
       "hold_for_release": true
@@ -12784,38 +13263,41 @@
           }
       },
       "scratchpads": {
-        "LUCKK": "BNG",
-        "HANKO": "CTN",
-        "IRQ": "GRY",
-        "SARGE": "HLO",
-        "KELLN": "JAC",
-        "STNGA": "KJN",
-        "CHOOK": "NAS",
-        "YAALL": "NAS",
-        "VUZ": "NAS",
-        "RAFTN": "PGT",
-        "SMTTH": "PGT",
-        "BNA": "PEN",
-        "EMAHH": "PEN",
-        "JAACE": "PEN",
-        "HRTWL": "PHL",
-        "BURGG": "PLR",
-        "STEIT": "POU",
-        "GRGIA": "POU",
-        "BOBBD": "SKY",
-        "WALET": "SMZ",
-        "GLAZR": "VNM",
-        "RESPE": "VNM",
-        "NOKIE": "VTY",
-        "SOONE": "SOU",
-        "SOTWO": "SOT",
-        "NOONE": "NON",
-        "NOTWO": "NTW",
-        "WEONE": "WEO",
-        "WETWO": "WET",
-        "EAONE": "EAO",
-        "EATWO": "EAT"
-    },
+          "LUCKK": "BNG",
+          "HANKO": "CTN",
+          "IRQ": "GRY",
+          "SARGE": "HLO",
+          "KELLN": "JAC",
+          "STNGA": "KJN",
+          "CHOOK": "NAS",
+          "YAALL": "NAS",
+          "VUZ": "VUZ",
+          "RAFTN": "PGT",
+          "SMTTH": "PGT",
+          "BNA": "PEN",
+          "EMAHH": "PEN",
+          "JAACE": "PEN",
+          "HRTWL": "PHL",
+          "BURGG": "PLR",
+          "STEIT": "POU",
+          "GRGIA": "POU",
+          "BOBBD": "SKY",
+          "WALET": "SMZ",
+          "GLAZR": "VNM",
+          "RESPE": "VNM",
+          "NOKIE": "VTY",
+          "UGAAA": "UGA",
+          "TIROE": "TIR",
+          "SPA": "SPA",
+          "SOONE": "SOU",
+          "SOTWO": "SOT",
+          "NOONE": "NON",
+          "NOTWO": "NTW",
+          "WEONE": "WEO",
+          "WETWO": "WET",
+          "EAONE": "EAO",
+          "EATWO": "EAT"
+      },
       "significant_points": {
           "BNA": { },
           "BOBBD": { },
@@ -13194,17 +13676,9 @@
         {
           "airport": "KCTJ",
           "runway": "17"
-        },
-        {
-          "airport": "KWDR",
-          "runway": "31"
-        },
-        {
-          "airport": "KWDR",
-          "runway": "13"
         }
       ],
-      "arrivals": {
+      "inbound_rates": {
         "BUKHD3": {
           "KFTY": 10,
           "KPDK": 10,
@@ -13216,8 +13690,7 @@
           "KVPC": 10,
           "KFFC": 10,
           "KHMP": 10,
-          "KCTJ": 10,
-          "KWDR": 10
+          "KCTJ": 10
         },
         "DEHAN3": {
           "KFTY": 10,
@@ -13230,8 +13703,7 @@
           "KVPC": 10,
           "KFFC": 10,
           "KHMP": 10,
-          "KCTJ": 10,
-          "KWDR": 10
+          "KCTJ": 10
         },
         "SWTEE2": {
           "KFTY": 10,
@@ -13244,8 +13716,7 @@
           "KVPC": 10,
           "KFFC": 10,
           "KHMP": 10,
-          "KCTJ": 10,
-          "KWDR": 10
+          "KCTJ": 10
         },
         "WRGNZ3": {
           "KFTY": 10,
@@ -13258,8 +13729,7 @@
           "KVPC": 10,
           "KFFC": 10,
           "KHMP": 10,
-          "KCTJ": 10,
-          "KWDR": 10
+          "KCTJ": 10
         },
         "CHPPR1": {
           "KATL": 10
@@ -13275,8 +13745,7 @@
           "KVPC": 10,
           "KFFC": 10,
           "KHMP": 10,
-          "KCTJ": 10,
-          "KWDR": 10
+          "KCTJ": 10
         },
         "GLAVN1": {
           "KATL": 10
@@ -13307,7 +13776,7 @@
                 "ATL_N_DEP": {"departures": ["KATL"], "backup": "ATL_H_APP"},
                 "ATL_S_DEP": {"backup": "ATL_N_DEP"},
                 "ATL_I_DEP": {"backup": "ATL_S_DEP"},
-                "ATL_P_APP": {"backup": "ATL_I_DEP","departures": ["KPDK","KLZU","KWDR"],"arrivals": ["DEHAN3"]},
+                "ATL_P_APP": {"backup": "ATL_I_DEP","departures": ["KPDK","KLZU"],"arrivals": ["DEHAN3"]},
                 "ATL_F_APP": {"backup": "ATL_P_APP", "departures": ["KFTY","KRYY","KMGE","KPUJ","KVPC","KCTJ"],"arrivals": ["SWTEE2","BUKHD3"]},
                 "ATL_X_APP": {"backup": "ATL_F_APP", "arrivals": ["BOKRT3"],"departures": ["KFFC"]},
                 "ATL_G_APP": {"backup": "ATL_X_APP","arrivals": ["WRGNZ3"],"departures": ["KCVC","KHMP"]},
@@ -13402,11 +13871,6 @@
             "airport": "KCTJ",
             "rate": 8,
             "runway": "35"
-          },
-          {
-            "airport": "KWDR",
-            "rate": 8,
-            "runway": "31"
           }
         ],
         "wind": {
@@ -13523,7 +13987,7 @@
               "runway": "13"
             }
           ],
-          "arrivals": {
+          "inbound_rates": {
             "BUKHD3": {
               "KFTY": 10,
               "KPDK": 10,
@@ -13797,17 +14261,9 @@
             {
               "airport": "KCTJ",
               "runway": "17"
-            },
-            {
-              "airport": "KWDR",
-              "runway": "31"
-            },
-            {
-              "airport": "KWDR",
-              "runway": "13"
             }
           ],
-          "arrivals": {
+          "inbound_rates": {
             "BOKRT3": {
               "KFTY": 10,
               "KPDK": 10,
@@ -13819,8 +14275,7 @@
               "KVPC": 10,
               "KFFC": 10,
               "KHMP": 10,
-              "KCTJ": 10,
-              "KWDR": 10
+              "KCTJ": 10
             },
             "BUKHD3": {
               "KFTY": 10,
@@ -13833,8 +14288,7 @@
               "KVPC": 10,
               "KFFC": 10,
               "KHMP": 10,
-              "KCTJ": 10,
-              "KWDR": 10
+              "KCTJ": 10
             },
             "DEHAN3": {
               "KFTY": 10,
@@ -13847,8 +14301,7 @@
               "KVPC": 10,
               "KFFC": 10,
               "KHMP": 10,
-              "KCTJ": 10,
-              "KWDR": 10
+              "KCTJ": 10
             },
             "SWTEE2": {
               "KFTY": 10,
@@ -13861,8 +14314,7 @@
               "KVPC": 10,
               "KFFC": 10,
               "KHMP": 10,
-              "KCTJ": 10,
-              "KWDR": 10
+              "KCTJ": 10
             },
             "WRGNZ3": {
               "KFTY": 10,
@@ -13875,8 +14327,7 @@
               "KVPC": 10,
               "KFFC": 10,
               "KHMP": 10,
-              "KCTJ": 10,
-              "KWDR": 10
+              "KCTJ": 10
             },
             "CHPPR1 EAST": {
               "KATL": 10
@@ -13910,7 +14361,7 @@
                     "ATL_N_DEP": {"departures": ["KATL"], "backup": "ATL_H_APP"},
                     "ATL_S_DEP": {"backup": "ATL_N_DEP"},
                     "ATL_I_DEP": {"backup": "ATL_S_DEP"},
-                    "ATL_P_APP": {"backup": "ATL_I_DEP","departures": ["KPDK","KLZU","KWDR"],"arrivals": ["DEHAN3"]},
+                    "ATL_P_APP": {"backup": "ATL_I_DEP","departures": ["KPDK","KLZU"],"arrivals": ["DEHAN3"]},
                     "ATL_F_APP": {"backup": "ATL_P_APP", "departures": ["KFTY","KRYY","KMGE","KPUJ","KVPC","KCTJ"],"arrivals": ["SWTEE2","BUKHD3"]},
                     "ATL_X_APP": {"backup": "ATL_F_APP", "arrivals": ["BOKRT3"],"departures": ["KFFC"]},
                     "ATL_G_APP": {"backup": "ATL_X_APP","arrivals": ["WRGNZ3"],"departures": ["KCVC","KHMP"]},
@@ -14035,16 +14486,6 @@
                 "airport": "KCTJ",
                 "rate": 10,
                 "runway": "17"
-              },
-              {
-                "airport": "KWDR",
-                "rate": 10,
-                "runway": "31"
-              },
-              {
-                "airport": "KWDR",
-                "rate": 10,
-                "runway": "13"
               }
             ],
             "wind": {
@@ -14071,7 +14512,7 @@
                   "runway": "26R"
                 }
               ],
-              "arrivals": {
+              "inbound_rates": {
                 "NW_FINALTRIPS": {
                   "KATL": 30
                 },
@@ -14121,7 +14562,7 @@
                   "runway": "26R"
                 }
               ],
-              "arrivals": {
+              "inbound_rates": {
                 "NW_FINALTRIPS": {
                   "KATL": 15
                 },
