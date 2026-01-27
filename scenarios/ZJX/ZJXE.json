@@ -5,7 +5,6 @@
   "airports": {
     "KJAX": {
       "departure_controller": "Jacksonville Approach",
-      "name": "JAX",
       "approaches": {
         "IY8": {
           "cifp_id": "IY8"
@@ -116,7 +115,6 @@
     },
     "KTPA": {
       "departure_controller": "Jacksonville Approach",
-      "name": "TPA",
       "approaches": {
         "I9L": {
           "cifp_id": "I19L"
@@ -124,7 +122,6 @@
       }
     },
     "KDAB": {
-      "name": "Daytona",
       "approaches": {
         "I7L": {
           "cifp_id": "I7L"
@@ -132,7 +129,6 @@
       }
     },
     "KMCO": {
-      "name": "Orlando",
       "approaches": {
         "R6L": {
           "cifp_id": "R36L"
@@ -141,7 +137,6 @@
     },
     "KSRQ": {
       "departure_controller": "Jacksonville Approach",
-      "name": "SRQ",
       "approaches": {
         "R14": {
           "cifp_id": "R14"
@@ -150,7 +145,6 @@
     },
     "KCHS": {
       "departure_controller": "Jacksonville Approach",
-      "name": "CHS",
       "approaches": {
         "I15": {
           "cifp_id": "I15"
@@ -159,7 +153,6 @@
     },
     "KSAV": {
       "departure_controller": "Savannah Approach",
-      "name": "SAV",
       "departure_routes": {
         "28": {
           "BYYOU": {
@@ -855,25 +848,33 @@
       "frequency": 126425,
       "eram_facility": true,
       "radio_name": "Atlanta Center",
-      "sector_id": "T20"
+      "facility": "ZTL",
+      "facility_id": "T",
+      "sector_id": "20"
     },
     "ZTL 23 Clark Hill": {
       "frequency": 124325,
       "eram_facility": true,
       "radio_name": "Atlanta Center",
-      "sector_id": "T23"
+      "facility": "ZTL",
+      "facility_id": "T",
+      "sector_id": "23"
     },
     "ZTL 22 Macon": {
       "frequency": 119375,
       "eram_facility": true,
       "radio_name": "Atlanta Center",
-      "sector_id": "T22"
+      "facility": "ZTL",
+      "facility_id": "T",
+      "sector_id": "22"
     },
     "ZTL 27 Hampton": {
       "frequency": 125825,
       "eram_facility": true,
       "radio_name": "Atlanta Center",
-      "sector_id": "T27"
+      "facility": "ZTL",
+      "facility_id": "T",
+      "sector_id": "27"
     },
     "ZJX 29 Waycross": {
       "frequency": 127575,
@@ -1119,16 +1120,16 @@
       "facility_id": "R",
       "sector_id": "46"
     },
-    "ZMA 25 Freeport Low": {
-      "frequency": 133400,
+    "ZMA 25 Ft. Myers High": {
+      "frequency": 128225,
       "eram_facility": true,
       "radio_name": "Miami Center",
       "facility": "ZMA",
       "facility_id": "R",
-      "sector_id": "21"
+      "sector_id": "25"
     },
     "ZTL 11 Monroeville": {
-      "frequency": 133400,
+      "frequency": 128025,
       "eram_facility": true,
       "radio_name": "Atlanta Center",
       "facility": "ZTL",
@@ -1270,7 +1271,7 @@
       "sector_id": "1W"
     },
     "ILM_E_APP": {
-      "frequency": 120500,
+      "frequency": 121500,
       "radio_name": "Charlotte Approach",
       "facility": "ILM",
       "facility_id": "I",
@@ -1298,7 +1299,7 @@
       "sector_id": "1E"
     },
     "MOB_APP": {
-      "frequency": 119000,
+      "frequency": 119500,
       "radio_name": "Mobile Approach",
       "facility": "MOB",
       "facility_id": "F",
@@ -1354,7 +1355,7 @@
       "sector_id": "1Z"
     },
     "FLO_APP": {
-      "frequency": 119000,
+      "frequency": 119400,
       "radio_name": "Florence Approach",
       "facility": "FLO",
       "facility_id": "L",
