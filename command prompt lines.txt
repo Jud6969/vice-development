@@ -1,6 +1,6 @@
 cd C:\Program Files (x86)\Vice
 
-vice.exe -scenario C:\Users\Jud\Downloads\vice-development\scenarios\sct2\sct.json -videomap C:\Users\Jud\Downloads\vice-development\videomaps\ZLA-videomaps.gob.zst
+vice.exe C:\Users\judlo\Downloads\zjx50.json -videomap C:\Users\Jud\Downloads\vice-development\videomaps\ZJX-eram-videomaps.gob.zst
 
 vice.exe -scenario E:\vicedevelopment\vice-development\scenarios\dab.json -videomap E:\vicedevelopment\vice-development\videomaps\ZJX-videomaps.gob.zst
 
