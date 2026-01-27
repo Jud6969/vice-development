@@ -944,9 +944,9 @@
       "sector_id": "76"
     }
   },
-  "default_scenario": "49 Moultrie + 50 Alma + 29 Waycross",
+  "default_scenario": "49 Moultrie + 50 Alma",
   "scenarios": {
-    "49 Moultrie + 50 Alma + 29 Waycross": {
+    "49 Moultrie + 50 Alma": {
       "configuration": {
         "config_id": "STD",
         "default_consolidation": {
