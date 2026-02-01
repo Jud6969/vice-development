@@ -812,98 +812,279 @@
       "frequency": 127475,
       "eram_facility": true,
       "radio_name": "JAX Center",
+      "facility": "ZJX",
       "sector_id": "75"
     },
     "ZJX 33 Geneva": {
       "frequency": 125050,
       "eram_facility": true,
       "radio_name": "JAX Center",
+      "facility": "ZJX",
       "sector_id": "33"
     },
     "ZJX 66 Aiken": {
       "frequency": 127475,
       "eram_facility": true,
       "radio_name": "JAX Center",
+      "facility": "ZJX",
       "sector_id": "66"
     },
     "ZJX 78 Lake City": {
       "frequency": 133875,
       "eram_facility": true,
       "radio_name": "JAX Center",
+      "facility": "ZJX",
       "sector_id": "78"
     },
     "ZJX 50 Alma": {
       "frequency": 135975,
       "eram_facility": true,
       "radio_name": "JAX Center",
+      "facility": "ZJX",
       "sector_id": "50"
     },
     "ZJX 68 States": {
       "frequency": 126125,
       "eram_facility": true,
       "radio_name": "JAX Center",
+      "facility": "ZJX",
       "sector_id": "68"
-    },
-    "ZTL 20 Dublin": {
-      "frequency": 126425,
-      "eram_facility": true,
-      "radio_name": "Atlanta Center",
-      "facility": "ZTL",
-      "facility_id": "T",
-      "sector_id": "20"
-    },
-    "ZTL 23 Clark Hill": {
-      "frequency": 124325,
-      "eram_facility": true,
-      "radio_name": "Atlanta Center",
-      "facility": "ZTL",
-      "facility_id": "T",
-      "sector_id": "23"
-    },
-    "ZTL 22 Macon": {
-      "frequency": 119375,
-      "eram_facility": true,
-      "radio_name": "Atlanta Center",
-      "facility": "ZTL",
-      "facility_id": "T",
-      "sector_id": "22"
-    },
-    "ZTL 27 Hampton": {
-      "frequency": 125825,
-      "eram_facility": true,
-      "radio_name": "Atlanta Center",
-      "facility": "ZTL",
-      "facility_id": "T",
-      "sector_id": "27"
     },
     "ZJX 29 Waycross": {
       "frequency": 127575,
       "eram_facility": true,
       "radio_name": "JAX Center",
+      "facility": "ZJX",
       "sector_id": "29"
     },
     "ZJX 77 Taylor": {
       "frequency": 125375,
       "eram_facility": true,
       "radio_name": "JAX Center",
+      "facility": "ZJX",
       "sector_id": "77"
     },
     "ZJX 54 Jeckyl": {
       "frequency": 124675,
       "eram_facility": true,
       "radio_name": "JAX Center",
+      "facility": "ZJX",
       "sector_id": "54"
     },
     "ZJX 57 St. Johns": {
       "frequency": 134000,
       "eram_facility": true,
       "radio_name": "JAX Center",
+      "facility": "ZJX",
       "sector_id": "57"
+    },
+    "ZJX 87 Lawtey": {
+      "frequency": 132825,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "87"
+    },
+    "ZJX 49 Moultrie": {
+      "frequency": 133300,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "49"
+    },
+    "ZJX 65 Ridgeway": {
+      "frequency": 134975,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "65"
+    },
+    "ZJX 32 Ozark": {
+      "frequency": 120325,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "32"
+    },
+    "ZJX 76 Keystone": {
+      "frequency": 135450,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "76"
+    },
+    "ZJX 47 Summer": {
+      "frequency": 124075,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "47"
+    },
+    "ZJX 52 Metta": {
+      "frequency": 135050,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "52"
+    },
+    "ZJX 51 Knemo": {
+      "frequency": 120125,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "51"
+    },
+    "ZJX 48 Georgetown": {
+      "frequency": 133625,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "48"
+    },
+    "ZJX 73 Allendale": {
+      "frequency": 132925,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "73"
+    },
+    "ZJX 74 Charleston": {
+      "frequency": 134375,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "74"
+    },
+     "ZJX 71 Florence": {
+      "frequency": 133450,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "71"
+    },
+     "ZJX 72 Columbia": {
+      "frequency": 124700,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "72"
+    },
+     "ZJX 12 Albany": {
+      "frequency": 125750,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "12"
+    },
+    "ZJX 28 Tallahassee": {
+      "frequency": 127800,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "28"
+    },
+    "ZJX 15 Ocala": {
+      "frequency": 133325,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "15"
+    },
+    "ZJX 14 Cedar Key": {
+      "frequency": 135750,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "14"
+    },
+    "ZJX 88 Darbs": {
+      "frequency": 128050,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+       "facility": "ZJX",
+      "sector_id": "88"
+    },
+    "ZJX 10 Crestview": {
+      "frequency": 120200,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "10"
+    },
+    "ZJX 85 Micanopy": {
+      "frequency": 128625,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "85"
+    },
+    "ZJX 21 Enterprise": {
+      "frequency": 135125,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "21"
+    },
+    "ZJX 31 St. George": {
+      "frequency": 134175,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "31"
+    },
+    "ZJX 86 Zephyr": {
+      "frequency": 128425,
+      "eram_facility": true,
+      "radio_name": "JAX Center",
+      "facility": "ZJX",
+      "sector_id": "86"
+    },
+    "ATL_R_APP": {
+      "frequency": 126550,
+      "radio_name": "Atlanta Approach",
+      "facility_id": "X",
+      "facility": "A80",
+      "sector_id": "1R"
     },
     "JAX_S_APP": {
       "frequency": 124900,
       "radio_name": "JAX Approach",
       "sector_id": "1S",
+      "facility": "JAX",
+      "facility_id": "J"
+    },
+    "JAX_N_APP": {
+      "frequency": 127000,
+      "radio_name": "JAX Approach",
+      "sector_id": "1N",
+      "facility": "JAX",
+      "facility_id": "J"
+    },
+    "JAX_W_APP": {
+      "frequency": 127775,
+      "radio_name": "JAX Approach",
+      "sector_id": "1W",
+      "facility": "JAX",
+      "facility_id": "J"
+    },
+    "JAX_E_APP": {
+      "frequency": 132775,
+      "radio_name": "JAX Approach",
+      "sector_id": "1E",
+      "facility": "JAX",
+      "facility_id": "J"
+    },
+    "JAX_A_APP": {
+      "frequency": 121300,
+      "radio_name": "JAX Approach",
+      "sector_id": "1A",
+      "facility": "JAX",
+      "facility_id": "J"
+    },
+    "JAX_D_APP": {
+      "frequency": 128675,
+      "radio_name": "JAX Approach",
+      "sector_id": "1D",
       "facility": "JAX",
       "facility_id": "J"
     },
@@ -914,164 +1095,194 @@
       "facility": "SAV",
       "facility_id": "S"
     },
-    "ZJX 87 Lawtey": {
-      "frequency": 132825,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "87"
+    "SAV_W_APP": {
+      "frequency": 118400,
+      "radio_name": "Savannah Approach",
+      "sector_id": "1W",
+      "facility": "SAV",
+      "facility_id": "S"
     },
-    "ZJX 49 Moultrie": {
-      "frequency": 133300,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "49"
+    "SAV_S_APP": {
+      "frequency": 120400,
+      "radio_name": "Savannah Approach",
+      "sector_id": "1S",
+      "facility": "SAV",
+      "facility_id": "S"
     },
-    "ZJX 65 Ridgeway": {
-      "frequency": 134975,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "65"
+    "MCO_E_DEP": {
+      "frequency": 124800,
+      "radio_name": "Orlando Departure",
+      "facility_id": "O",
+      "facility": "F11",
+      "sector_id": "1E"
     },
-    "ZJX 32 Ozark": {
-      "frequency": 120325,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "32"
+    "MCO_W_DEP": {
+      "frequency": 124800,
+      "radio_name": "Orlando Departure",
+      "facility_id": "O",
+      "facility": "F11",
+      "sector_id": "1W"
     },
-    "ZJX 76 Keystone": {
-      "frequency": 135450,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "76"
+    "MCO_L_APP": {
+      "frequency": 134050,
+      "radio_name": "Orlando Approach",
+      "facility_id": "O",
+      "facility": "F11",
+      "sector_id": "1L"
     },
-    "ZJX 47 Summer": {
-      "frequency": 124075,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "47"
+    "MCO_B_APP": {
+      "frequency": 128375,
+      "radio_name": "Orlando Approach",
+      "facility_id": "O",
+      "facility": "F11",
+      "sector_id": "1B"
     },
-    "ZJX 52 Metta": {
-      "frequency": 135050,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "52"
+    "DAB_H_APP": {
+      "frequency": 125725,
+      "radio_name": "Daytona Approach",
+      "facility": "DAB",
+      "facility_id": "B",
+      "sector_id": "1H"
     },
-    "ZJX 51 Knemo": {
-      "frequency": 120125,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "51"
+    "TLH_E_APP": {
+      "frequency": 135800,
+      "radio_name": "Talahassee Approach",
+      "facility": "TLH",
+      "facility_id": "L",
+      "sector_id": "1E"
     },
-    "ZJX 48 Georgetown": {
-      "frequency": 133625,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "48"
+    "TLH_W_APP": {
+      "frequency": 128700,
+      "radio_name": "Tallahassee Approach",
+      "facility": "TLH",
+      "facility_id": "L",
+      "sector_id": "1W"
     },
-    "ZJX 73 Allendale": {
-      "frequency": 132925,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "73"
+    "PNS_E_APP": {
+      "frequency": 119000,
+      "radio_name": "Pensacola Approach",
+      "facility": "P31",
+      "facility_id": "P",
+      "sector_id": "1E"
     },
-    "ZJX 74 Charleston": {
-      "frequency": 134375,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "74"
+    "MOB_APP": {
+      "frequency": 119500,
+      "radio_name": "Mobile Approach",
+      "facility": "MOB",
+      "facility_id": "F",
+      "sector_id": "1E"
     },
-     "ZJX 71 Florence": {
-      "frequency": 133450,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "71"
+    "OZR_APP": {
+      "frequency": 121100,
+      "radio_name": "Cairns Approach",
+      "facility": "OZR",
+      "facility_id": "P",
+      "sector_id": "1E"
     },
-     "ZJX 72 Columbia": {
-      "frequency": 124700,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "72"
+    "VPS_N_APP": {
+      "frequency": 125100,
+      "radio_name": "Eglin Approach",
+      "facility": "VPS",
+      "facility_id": "P",
+      "sector_id": "1E"
     },
-     "ZJX 12 Albany": {
-      "frequency": 125750,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "12"
+    "PAM_APP": {
+      "frequency": 125200,
+      "radio_name": "Tyndall Approach",
+      "facility": "PAM",
+      "facility_id": "Q",
+      "sector_id": "1P"
     },
-    "ZJX 28 Tallahassee": {
+    "CHS_W_APP": {
+      "frequency": 120700,
+      "radio_name": "Charleston Approach",
+      "facility": "CHS",
+      "facility_id": "C",
+      "sector_id": "1W"
+    },
+    "CHS_E_APP": {
+      "frequency": 121275,
+      "radio_name": "Charleston Approach",
+      "facility": "CHS",
+      "facility_id": "C",
+      "sector_id": "1W"
+    },
+    "NBC_APP": {
+      "frequency": 125125,
+      "radio_name": "Beaufort Approach",
+      "facility": "NBC",
+      "facility_id": "BBB",
+      "sector_id": "1B"
+    },
+    "CAE_N_APP": {
+      "frequency": 133400,
+      "radio_name": "ColUmbia Approach",
+      "facility": "CAE",
+      "facility_id": "A",
+      "sector_id": "1B"
+    },
+    "CAE_S_APP": {
+      "frequency": 124150,
+      "radio_name": "ColUmbia Approach",
+      "facility": "CAE",
+      "facility_id": "A",
+      "sector_id": "1B"
+    },
+    "SSC_APP": {
+      "frequency": 125400,
+      "radio_name": "Shaw Approach",
+      "facility": "SSC",
+      "facility_id": "Z",
+      "sector_id": "1Z"
+    },
+    "FLO_APP": {
+      "frequency": 119400,
+      "radio_name": "Florence Approach",
+      "facility": "FLO",
+      "facility_id": "L",
+      "sector_id": "1F"
+    },
+    "MYR_E_APP": {
+      "frequency": 119200,
+      "radio_name": "Myrtle Approach",
+      "facility": "MYR",
+      "facility_id": "M",
+      "sector_id": "1E"
+    },
+    "MYR_W_APP": {
+      "frequency": 127400,
+      "radio_name": "Myrtle Approach",
+      "facility": "MYR",
+      "facility_id": "M",
+      "sector_id": "1E"
+    },
+    "FAY_N_APP": {
+      "frequency": 125175,
+      "radio_name": "Fayetteville Approach",
+      "facility": "FAY",
+      "facility_id": "Y",
+      "sector_id": "1N"
+    },
+    "FAY_W_APP": {
       "frequency": 127800,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "28"
+      "radio_name": "Fayetteville Approach",
+      "facility": "FAY",
+      "facility_id": "Y",
+      "sector_id": "1W"
     },
-    "ZJX 15 Ocala": {
-      "frequency": 133325,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "15"
+    "FAY_E_APP": {
+      "frequency": 133000,
+      "radio_name": "Fayetteville Approach",
+      "facility": "FAY",
+      "facility_id": "Y",
+      "sector_id": "1E"
     },
-    "ZJX 14 Cedar Key": {
-      "frequency": 135750,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "14"
-    },
-    "ZJX 88 Darbs": {
-      "frequency": 128050,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "88"
-    },
-    "ZJX 10 Crestview": {
-      "frequency": 120200,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "10"
-    },
-    "ZJX 85 Micanopy": {
-      "frequency": 128625,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "85"
-    },
-    "ZJX 21 Enterprise": {
-      "frequency": 135125,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "21"
-    },
-    "ZJX 31 St. George": {
-      "frequency": 134175,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "31"
-    },
-    "ZJX 86 Zephyr": {
-      "frequency": 128425,
-      "eram_facility": true,
-      "radio_name": "JAX Center",
-      "sector_id": "86"
-    },
-    "ATL_R_APP": {
-      "frequency": 126550,
-      "radio_name": "Atlanta Approach",
-      "facility_id": "X",
-      "facility": "A80",
-      "sector_id": "1R"
-    },
-     "ATL_M_APP": {
+    "ATL_M_APP": {
       "frequency": 124200,
       "radio_name": "Atlanta Approach",
       "facility_id": "X",
       "facility": "A80",
       "sector_id": "1M"
-    },
-    "MCO_E_APP": {
-      "frequency": 124800,
-      "radio_name": "Orlando Approach",
-      "facility_id": "O",
-      "facility": "F11",
-      "sector_id": "1E"
     },
     "TPA_E_APP": {
       "frequency": 118150,
@@ -1079,6 +1290,27 @@
       "facility_id": "D",
       "facility": "TPA",
       "sector_id": "1E"
+    },
+    "TPA_B_DEP": {
+      "frequency": 135500,
+      "radio_name": "Tampa Approach",
+      "facility_id": "D",
+      "facility": "TPA",
+      "sector_id": "1B"
+    },
+    "TPA_W_APP": {
+      "frequency": 132525,
+      "radio_name": "Tampa Approach",
+      "facility_id": "D",
+      "facility": "TPA",
+      "sector_id": "1W"
+    },
+    "TPA_D_APP": {
+      "frequency": 118800,
+      "radio_name": "Tampa Approach",
+      "facility_id": "D",
+      "facility": "TPA",
+      "sector_id": "1D"
     },
     "ZMA 02 Hobee": {
       "frequency": 119825,
@@ -1127,6 +1359,38 @@
       "facility": "ZMA",
       "facility_id": "R",
       "sector_id": "25"
+    },
+        "ZTL 20 Dublin": {
+      "frequency": 126425,
+      "eram_facility": true,
+      "radio_name": "Atlanta Center",
+      "facility": "ZTL",
+      "facility_id": "T",
+      "sector_id": "20"
+    },
+    "ZTL 23 Clark Hill": {
+      "frequency": 124325,
+      "eram_facility": true,
+      "radio_name": "Atlanta Center",
+      "facility": "ZTL",
+      "facility_id": "T",
+      "sector_id": "23"
+    },
+    "ZTL 22 Macon": {
+      "frequency": 119375,
+      "eram_facility": true,
+      "radio_name": "Atlanta Center",
+      "facility": "ZTL",
+      "facility_id": "T",
+      "sector_id": "22"
+    },
+    "ZTL 27 Hampton": {
+      "frequency": 125825,
+      "eram_facility": true,
+      "radio_name": "Atlanta Center",
+      "facility": "ZTL",
+      "facility_id": "T",
+      "sector_id": "27"
     },
     "ZTL 11 Monroeville": {
       "frequency": 128025,
@@ -1276,104 +1540,6 @@
       "facility": "ILM",
       "facility_id": "I",
       "sector_id": "1E"
-    },
-    "DAB_N_APP": {
-      "frequency": 125800,
-      "radio_name": "Daytona Approach",
-      "facility": "DAB",
-      "facility_id": "B",
-      "sector_id": "1N"
-    },
-    "TLH_E_APP": {
-      "frequency": 135800,
-      "radio_name": "Talahassee Approach",
-      "facility": "TLH",
-      "facility_id": "L",
-      "sector_id": "1E"
-    },
-    "PNS_E_APP": {
-      "frequency": 119000,
-      "radio_name": "Pensacola Approach",
-      "facility": "P31",
-      "facility_id": "P",
-      "sector_id": "1E"
-    },
-    "MOB_APP": {
-      "frequency": 119500,
-      "radio_name": "Mobile Approach",
-      "facility": "MOB",
-      "facility_id": "F",
-      "sector_id": "1E"
-    },
-    "OZR_APP": {
-      "frequency": 121100,
-      "radio_name": "Cairns Approach",
-      "facility": "OZR",
-      "facility_id": "P",
-      "sector_id": "1E"
-    },
-    "VPS_N_APP": {
-      "frequency": 125100,
-      "radio_name": "Eglin Approach",
-      "facility": "VPS",
-      "facility_id": "P",
-      "sector_id": "1E"
-    },
-    "PAM_APP": {
-      "frequency": 125200,
-      "radio_name": "Tyndall Approach",
-      "facility": "PAM",
-      "facility_id": "Q",
-      "sector_id": "1P"
-    },
-    "CHS_W_APP": {
-      "frequency": 120700,
-      "radio_name": "Charleston Approach",
-      "facility": "CHS",
-      "facility_id": "C",
-      "sector_id": "1W"
-    },
-    "NBC_APP": {
-      "frequency": 125125,
-      "radio_name": "Beaufort Approach",
-      "facility": "NBC",
-      "facility_id": "BBB",
-      "sector_id": "1B"
-    },
-    "CAE_N_APP": {
-      "frequency": 133400,
-      "radio_name": "ColUmbia Approach",
-      "facility": "CAE",
-      "facility_id": "A",
-      "sector_id": "1B"
-    },
-    "SSC_APP": {
-      "frequency": 125400,
-      "radio_name": "Shaw Approach",
-      "facility": "SSC",
-      "facility_id": "Z",
-      "sector_id": "1Z"
-    },
-    "FLO_APP": {
-      "frequency": 119400,
-      "radio_name": "Florence Approach",
-      "facility": "FLO",
-      "facility_id": "L",
-      "sector_id": "1F"
-    },
-    "MYR_E_APP": {
-      "frequency": 119200,
-      "radio_name": "Myrtle Approach",
-      "facility": "MYR",
-      "facility_id": "M",
-      "sector_id": "1E"
-    },
-    "FAY_N_APP": {
-      "frequency": 125175,
-      "radio_name": "Fayetteville Approach",
-      "facility": "FAY",
-      "facility_id": "Y",
-      "sector_id": "1N"
     },
     "ZHU 63 Mobile": {
       "frequency": 125775,
