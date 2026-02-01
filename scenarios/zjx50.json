@@ -910,8 +910,7 @@
       "frequency": 125200,
       "radio_name": "Savannah Approach",
       "sector_id": "1N",
-      "facility": "SAV",
-      "facility_id": "S"
+      "facility": "SAV" 
     },
     "ZJX 87 Lawtey": {
       "frequency": 132825,
@@ -953,28 +952,76 @@
           "ZJX 50 Alma": []
         }
       },
-      "controllers": [
-        "ZJX 75 Greencove",
-        "ZJX 33 Geneva",
-        "ZJX 66 Aiken",
-        "ZJX 78 Lake City",
-        "ZJX 68 States",
-        "ZTL 20 Dublin",
-        "ZTL 23 Clark Hill",
-        "ZTL 22 Macon",
-        "ZTL 27 Hampton",
-        "ZJX 29 Waycross",
-        "ZJX 77 Taylor",
-        "ZJX 54 Jeckyl",
-        "ZJX 57 St. Johns",
-        "Jacksonville Approach",
-        "Savannah Approach",
-        "ZJX 87 Lawtey",
-        "ZJX 49 Moultrie",
-        "ZJX 65 Ridgeway",
-        "ZJX 32 Ozark",
-        "ZJX 76 Keystone"
-      ],
+      "controllers": [  "ZJX 75 Greencove",
+          "ZJX 33 Geneva",
+          "ZJX 66 Aiken",
+          "ZJX 78 Lake City",
+          "ZJX 50 Alma",
+          "ZJX 68 States",
+          "ZJX 29 Waycross",
+          "ZJX 77 Taylor",
+          "ZJX 54 Jeckyl",
+          "ZJX 57 St. Johns",
+          "ZJX 87 Lawtey",
+          "ZJX 49 Moultrie",
+          "ZJX 65 Ridgeway",
+          "ZJX 32 Ozark",
+          "ZJX 76 Keystone",
+          "ZJX 47 Summer",
+          "ZJX 52 Metta",
+          "ZJX 51 Knemo",
+          "ZJX 48 Georgetown",
+          "ZJX 73 Allendale",
+          "ZJX 74 Charleston",
+          "ZJX 71 Florence",
+          "ZJX 72 Columbia",
+
+          "JAX_S_APP",
+          "JAX_N_APP",
+          "JAX_W_APP",
+          "JAX_E_APP",
+          "JAX_A_APP",
+          "JAX_D_APP",
+
+          "SAV_N_APP",
+          "SAV_W_APP",
+          "SAV_S_APP",
+
+          "CHS_W_APP",
+          "CHS_E_APP",
+          "NBC_APP",
+
+          "CAE_N_APP",
+          "CAE_S_APP",
+          "SSC_APP",
+          "FLO_APP",
+
+          "MYR_E_APP",
+          "MYR_W_APP",
+
+          "FAY_N_APP",
+          "FAY_W_APP",
+          "FAY_E_APP",
+
+          "ZTL 20 Dublin",
+          "ZTL 23 Clark Hill",
+          "ZTL 22 Macon",
+          "ZTL 27 Hampton",
+          "ZTL 32 Spartanburg",
+          "ZTL 34 Georgia",
+          "ZTL 28 High Rock",
+          "ZTL 33 Charlotte",
+          "ZTL 30 Locas",
+          "ZTL 31 Unarm",
+
+          "ZDC 09 Dixon",
+          "ZDC 36 Raleigh",
+
+          "AGS_APP",
+          "CLT_W_APP",
+          "ILM_E_APP",
+          "ILM_W_APP"
+],
       "default_maps": ["ZJX HI"],
       "inbound_rates": {
         "OHDEA2": {

@@ -13644,29 +13644,25 @@
     },
     "JAX_14_CTR": {
       "frequency": 135750,
-      "radio_name": "Jacksonville center",
-      "facility_id": "C",
+      "radio_name": "Jacksonville center", 
       "eram_facility": true,
       "sector_id": "C14"
     },
     "JAX_15_CTR": {
       "frequency": 133325,
-      "radio_name": "Jacksonville center",
-      "facility_id": "C",
+      "radio_name": "Jacksonville center", 
       "eram_facility": true,
       "sector_id": "C15"
     },
     "JAX_58_CTR": {
       "frequency": 126350,
-      "radio_name": "Jacksonville center",
-      "facility_id": "C",
+      "radio_name": "Jacksonville center", 
       "eram_facility": true,
       "sector_id": "C58"
     },
     "JAX_57_CTR": {
       "frequency": 134000,
-      "radio_name": "Jacksonville Center",
-      "facility_id": "C",
+      "radio_name": "Jacksonville Center", 
       "eram_facility": true,
       "sector_id": "C57"
     },
