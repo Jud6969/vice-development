@@ -1,117 +1,126 @@
 {
   "artcc": "ZJX",
   "area": "East",
-  "name": "Sector 50",
+  "name": "Sector 66",
   "airports": {
-    "KJAX": {
-      "departure_controller": "JAX_N_APP",
+    "KCLT": {
+      "departure_controller": "CLT_W_APP",
       "approaches": {
-        "IY8": {
-          "cifp_id": "IY8"
+        "I18R": {
+          "cifp_id": "I18R"
         }
       },
       "departure_routes": {
-        "8": {
-          "BAXLY": {
-            "handoff_controller": "ZJX 50 Alma",
-            "cleared_altitude": 15000,
-            "sid": "BRSTL1",
-            "waypoints": "KJAX-26 TEREE/ho BRSTL"
+        "18R": {
+          "NOOKS": {
+            "handoff_controller": "ZJX 66 Aiken",
+            "cleared_altitude": 23000,
+            "sid": "ICONS5",
+            "waypoints": "KCLT-18R N035.04.23.424,W080.59.54.039 GILFN/ho ICONS"
           },
-          "ALLMA": {
-            "handoff_controller": "ZJX 50 Alma",
-            "cleared_altitude": 15000,
-            "sid": "BRSTL1",
-            "waypoints": "KJAX-26 TEREE/ho BRSTL"
+          "GANDT,JENDO": {
+            "handoff_controller": "ZJX 66 Aiken",
+            "cleared_altitude": 23000,
+            "sid": "BEAVY6",
+            "waypoints": "KCLT-18R N035.04.23.424,W080.59.54.039 UGANG BEAVY/ho ANDYS"
           }
         }
       },
       "departures": [
-        {
-          "exit": "ALLMA",
-          "destination": "KBNA",
-          "altitude": 40000,
-          "route": "ALLMA THRSR SWFFT3",
-          "airlines": [
             {
-              "icao": "SWA",
-              "fleet": "default"
+              "exit": "NOOKS",
+              "destination": "KMIA",
+              "altitude": 36000,
+              "route": "NOOKS WURFL Q83 JEVED Q97 DEBRL CSTAL3",
+              "airlines": [
+                { "icao": "AAL", "fleet": "default" },
+                { "icao": "NKS", "fleet": "default" },
+                { "icao": "FFT", "fleet": "default" },
+                { "icao": "UPS", "fleet": "default" },
+                { "icao": "SCX", "fleet": "default" }
+              ]
             },
             {
-              "icao": "EJA",
-              "fleet": "default"
-            }
-          ]
-        },
-        {
-          "exit": "BAXLY",
-          "destination": "KIND",
-          "altitude": 36000,
-          "route": "BAXLY AHN SWAPP HAGAL GIIBS4",
-          "airlines": [
-            {
-              "icao": "FDX",
-              "fleet": "default"
-            }
-          ]
-        },
-        {
-          "exit": "ALLMA",
-          "destination": "KORD",
-          "altitude": 36000,
-          "route": "ALLMA THRSR Q118 HEVAN Q118 BONNT VEECK5",
-          "airlines": [
-            {
-              "icao": "FDX",
-              "fleet": "default"
-            }
-          ]
-        },
-        {
-          "exit": "ALLMA",
-          "destination": "KDEN",
-          "altitude": 36000,
-          "route": "ALLMA LGC FASON NTWOO ARG ICT KK51A OATHE CLASH5",
-          "airlines": [
-            {
-              "icao": "UAL",
-              "fleet": "default"
+              "exit": "NOOKS",
+              "destination": "KFLL",
+              "altitude": 34000,
+              "route": "NOOKS WURFL Q83 JEVED Q97 PRMUS CUUDA3",
+              "airlines": [
+                { "icao": "AAL", "fleet": "default" },
+                { "icao": "NKS", "fleet": "default" },
+                { "icao": "FFT", "fleet": "default" }
+              ]
             },
             {
-              "icao": "SWA",
-              "fleet": "default"
-            }
-          ]
-        },
-        {
-          "exit": "ALLMA",
-          "destination": "KDEN",
-          "altitude": 36000,
-          "route": "ALLMA YANTI HANKO GENDE VISQA BOOSH3",
-          "airlines": [
-            {
-              "icao": "SWA",
-              "fleet": "default"
-            }
-          ]
-        },
-        {
-          "exit": "BAXLY",
-          "destination": "KMSP",
-          "altitude": 34000,
-          "route": "BAXLY AHN VXV RYANS IIU VHP DELHI OBK KAMMA KKILR3",
-          "airlines": [
-            {
-              "icao": "DAL",
-              "fleet": "default"
+              "exit": "NOOKS",
+              "destination": "KPBI",
+              "altitude": 32000,
+              "route": "NOOKS WURFL Q83 JEVED Q97 KENLL CPTAN3",
+              "airlines": [
+                { "icao": "AAL", "fleet": "default" },
+                { "icao": "EJA", "fleet": "default" },
+                { "icao": "EJM", "fleet": "default" },
+                { "icao": "N", "fleet": "fastGA" }
+              ]
             },
             {
-              "icao": "EJA",
-              "fleet": "default"
+              "exit": "NOOKS",
+              "destination": "KOPF",
+              "altitude": 40000,
+              "route": "NOOKS WURFL Q83 JEVED Q97 PRMUS CUUDA3",
+              "airlines": [
+                { "icao": "EJA", "fleet": "default" }
+              ]
+            },
+            {
+              "exit": "NOOKS",
+              "destination": "KJAX",
+              "altitude": 34000,
+              "route": "NOOKS ESENT LUNNI2",
+              "airlines": [
+                { "icao": "AAL", "fleet": "default" }
+              ]
+            },
+            {
+              "exit": "NOOKS",
+              "destination": "KMCO",
+              "altitude": 38000,
+              "route": "NOOKS WURFL Q83 ROYCO Q85 LPERD",
+              "airlines": [
+                { "icao": "FFT", "fleet": "default" },
+                { "icao": "AAL", "fleet": "default" }
+              ]
+            },
+            {
+              "exit": "NOOKS",
+              "destination": "TJSJ",
+              "altitude": 28000,
+              "route": "NOOKS WURFL Q83 JEVED Q97 PRMUS Q89 MANLE Y185 BEERD Y185 COUKY FIPEK Y355 PLING RTE7 SAALR",
+              "airlines": [
+                { "icao": "AAL", "fleet": "default" }
+              ]
+            },
+            {
+              "exit": "NOOKS",
+              "destination": "TJSJ",
+              "altitude": 24000,
+              "route": "NOOKS WURFL Q83 JEVED Q97 PRMUS Q89 MANLE Y185 BEERD Y185 COUKY FIPEK Y355 PUYYA Y355 PLING RTE7 SAALR",
+              "airlines": [
+                { "icao": "AAL", "fleet": "default" }
+              ]
+            },
+            {
+              "exit": "JENDO",
+              "destination": "KTLH",
+              "altitude": 24000,
+              "route": "JENDO MAVRC AMG SZW",
+              "airlines": [
+                { "icao": "PDT", "fleet": "default" }
+              ]
             }
           ]
-        }
-      ]
+
+
     },
     "KTPA": {
       "approaches": {
@@ -186,862 +195,2527 @@
     }
   },
   "inbound_flows": {
-    "50_OHDEA2": {
-      "arrivals": [
-        {
-          "waypoints": "N032.19.07.563,W083.17.36.088/ho DUCHY/a24000/d120 ILTAC/a23000- FORMB OHDEA/a12000/d2 N030.26.23.198,W082.03.30.800 KJAX-8/d0/delete",
-          "star": "OHDEA2",
-          "route": "/. OHDEA2",
-          "initial_controller": "ZTL 22 Macon",
-          "initial_altitude": 24000,
-          "assigned_altitude": 24000,
-          "initial_speed": 300,
-          "airlines": {
-            "KJAX": [
-              {
-                "icao": "DAL",
-                "types": ["B738"],
-                "airport": "KATL"
-              },
-              {
-                "icao": "AAL",
-                "types": ["B738"],
-                "airport": "KATL"
-              },
-              {
-                "icao": "JIA",
-                "types": ["CRJ9"],
-                "airport": "KMSP"
-              },
-              {
-                "icao": "EDV",
-                "types": ["B738"],
-                "airport": "KATL"
-              },
-              {
-                "icao": "FFT",
-                "types": ["A320"],
-                "airport": "KDEN"
-              },
-              {
-                "icao": "ENY",
-                "types": ["A320"],
-                "airport": "KORD"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    "50_GRNCH5": {
-      "arrivals": [
-        {
-          "waypoints": "N032.53.39.873,W082.16.29.071/ho WHYYT ADLYN ELITE MAYYR/a24000+ COAXE/a26000- GRTNG/delete",
-          "star": "GRNCH5",
-          "route": "/. GRNCH5",
-          "initial_controller": "ZTL 22 Macon",
-          "initial_altitude": 36000,
-          "assigned_altitude": 36000,
-          "initial_speed": 300,
-          "airlines": {
-            "KMCO": [
-              {
-                "icao": "DAL",
-                "types": ["B738"],
-                "airport": "KATL"
-              },
-              {
-                "icao": "AAL",
-                "types": ["B738"],
-                "airport": "KATL"
-              },
-              {
-                "icao": "JIA",
-                "types": ["CRJ9"],
-                "airport": "KMSP"
-              },
-              {
-                "icao": "EDV",
-                "types": ["B738"],
-                "airport": "KATL"
-              },
-              {
-                "icao": "FFT",
-                "types": ["A320"],
-                "airport": "KDEN"
-              },
-              {
-                "icao": "ENY",
-                "types": ["A320"],
-                "airport": "KORD"
-              }
-            ]
-          }
-        }
-      ],
+    "66_Q75_H": {
       "overflights": [
         {
-          "airlines": [
-            {
-              "departure_airport": "KATL",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            }
-          ],
-          "initial_altitude": 37000,
-          "initial_controller": "ZTL 22 Macon",
-          "initial_speed": 300,
-          "waypoints": "N032.13.19.282,W083.41.01.486 ZJAYX ISSZZ/a29000 ELITE MAYYR/a24000+ COAXE/a26000- GRTNG/delete"
-        },
-        {
-          "airlines": [
-            {
-              "departure_airport": "KATL",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            }
-          ],
-          "initial_altitude": 37000,
-          "initial_controller": "ZTL 22 Macon",
-          "initial_speed": 300,
-          "waypoints": "N031.10.33.739,W084.30.03.076 LEEVP ISSZZ/a29000 ELITE MAYYR/a24000+ COAXE/a26000- GRTNG/delete"
-        },
-        {
-          "airlines": [
-            {
-              "departure_airport": "KATL",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            }
-          ],
-          "initial_altitude": 37000,
-          "initial_controller": "ZTL 22 Macon",
-          "initial_speed": 300,
-          "waypoints": "N031.37.46.664,W085.03.49.614 SEEJY ISSZZ/a29000 ELITE MAYYR/a24000+ COAXE/a26000- GRTNG/delete"
-        }
-      ]
-    },
-    "50_68 Overflights": {
-      "overflights": [
-        {
-          "waypoints": "CAKET Q97 WOPNR/delete",
-          "initial_controller": "ZJX 76 Keystone",
-          "initial_altitude": 36000,
-          "assigned_altitude": 36000,
-          "initial_speed": 300,
-          "airlines": [
-            {
-              "departure_airport": "KTTN",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KBOS",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "FDX"
-            }
-          ]
-        },
-        {
-          "waypoints": "CAKET Q97 WOPNR/delete",
-          "initial_controller": "ZJX 68 States",
+          "waypoints": "N035.20.19.496,W080.19.02.221/ho SLOJO Q75 TEUFL/delete",
+          "initial_controller": "ZTL 33 Charlotte",
           "initial_altitude": 34000,
           "assigned_altitude": 34000,
           "initial_speed": 300,
           "airlines": [
-            {
-              "departure_airport": "KTTN",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KBOS",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "FDX"
-            }
-          ]
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KTPA",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KTPA",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KLGA",
+                "arrival_airport": "KTPA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTEB",
+                "arrival_airport": "KTPA",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KHPN",
+                "arrival_airport": "KPBI",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KFLL",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KLGA",
+                "arrival_airport": "KFLL",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KMIA",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KMIA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTEB",
+                "arrival_airport": "KMIA",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPHL",
+                "arrival_airport": "KRSW",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KBOS",
+                "arrival_airport": "KSRQ",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KHPN",
+                "arrival_airport": "KORL",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+
+        }
+      ]
+    },
+    "66_Q75/Q103_UH": {
+      "overflights": [
+        {
+          "waypoints": "N035.20.19.496,W080.19.02.221/ho SLOJO Q75 TEUFL/delete",
+          "initial_controller": "ZTL 28 High Rock",
+          "initial_altitude": 36000,
+          "assigned_altitude": 36000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KTPA",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KTPA",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KLGA",
+                "arrival_airport": "KTPA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTEB",
+                "arrival_airport": "KTPA",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KHPN",
+                "arrival_airport": "KPBI",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KFLL",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KLGA",
+                "arrival_airport": "KFLL",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KMIA",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KMIA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTEB",
+                "arrival_airport": "KMIA",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPHL",
+                "arrival_airport": "KRSW",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KBOS",
+                "arrival_airport": "KSRQ",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KHPN",
+                "arrival_airport": "KORL",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
         },
         {
-          "waypoints": "CAKET Q97 WOPNR/delete",
-          "initial_controller": "ZJX 76 Keystone",
+          "waypoints": "N035.20.19.496,W080.19.02.221/ho SLOJO Q75 TEUFL/delete",
+          "initial_controller": "ZTL 28 High Rock",
           "initial_altitude": 38000,
           "assigned_altitude": 38000,
           "initial_speed": 300,
           "airlines": [
-            {
-              "departure_airport": "KTTN",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KBOS",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "FDX"
-            }
-          ]
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KTPA",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KTPA",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KLGA",
+                "arrival_airport": "KTPA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTEB",
+                "arrival_airport": "KTPA",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KHPN",
+                "arrival_airport": "KPBI",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KFLL",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KLGA",
+                "arrival_airport": "KFLL",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KMIA",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KMIA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTEB",
+                "arrival_airport": "KMIA",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPHL",
+                "arrival_airport": "KRSW",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KBOS",
+                "arrival_airport": "KSRQ",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KHPN",
+                "arrival_airport": "KORL",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
         },
         {
-          "waypoints": "FEMON Q87 JROSS/delete",
+          "waypoints": "N035.20.19.496,W080.19.02.221/ho SLOJO Q75 TEUFL/delete",
+          "initial_controller": "ZTL 28 High Rock",
+          "initial_altitude": 40000,
+          "assigned_altitude": 40000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KTPA",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KTPA",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KLGA",
+                "arrival_airport": "KTPA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTEB",
+                "arrival_airport": "KTPA",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KHPN",
+                "arrival_airport": "KPBI",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KFLL",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KLGA",
+                "arrival_airport": "KFLL",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KEWR",
+                "arrival_airport": "KMIA",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KMIA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTEB",
+                "arrival_airport": "KMIA",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPHL",
+                "arrival_airport": "KRSW",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KBOS",
+                "arrival_airport": "KSRQ",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KHPN",
+                "arrival_airport": "KORL",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        }
+      ]
+    },
+    "66_Q69/Q93_H": {
+      "overflights": [
+        {
+          "waypoints": "ISUZO/ho Q69 RYCKI/delete",
+          "initial_controller": "ZJX 68 States",
+          "initial_altitude": 33000,
+          "assigned_altitude": 33000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+
+        },
+
+        {
+          "waypoints": "ISUZO/ho Q93 JEPEX/delete",
+          "initial_controller": "ZJX 76 Keystone",
+          "initial_altitude": 33000,
+          "assigned_altitude": 33000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        }
+      ]
+    },
+    "66_Q69/Q93_UH": {
+      "overflights": [
+        {
+          "waypoints": "ISUZO/ho Q69 RYCKI/delete",
+          "initial_controller": "ZJX 76 Keystone",
+          "initial_altitude": 35000,
+          "assigned_altitude": 35000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+          "waypoints": "ISUZO/ho Q69 RYCKI/delete",
           "initial_controller": "ZJX 76 Keystone",
           "initial_altitude": 37000,
           "assigned_altitude": 37000,
           "initial_speed": 300,
           "airlines": [
-            {
-              "departure_airport": "KTTN",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KBOS",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "FDX"
-            }
-          ]
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
         },
         {
-          "waypoints": "FEMON Q87 JROSS/delete",
-          "initial_controller": "ZJX 76 Keystone",
-          "initial_altitude": 35000,
-          "assigned_altitude": 35000,
-          "initial_speed": 300,
-          "airlines": [
-            {
-              "departure_airport": "KTTN",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KBOS",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "FDX"
-            }
-          ]
-        },
-        {
-          "waypoints": "FEMON Q87 JROSS/delete",
+          "waypoints": "ISUZO/ho Q69 RYCKI/delete",
           "initial_controller": "ZJX 76 Keystone",
           "initial_altitude": 39000,
           "assigned_altitude": 39000,
           "initial_speed": 300,
           "airlines": [
-            {
-              "departure_airport": "KTTN",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KBOS",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KJFK",
-              "arrival_airport": "KMIA",
-              "icao": "FDX"
-            }
-          ]
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
         },
         {
-          "waypoints": "N032.44.36.036,W081.09.53.371 WURFL Q83 JEVED N030.35.30.558,W080.59.23.058/delete",
+          "waypoints": "ISUZO/ho Q69 RYCKI/delete",
           "initial_controller": "ZJX 76 Keystone",
-          "initial_altitude": 32000,
-          "assigned_altitude": 32000,
+          "initial_altitude": 41000,
+          "assigned_altitude": 41000,
           "initial_speed": 300,
           "airlines": [
-            {
-              "departure_airport": "KCLT",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "CYYZ",
-              "arrival_airport": "KMIA",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KCLE",
-              "arrival_airport": "KMCO",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KDTW",
-              "arrival_airport": "KMIA",
-              "icao": "FDX"
-            }
-          ]
-        }
-      ]
-    },
-    "50_TTHOR3": {
-      "arrivals": [
-        {
-          "waypoints": "N032.14.08.336,W083.13.11.262/ho KYLEG JAGGZ WEEEK/delete",
-          "star": "TTHOR3",
-          "route": "/. TTHOR3",
-          "initial_controller": "ZTL 22 Macon",
-          "initial_altitude": 34000,
-          "assigned_altitude": 34000,
-          "initial_speed": 300,
-          "airlines": {
-            "KDAB": [
               {
-                "icao": "DAL",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
               },
               {
-                "icao": "AAL",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
               },
               {
-                "icao": "JIA",
-                "types": ["CRJ9"],
-                "airport": "KMSP"
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
               },
               {
-                "icao": "EDV",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
               },
               {
-                "icao": "FFT",
-                "types": ["A320"],
-                "airport": "KDEN"
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
               },
               {
-                "icao": "ENY",
-                "types": ["A320"],
-                "airport": "KORD"
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
               }
             ]
-          }
-        }
-      ]
-    },
-    "50_DADES2": {
-      "arrivals": [
-        {
-          "waypoints": "FISHO/ho Q75 TEUFL BAAMF CORYY/d270 CAPOH/delete",
-          "star": "DADES2",
-          "route": "/. DADES2",
-          "initial_controller": "ZJX 66 Aiken",
-          "initial_altitude": 34000,
-          "assigned_altitude": 34000,
+        },
+
+                {
+          "waypoints": "ISUZO/ho Q93 JEPEX/delete",
+          "initial_controller": "ZJX 76 Keystone",
+          "initial_altitude": 35000,
+          "assigned_altitude": 35000,
           "initial_speed": 300,
-          "airlines": {
-            "KTPA": [
+          "airlines": [
               {
-                "icao": "DAL",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
               },
               {
-                "icao": "AAL",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
               },
               {
-                "icao": "JIA",
-                "types": ["CRJ9"],
-                "airport": "KMSP"
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
               },
               {
-                "icao": "EDV",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
               },
               {
-                "icao": "FFT",
-                "types": ["A320"],
-                "airport": "KDEN"
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
               },
               {
-                "icao": "ENY",
-                "types": ["A320"],
-                "airport": "KORD"
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
               }
             ]
-          }
         },
         {
-          "waypoints": "N033.06.49.693,W082.25.03.094/ho BAAMF CORYY/d270 CAPOH/delete",
-          "star": "DADES2",
-          "route": "/. DADES2",
-          "initial_controller": "ZJX 66 Aiken",
-          "initial_altitude": 34000,
+          "waypoints": "ISUZO/ho Q93 JEPEX/delete",
+          "initial_controller": "ZJX 76 Keystone",
+          "initial_altitude": 37000,
+          "assigned_altitude": 37000,
           "initial_speed": 300,
-          "airlines": {
-            "KTPA": [
+          "airlines": [
               {
-                "icao": "DAL",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
               },
               {
-                "icao": "AAL",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
               },
               {
-                "icao": "JIA",
-                "types": ["CRJ9"],
-                "airport": "KMSP"
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
               },
               {
-                "icao": "EDV",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
               },
               {
-                "icao": "FFT",
-                "types": ["A320"],
-                "airport": "KDEN"
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
               },
               {
-                "icao": "ENY",
-                "types": ["A320"],
-                "airport": "KORD"
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
               }
             ]
-          }
+        },
+        {
+          "waypoints": "ISUZO/ho Q93 JEPEX/delete",
+          "initial_controller": "ZJX 76 Keystone",
+          "initial_altitude": 39000,
+          "assigned_altitude": 39000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+          "waypoints": "ISUZO/ho Q93 JEPEX/delete",
+          "initial_controller": "ZJX 76 Keystone",
+          "initial_altitude": 41000,
+          "assigned_altitude": 41000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
         }
       ]
     },
-    "50_SHRKS": {
+    "66_Q99/Q109_H": {
       "overflights": [
         {
-          "airlines": [
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KATL",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KATL",
-              "icao": "AAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KATL",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KATL",
-              "icao": "LXJ"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KATL",
-              "icao": "EJA"
-            }
-          ],
-          "initial_altitude": 35000,
-          "assigned_altitude": 35000,
-          "initial_controller": "ZJX 75 Greencove",
-          "initial_speed": 300,
-          "waypoints": "N030.17.30.876,W081.41.44.333/ho SHRKS LAIRI LARZZ/delete"
-        },
-        {
-          "airlines": [
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KORD",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KORD",
-              "icao": "SWA"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KORD",
-              "icao": "NKS"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KORD",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KDTW",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KDTW",
-              "icao": "SWA"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KDTW",
-              "icao": "NKS"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KDTW",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KCMH",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KCMH",
-              "icao": "SWA"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KCMH",
-              "icao": "NKS"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KCMH",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KCVG",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KCVG",
-              "icao": "SWA"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KCVG",
-              "icao": "NKS"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KCVG",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KIND",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KIND",
-              "icao": "SWA"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KIND",
-              "icao": "NKS"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KIND",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KBNA",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KBNA",
-              "icao": "SWA"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KBNA",
-              "icao": "NKS"
-            },
-            {
-              "departure_airport": "KMCO",
-              "arrival_airport": "KBNA",
-              "icao": "UAL"
-            }
-          ],
-          "initial_altitude": 35000,
-          "assigned_altitude": 35000,
-          "initial_controller": "ZJX 75 Greencove",
-          "initial_speed": 300,
-          "waypoints": "N030.17.30.876,W081.41.44.333/ho SHRKS Q77 WIGVO"
-        }
-      ]
-    },
-    "50_CAMJO": {
-      "overflights": [
-        {
-          "airlines": [
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KJFK",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KJFK",
-              "icao": "JBU"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KPHL",
-              "icao": "FDX"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KDCA",
-              "icao": "EJA"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KDCA",
-              "icao": "AAL"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KIAD",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KEWR",
-              "icao": "UAL"
-            }
-          ],
-          "initial_altitude": 35000,
-          "assigned_altitude": 35000,
-          "initial_controller": "ZJX 75 Greencove",
-          "initial_speed": 300,
-          "waypoints": "SPRNG/ho CAMJO Q99 POLYY"
-        },
-        {
-          "airlines": [
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KJFK",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KJFK",
-              "icao": "JBU"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KPHL",
-              "icao": "FDX"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KDCA",
-              "icao": "EJA"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KDCA",
-              "icao": "AAL"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KIAD",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KEWR",
-              "icao": "UAL"
-            }
-          ],
+          "waypoints": "TEEEM/ho Q99 OGRAE/delete",
+          "initial_controller": "ZJX 50 Alma",
           "initial_altitude": 33000,
           "assigned_altitude": 33000,
-          "initial_controller": "ZJX 75 Greencove",
           "initial_speed": 300,
-          "waypoints": "SPRNG/ho CAMJO Q99 POLYY"
-        },
-        {
           "airlines": [
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KJFK",
-              "icao": "DAL"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KJFK",
-              "icao": "JBU"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KPHL",
-              "icao": "FDX"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KDCA",
-              "icao": "EJA"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KDCA",
-              "icao": "AAL"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KIAD",
-              "icao": "UAL"
-            },
-            {
-              "departure_airport": "KTPA",
-              "arrival_airport": "KEWR",
-              "icao": "UAL"
-            }
-          ],
-          "initial_altitude": 32000,
-          "assigned_altitude": 32000,
-          "initial_controller": "ZJX 75 Greencove",
-          "initial_speed": 300,
-          "waypoints": "SPRNG/ho CAMJO Q99 POLYY"
-        }
-      ]
-    },
-    "50_LUBBR3": {
-      "arrivals": [
-        {
-          "waypoints": "FISHO/ho Q75 TEUFL KYYUU WNWUD/d270 SSPAZ/delete",
-          "star": "LUBBR3",
-          "route": "/. LUBBR3",
-          "initial_controller": "ZJX 66 Aiken",
-          "initial_altitude": 34000,
-          "initial_speed": 300,
-          "airlines": {
-            "KSRQ": [
               {
-                "icao": "DAL",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
               },
               {
-                "icao": "AAL",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
               },
               {
-                "icao": "JIA",
-                "types": ["CRJ9"],
-                "airport": "KMSP"
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
               },
               {
-                "icao": "EDV",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
               },
               {
-                "icao": "FFT",
-                "types": ["A320"],
-                "airport": "KDEN"
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
               },
               {
-                "icao": "ENY",
-                "types": ["A320"],
-                "airport": "KORD"
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
               }
             ]
-          }
-        }
-      ]
-    },
-    "50_BAGGY3": {
-      "arrivals": [
+        },
         {
-          "waypoints": "N031.03.56.940,W083.24.46.697/ho SAV DREWE/a11000 BAGGY/a7000+ DDENA/d0 KCHS-3/delete",
-          "star": "BAGGY3",
-          "route": "/. BAGGY3",
-          "initial_controller": "ZJX 33 Geneva",
+          "waypoints": "TEEEM/ho Q99 OGRAE/delete",
+          "initial_controller": "ZJX 50 Alma",
           "initial_altitude": 31000,
           "assigned_altitude": 31000,
           "initial_speed": 300,
-          "airlines": {
-            "KCHS": [
+          "airlines": [
               {
-                "icao": "ASH",
-                "types": ["B738"],
-                "airport": "KIAH"
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
               },
               {
-                "icao": "SKW",
-                "types": ["B738"],
-                "airport": "KATL"
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
               },
               {
-                "icao": "JIA",
-                "types": ["CRJ9"],
-                "airport": "KMSP"
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
               }
             ]
-          }
+        },
+
+        {
+          "waypoints": "TEEEM/ho Q109 BUMMA/delete",
+          "initial_controller": "ZJX 50 Alma",
+          "initial_altitude": 33000,
+          "assigned_altitude": 33000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+          "waypoints": "TEEEM/ho Q109 BUMMA/delete",
+          "initial_controller": "ZJX 50 Alma",
+          "initial_altitude": 31000,
+          "assigned_altitude": 31000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        }
+      ]
+    },
+    "66_Q99/Q109_UH": {
+      "overflights": [
+        {
+          "waypoints": "TEEEM/ho Q99 OGRAE/delete",
+          "initial_controller": "ZJX 49 Moultrie",
+          "initial_altitude": 35000,
+          "assigned_altitude": 35000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+          "waypoints": "TEEEM/ho Q99 OGRAE/delete",
+          "initial_controller": "ZJX 49 Moultrie",
+          "initial_altitude": 37000,
+          "assigned_altitude": 37000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+          "waypoints": "TEEEM/ho Q99 OGRAE/delete",
+          "initial_controller": "ZJX 49 Moultrie",
+          "initial_altitude": 39000,
+          "assigned_altitude": 39000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+          "waypoints": "TEEEM/ho Q99 OGRAE/delete",
+          "initial_controller": "ZJX 49 Moultrie",
+          "initial_altitude": 41000,
+          "assigned_altitude": 39000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+
+        {
+          "waypoints": "TEEEM/ho Q109 BUMMA/delete",
+          "initial_controller": "ZJX 49 Moultrie",
+          "initial_altitude": 35000,
+          "assigned_altitude": 35000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+          "waypoints": "TEEEM/ho Q109 BUMMA/delete",
+          "initial_controller": "ZJX 49 Moultrie",
+          "initial_altitude": 37000,
+          "assigned_altitude": 37000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+          "waypoints": "TEEEM/ho Q109 BUMMA/delete",
+          "initial_controller": "ZJX 49 Moultrie",
+          "initial_altitude": 39000,
+          "assigned_altitude": 39000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+          "waypoints": "TEEEM/ho Q109 BUMMA/delete",
+          "initial_controller": "ZJX 49 Moultrie",
+          "initial_altitude": 41000,
+          "assigned_altitude": 39000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "MMMX",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "MMUN",
+                "arrival_airport": "KDXR",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KPGD",
+                "arrival_airport": "KPVD",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KEYW",
+                "arrival_airport": "KBOS",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KJFK",
+                "arrival_airport": "KFLL",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KLAL",
+                "arrival_airport": "KTTN",
+                "icao": "AAY"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KBTV",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KRSW",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KTPA",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KSRQ",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        }
+      ]
+    },
+    "66_Q172_H": {
+      "overflights": [
+        {
+          "waypoints": "IRQ/ho YUTEE Q172 OKNEE/delete",
+          "initial_controller": "ZTL 28 High Rock",
+          "initial_altitude": 31000,
+          "assigned_altitude": 33000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KHPN",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KACY",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBOS",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KPIT",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBOS",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KMVY",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+          "waypoints": "IRQ/ho YUTEE Q172 OKNEE/delete",
+          "initial_controller": "ZTL 28 High Rock",
+          "initial_altitude": 33000,
+          "assigned_altitude": 35000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KHPN",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KACY",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBOS",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KPIT",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBOS",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KMVY",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+         "waypoints": "IRQ/ho YUTEE Q172 OKNEE/delete",
+          "initial_controller": "ZTL 28 High Rock",
+          "initial_altitude": 35000,
+          "assigned_altitude": 35000,
+          "initial_speed": 300,
+         "airlines": [
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KHPN",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KACY",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBOS",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KPIT",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBOS",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KMVY",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
+        },
+        {
+          "waypoints": "IRQ/ho YUTEE Q172 OKNEE/delete",
+          "initial_controller": "ZTL 28 High Rock",
+          "initial_altitude": 37000,
+          "assigned_altitude": 37000,
+          "initial_speed": 300,
+          "airlines": [
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KHPN",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KACY",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBOS",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KPIT",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KEWR",
+                "icao": "UAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBWI",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KBOS",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KMVY",
+                "icao": "N",
+                "fleet": "fastGA"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KDCA",
+                "icao": "AAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KJFK",
+                "icao": "DAL"
+              },
+              {
+                "departure_airport": "KATL",
+                "arrival_airport": "KISP",
+                "icao": "N",
+                "fleet": "fastGA"
+              }
+            ]
         }
       ]
     }
@@ -1346,7 +3020,8 @@
       "eram_facility": true,
       "radio_name": "Atlanta Center",
       "facility": "ZTL", 
-      "sector_id": "T20"
+      "facility_id": "T", 
+      "sector_id": "20"
     },
     "ZTL 23 Clark Hill": {
       "frequency": 124325,
@@ -1417,7 +3092,7 @@
       "radio_name": "Washington Center",
       "facility": "ZDC",
       "facility_id": "W",
-      "sector_id": "09"
+      "sector_id": "W09"
     },
     "ZDC 36 Raleigh": {
       "frequency": 118925,
@@ -1425,7 +3100,7 @@
       "radio_name": "Washington Center",
       "facility": "ZDC",
       "facility_id": "W",
-      "sector_id": "36"
+      "sector_id": "W36"
     },
     "AGS_APP": {
       "frequency": 126800,
@@ -1452,168 +3127,20 @@
       "sector_id": "I1W"
     }
   },
-  "default_scenario": "49 Moultrie + 50 Alma",
+  "default_scenario": "65 Ridgeway + 66 Aiken",
   "scenarios": {
-    "49 Moultrie + 50 Alma": {
-      "configuration": {
-        "config_id": "STD",
-        "default_consolidation": {
-          "ZJX 50 Alma": []
-        }
-      },
-      "controllers": [
-            "ZJX 75 Greencove",
-            "ZJX 33 Geneva",
-            "ZJX 66 Aiken",
-            "ZJX 78 Lake City",
-            "ZJX 50 Alma",
-            "ZJX 68 States",
-            "ZJX 29 Waycross",
-            "ZJX 77 Taylor",
-            "ZJX 54 Jeckyl",
-            "ZJX 57 St. Johns",
-            "ZJX 87 Lawtey",
-            "ZJX 49 Moultrie",
-            "ZJX 65 Ridgeway",
-            "ZJX 32 Ozark",
-            "ZJX 76 Keystone",
-            "ZJX 47 Summer",
-            "ZJX 52 Metta",
-            "ZJX 51 Knemo",
-            "ZJX 48 Georgetown",
-            "ZJX 73 Allendale",
-            "ZJX 74 Charleston",
-            "ZJX 71 Florence",
-            "ZJX 72 Columbia",
-
-            "JAX_S_APP",
-            "JAX_N_APP",
-            "JAX_W_APP",
-            "JAX_E_APP",
-            "JAX_A_APP",
-            "JAX_D_APP",
-
-            "SAV_N_APP",
-            "SAV_W_APP",
-            "SAV_S_APP",
-
-            "CHS_W_APP",
-            "CHS_E_APP",
-            "NBC_APP",
-
-            "CAE_N_APP",
-            "CAE_S_APP",
-            "SSC_APP",
-            "FLO_APP",
-
-            "MYR_E_APP",
-            "MYR_W_APP",
-
-            "FAY_N_APP",
-            "FAY_W_APP",
-            "FAY_E_APP",
-
-            "ZTL 20 Dublin",
-            "ZTL 23 Clark Hill",
-            "ZTL 22 Macon",
-            "ZTL 27 Hampton",
-            "ZTL 32 Spartanburg",
-            "ZTL 34 Georgia",
-            "ZTL 28 High Rock",
-            "ZTL 33 Charlotte",
-            "ZTL 30 Locas",
-            "ZTL 31 Unarm",
-
-            "ZDC 09 Dixon",
-            "ZDC 36 Raleigh",
-
-            "AGS_APP",
-            "CLT_W_APP",
-            "ILM_E_APP",
-            "ILM_W_APP"
-      ],
-      "default_maps": ["ZJX HI"],
-      "inbound_rates": {
-        "50_OHDEA2": {
-          "KJAX": 10
-        },
-        "50_TTHOR3": {
-          "KDAB": 10
-        },
-        "50_DADES2": {
-          "KTPA": 15
-        },
-        "50_GRNCH5": {
-          "KMCO": 5,
-          "overflights": 30
-        },
-        "50_SHRKS": {
-          "overflights": 20
-        },
-        "50_68 Overflights": {
-          "overflights": 30
-        },
-        "50_CAMJO": {
-          "overflights": 20
-        },
-        "50_LUBBR3": {
-          "KSRQ": 8
-        },
-        "50_BAGGY3": {
-          "KCHS": 8
-        }
-      },
-      "arrival_runways": [
-        {
-          "airport": "KJAX",
-          "runway": "8"
-        },
-        {
-          "airport": "KTPA",
-          "runway": "19L"
-        },
-        {
-          "airport": "KMCO",
-          "runway": "36L"
-        },
-        {
-          "airport": "KDAB",
-          "runway": "7L"
-        },
-        {
-          "airport": "KSRQ",
-          "runway": "14"
-        },
-        {
-          "airport": "KCHS",
-          "runway": "15"
-        }
-      ],
-      "default_map_group": "ZJX",
-      "departure_runways": [
-        {
-          "airport": "KJAX",
-          "rate": 15,
-          "runway": "8"
-        },
-        {
-          "airport": "KSAV",
-          "rate": 2,
-          "runway": "28"
-        }
-      ]
-    },
     "65 Ridgeway + 66 Aiken": {
       "configuration": {
         "config_id": "STD",
         "default_consolidation": {
-          "ZJX 50 Alma": []
+          "ZJX 66 Aiken": ["ZJX 65 Ridgeway"]
         }
       },
       "controllers": [
             "ZJX 75 Greencove",
             "ZJX 33 Geneva",
             "ZJX 66 Aiken",
+            "ZJX 65 Ridgeway",
             "ZJX 78 Lake City",
             "ZJX 50 Alma",
             "ZJX 68 States",
@@ -1683,72 +3210,34 @@
       ],
       "default_maps": ["ZJX HI"],
       "inbound_rates": {
-        "50_OHDEA2": {
-          "KJAX": 10
+        "66_Q75_H": {
+          "overflights": 10
         },
-        "50_TTHOR3": {
-          "KDAB": 10
+        "66_Q75_UH": {
+          "overflights": 10
         },
-        "50_DADES2": {
-          "KTPA": 15
+        "66_Q69/Q93_H": {
+          "overflights": 10
         },
-        "50_GRNCH5": {
-          "KMCO": 5,
-          "overflights": 30
+        "66_Q69/Q93_UH": {
+          "overflights": 10
         },
-        "50_SHRKS": {
-          "overflights": 20
+        "66_Q99/Q109_H": {
+          "overflights": 10
         },
-        "50_68 Overflights": {
-          "overflights": 30
+        "66_Q99/Q109_UH": {
+          "overflights": 10
         },
-        "50_CAMJO": {
-          "overflights": 20
-        },
-        "50_LUBBR3": {
-          "KSRQ": 8
-        },
-        "50_BAGGY3": {
-          "KCHS": 8
+        "66_Q172_H": {
+          "overflights": 5
         }
       },
-      "arrival_runways": [
-        {
-          "airport": "KJAX",
-          "runway": "8"
-        },
-        {
-          "airport": "KTPA",
-          "runway": "19L"
-        },
-        {
-          "airport": "KMCO",
-          "runway": "36L"
-        },
-        {
-          "airport": "KDAB",
-          "runway": "7L"
-        },
-        {
-          "airport": "KSRQ",
-          "runway": "14"
-        },
-        {
-          "airport": "KCHS",
-          "runway": "15"
-        }
-      ],
       "default_map_group": "ZJX",
       "departure_runways": [
         {
-          "airport": "KJAX",
-          "rate": 15,
-          "runway": "8"
-        },
-        {
-          "airport": "KSAV",
-          "rate": 2,
-          "runway": "28"
+          "airport": "KCLT",
+          "rate": 8,
+          "runway": "18R"
         }
       ]
     }
@@ -1758,20 +3247,19 @@
     "configurations": {
       "STD": {
         "inbound_assignments": {
-          "50_BAGGY3": "ZJX 50 Alma",
-          "50_CAMJO": "ZJX 50 Alma",
-          "50_DADES2": "ZJX 50 Alma",
-          "50_GRNCH5": "ZJX 50 Alma",
-          "50_LUBBR3": "ZJX 50 Alma",
-          "50_OHDEA2": "ZJX 50 Alma",
-          "50_SHRKS": "ZJX 50 Alma",
-          "50_TTHOR3": "ZJX 50 Alma"
+          "66_Q75_H": "ZJX 66 Aiken",
+          "66_Q75_UH": "ZJX 65 Ridgeway",
+          "66_Q69/Q93_H": "ZJX 66 Aiken",
+          "66_Q69/Q93_UH": "ZJX 65 Ridgeway",
+          "66_Q99/Q109_H": "ZJX 66 Aiken",
+          "66_Q99/Q109_UH": "ZJX 65 Ridgeway",
+          "66_Q172_H": "ZJX 66 Aiken"
         }
       }
     },
 
-    "center": "N031.30.29.772,W082.17.03.623",
-    "range": 80,
+    "center": "N033.38.07.202,W081.04.38.311",
+    "range": 500,
     "stars_maps": [
       "BOUND",
       "ZJX LO",

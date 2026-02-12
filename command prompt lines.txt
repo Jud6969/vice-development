@@ -2,6 +2,8 @@ cd C:\Program Files (x86)\Vice
 
 vice.exe -scenario "C:\Users\judlo\Documents\vice-development\scenarios\ZJX\ZJXE.json" -videomap C:\Users\judlo\Documents\vice-development\videomaps\ZJX-eram-videomaps.gob.zst
 
+vice.exe -scenario "C:\Users\judlo\Documents\vice-development\scenarios\ZJX\ZJX66.json" -videomap C:\Users\judlo\Documents\vice-development\videomaps\ZJX-eram-videomaps.gob.zst
+
 vice.exe -scenario E:\vicedevelopment\vice-development\scenarios\dab.json -videomap E:\vicedevelopment\vice-development\videomaps\ZJX-videomaps.gob.zst
 
 vice.exe -scenario E:\vicedevelopment\vice-development\scenarios\nct.json -videomap E:\vicedevelopment\vice-development\videomaps\ZOA-videomaps.gob.zst
